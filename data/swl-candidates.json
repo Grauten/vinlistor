@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Adam/Albin",
+    "area": "Stockholm",
+    "address": "Regeringsgatan 2, Stockholm",
+    "website": "http://adamalbin.se/boka-bord",
+    "wine_list_url": null,
+    "swl_url": "https://starwinelist.com/wine-place/adamalbin"
+  },
+  {
+    "name": "Adria",
+    "area": "Stockholm",
+    "address": "Tulegatan 10, Stockholm",
+    "website": "https://www.adriaristorante.se/boka-bord",
+    "wine_list_url": null,
+    "swl_url": "https://starwinelist.com/wine-place/adria"
+  },
+  {
+    "name": "Agnes",
+    "area": "Stockholm",
+    "address": "Norra Agnegatan 43, Stockholm",
+    "website": "http://restaurangagnes.com/",
+    "wine_list_url": null,
+    "swl_url": "https://starwinelist.com/wine-place/agnes"
+  },
+  {
+    "name": "Aira",
+    "area": "Stockholm",
+    "address": "Biskopsvägen 9, Stockholm",
+    "website": "https://aira.se/",
+    "wine_list_url": null,
+    "swl_url": "https://starwinelist.com/wine-place/aira"
+  },
+  {
+    "name": "Alba Vinbar",
+    "area": "Stockholm",
+    "address": "Skånegatan 88, Stockholm",
+    "website": "http://www.albavinbar.se/",
+    "wine_list_url": null,
+    "swl_url": "https://starwinelist.com/wine-place/alba-vinbar"
+  },
+  {
+    "name": "Aleks y Filip",
+    "area": "Stockholm",
+    "address": "Bjälbogatan 32, Stockholm",
+    "website": "https://aleksfilip.se/?utm_source=google",
+    "wine_list_url": null,
+    "swl_url": "https://starwinelist.com/wine-place/aleks-y-filip"
+  },
+  {
+    "name": "Amalia",
+    "area": "Stockholm",
+    "address": "Regeringsgatan 76, Stockholm",
+    "website": "http://amalia.restaurant/",
+    "wine_list_url": null,
+    "swl_url": "https://starwinelist.com/wine-place/amalia"
+  },
+  {
+    "name": "Aristo",
+    "area": "Stockholm",
+    "address": "Kommendörsgatan 46, Stockholm",
+    "website": "http://www.aristokrog.se/",
+    "wine_list_url": null,
+    "swl_url": "https://starwinelist.com/wine-place/aristo"
+  },
+  {
+    "name": "Asian Post Office Stockholm",
+    "area": "Stockholm",
+    "address": "Regeringsgatan 66, Stockholm",
+    "website": "https://www.asianpostoffice.se/",
+    "wine_list_url": null,
+    "swl_url": "https://starwinelist.com/wine-place/asian-post-office-stockholm"
+  },
+  {
+    "name": "Astrids",
+    "area": "Bromma",
+    "address": "Färjestadsvägen 8, Bromma",
+    "website": "https://astridskok.se/astrids-angby/dryckesmeny-astrids-angby/",
+    "wine_list_url": null,
+    "swl_url": "https://starwinelist.com/wine-place/astrids"
+  },
+  {
+    "name": "At Six Dining Room",
+    "area": "Stockholm",
+    "address": "Brunkebergstorg 6, Stockholm",
+    "website": "https://hotelatsix.com/stockholm-restaurants-bars/",
+    "wine_list_url": null,
+    "swl_url": "https://starwinelist.com/wine-place/six-blanche-hierta"
+  },
+  {
+    "name": "Ateljéns Pizza",
+    "area": "Enskede",
+    "address": "Nynäsvägen 320, Enskede",
+    "website": "http://ateljenspizza.se/",
+    "wine_list_url": null,
+    "swl_url": "https://starwinelist.com/wine-place/ateljens-pizza"
+  }
+]

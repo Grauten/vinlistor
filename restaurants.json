@@ -1,9 +1,23 @@
 [
   {
-    "name": "EXEMPEL — ersätt mig",
-    "area": "Östermalm",
+    "name": "Astrids",
+    "area": "Stockholm",
     "address": null,
-    "website": "https://exempel.se",
-    "wine_list_url": "https://exempel.se/vinlista.pdf"
+    "website": "https://astridskok.se/",
+    "wine_list_url": "https://astridskok.se/wp-content/uploads/Vinlista-Februari-2026.pdf"
+  },
+  {
+    "name": "Adria",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.adriaristorante.se/",
+    "wine_list_url": "https://www.adriaristorante.se/vinlista"
+  },
+  {
+    "name": "Aleks y Filip",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://aleksfilip.se/",
+    "wine_list_url": "https://aleksfilip.se/meny"
   }
 ]

@@ -4,6 +4,7 @@
 //   npm run collect                 # all restaurants
 //   npm run collect -- --only "Name substring"   # just matching ones
 //   npm run collect -- --dry        # fetch + extract, print, DON'T write to DB
+import './lib/env.mjs'
 import { readFile } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'

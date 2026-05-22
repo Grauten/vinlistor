@@ -1,27 +1,35 @@
 // Fetch a restaurant menu URL into a form Claude can read.
-// - PDF  → returns a base64 document block.
+// - PDF  → returns { kind: 'pdf', url }. We do NOT download the bytes; the Claude
+//   API fetches the URL itself (document url source). This keeps our request body
+//   tiny — uploading a large base64 PDF was unreliable over the local network.
 // - HTML → returns plain-ish text (scripts/styles/tags stripped).
 // JS-rendered sites that return little text are flagged so the caller can fall
 // back to Playwright (see renderWithPlaywright).
 
 export async function fetchMenu(url) {
-  const res = await fetch(url, {
-    headers: { 'user-agent': 'Mozilla/5.0 (vinlistor menu collector)' },
-    redirect: 'follow',
-  })
-  if (!res.ok) throw new Error(`fetch ${url}: HTTP ${res.status}`)
-
-  const ctype = (res.headers.get('content-type') || '').toLowerCase()
+  // Cheap HEAD first to learn the content type without downloading a PDF.
+  let ctype = ''
+  try {
+    const head = await fetch(url, { method: 'HEAD', redirect: 'follow', headers: { 'user-agent': UA } })
+    ctype = (head.headers.get('content-type') || '').toLowerCase()
+  } catch { /* some servers reject HEAD — fall through to GET */ }
 
   if (ctype.includes('application/pdf') || url.toLowerCase().endsWith('.pdf')) {
-    const buf = Buffer.from(await res.arrayBuffer())
-    return { kind: 'pdf', mediaType: 'application/pdf', base64: buf.toString('base64'), url }
+    return { kind: 'pdf', url }
+  }
+
+  const res = await fetch(url, { headers: { 'user-agent': UA }, redirect: 'follow' })
+  if (!res.ok) throw new Error(`fetch ${url}: HTTP ${res.status}`)
+  if ((res.headers.get('content-type') || '').toLowerCase().includes('application/pdf')) {
+    return { kind: 'pdf', url }
   }
 
   const html = await res.text()
   const text = htmlToText(html)
   return { kind: 'text', text, url, thin: text.replace(/\s+/g, ' ').trim().length < 200 }
 }
+
+const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36'
 
 // Crude but dependency-free HTML → text. Good enough to feed an LLM.
 function htmlToText(html) {
@@ -59,6 +67,6 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const url = process.argv[2]
   if (!url) { console.error('usage: node src/lib/fetch-menu.mjs <url>'); process.exit(1) }
   const r = await fetchMenu(url)
-  if (r.kind === 'pdf') console.log(`PDF, ${Math.round(r.base64.length / 1365)} KB base64`)
+  if (r.kind === 'pdf') console.log(`PDF (Claude fetches via url): ${r.url}`)
   else console.log(`TEXT (${r.text.length} chars${r.thin ? ', THIN — may need Playwright' : ''}):\n\n${r.text.slice(0, 2000)}`)
 }

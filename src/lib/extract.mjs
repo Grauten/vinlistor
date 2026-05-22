@@ -32,7 +32,7 @@ const FORMAT = {
             name: { type: 'string', description: 'Wine name exactly as listed' },
             producer: { type: ['string', 'null'] },
             vintage: { type: ['integer', 'null'], description: 'Year, or null for NV/not stated' },
-            type: { type: ['string', 'null'], enum: ['rött', 'vitt', 'mousserande', 'rosé', 'orange', 'dessert', 'annat', null] },
+            type: { type: ['string', 'null'], description: 'One of: rött, vitt, mousserande, rosé, orange, dessert, annat' },
             country: { type: ['string', 'null'] },
             region: { type: ['string', 'null'] },
             grape: { type: ['string', 'null'] },
@@ -53,11 +53,12 @@ const FORMAT = {
 
 // menu = output of fetchMenu(): { kind: 'pdf', mediaType, base64 } | { kind: 'text', text }
 export async function extractWines(menu, restaurantName) {
-  const client = new Anthropic()
+  const client = new Anthropic({ maxRetries: 2, timeout: 180000 })
 
   const content = []
   if (menu.kind === 'pdf') {
-    content.push({ type: 'document', source: { type: 'base64', media_type: menu.mediaType, data: menu.base64 } })
+    // URL source: the API fetches the PDF, keeping our request body tiny.
+    content.push({ type: 'document', source: { type: 'url', url: menu.url } })
     content.push({ type: 'text', text: `This is the wine list for "${restaurantName}". Extract every priced wine.` })
   } else {
     content.push({ type: 'text', text: `Wine list / menu text for "${restaurantName}". Extract every priced wine:\n\n${menu.text}` })
