@@ -66,14 +66,18 @@ export async function extractWines(menu, restaurantName) {
 
   const params = {
     model: MODEL,
-    max_tokens: 16000,
+    max_tokens: 32000, // wine lists can be long; leave room for the full JSON array
     thinking: { type: 'adaptive' },
-    output_config: { effort: 'medium', format: FORMAT },
+    output_config: { effort: 'low', format: FORMAT }, // extraction, not reasoning — save tokens for output
     system: [{ type: 'text', text: SYSTEM_PROMPT, cache_control: { type: 'ephemeral' } }],
     messages: [{ role: 'user', content }],
   }
 
-  const response = await client.messages.create(params)
+  // Stream the response. Long wine lists take >120s to generate; a non-streaming
+  // request holds the connection idle until done and an intermediary kills it at
+  // ~120s ("Connection error"). Streaming keeps data flowing so it stays alive.
+  const stream = client.messages.stream(params)
+  const response = await stream.finalMessage()
   if (response.stop_reason === 'refusal') throw new Error('extraction refused')
   const block = response.content.find((b) => b.type === 'text')
   if (!block) throw new Error('no text returned from model')

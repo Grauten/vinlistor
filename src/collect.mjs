@@ -40,7 +40,15 @@ for (const r of restaurants) {
       menu = await renderWithPlaywright(r.wine_list_url)
     }
 
-    const { wines, notes } = await extractWines(menu, r.name)
+    let { wines, notes } = await extractWines(menu, r.name)
+
+    // Many menu pages load the list via JS. If a static HTML fetch yielded no
+    // wines, render the page in a real browser and try once more.
+    if (!wines.length && menu.kind === 'text') {
+      console.log('  0 wines from static HTML — rendering with Playwright…')
+      const rendered = await renderWithPlaywright(r.wine_list_url)
+      ;({ wines, notes } = await extractWines(rendered, r.name))
+    }
     console.log(`  extracted ${wines.length} wines${notes ? ` — ${notes}` : ''}`)
 
     if (dry) {
