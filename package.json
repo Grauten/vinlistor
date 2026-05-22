@@ -1,0 +1,19 @@
+{
+  "name": "vinlistor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Database of Stockholm inner-city restaurant wine lists (wine + price + restaurant). Consumer tool, sibling to vinappen.",
+  "scripts": {
+    "collect": "node src/collect.mjs",
+    "collect:one": "node src/collect.mjs --only",
+    "fetch": "node src/lib/fetch-menu.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.70.0",
+    "@supabase/supabase-js": "^2.45.0"
+  },
+  "optionalDependencies": {
+    "playwright": "^1.48.0"
+  }
+}
