@@ -1,5 +1,6 @@
 // Supabase client + helpers for the vinlistor pipeline.
 // Uses the SERVICE ROLE key (server-side only) so it can write freely.
+import './env.mjs' // ensure .env is loaded (top-level await) before reading process.env
 import { createClient } from '@supabase/supabase-js'
 
 const url = process.env.SUPABASE_URL

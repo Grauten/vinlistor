@@ -1,23 +1,72 @@
 [
   {
     "name": "Astrids",
-    "area": "Stockholm",
-    "address": null,
+    "area": "Bromma",
+    "address": "Färjestadsvägen 8, Bromma",
     "website": "https://astridskok.se/",
     "wine_list_url": "https://astridskok.se/wp-content/uploads/Vinlista-Februari-2026.pdf"
   },
   {
+    "name": "Adam/Albin",
+    "area": "Norrmalm",
+    "address": "Regeringsgatan 2, Stockholm",
+    "website": "http://adamalbin.se/",
+    "wine_list_url": "http://adamalbin.se/assets/260522_winelist_hemsida.pdf"
+  },
+  {
     "name": "Adria",
-    "area": "Stockholm",
-    "address": null,
+    "area": "Vasastan",
+    "address": "Tulegatan 10, Stockholm",
     "website": "https://www.adriaristorante.se/",
-    "wine_list_url": "https://www.adriaristorante.se/vinlista"
+    "wine_list_url": "https://www.adriaristorante.se/s/Vinlista-Maj-1-2026.pdf"
   },
   {
     "name": "Aleks y Filip",
-    "area": "Stockholm",
-    "address": null,
+    "area": "Johanneshov",
+    "address": "Bjälbogatan 32, Stockholm",
     "website": "https://aleksfilip.se/",
-    "wine_list_url": "https://aleksfilip.se/meny"
+    "wine_list_url": "https://aleksfilip.se/s/vinlista-100-2025-Oktober.pdf"
+  },
+  {
+    "name": "Aristo",
+    "area": "Östermalm",
+    "address": "Kommendörsgatan 46, Stockholm",
+    "website": "http://www.aristokrog.se/",
+    "wine_list_url": "https://www.aristokrog.se/s/VINLISTA-UVA-APRIL-2026-2.pdf"
+  },
+  {
+    "name": "Bar Arsenalen",
+    "area": "Norrmalm",
+    "address": "Arsenalsgatan 1, Stockholm",
+    "website": "https://www.bararsenalen.se/",
+    "wine_list_url": "https://www.bararsenalen.se/s/Maj-Vinlista.pdf"
+  },
+  {
+    "name": "Bar Nîmes",
+    "area": "Vasastan",
+    "address": "Rådmansgatan 25, Stockholm",
+    "website": "https://bar-nimes.se/",
+    "wine_list_url": "https://static.thatsup.website/289/87749/Menysk%C3%A5p-Bar-Nimes--2026-05-15.pdf?v=1778849805"
+  },
+  {
+    "name": "Bar Europa",
+    "area": "Södermalm",
+    "address": "Bysistorget 6, Stockholm",
+    "website": "https://www.bareuropa.eu/",
+    "wine_list_url": "https://www.bareuropa.eu/dryck"
+  },
+  {
+    "name": "Bar Libertin",
+    "area": "Hägersten",
+    "address": "Vapengatan 2, Hägersten",
+    "website": "https://www.barlibertin.se/",
+    "wine_list_url": "https://www.barlibertin.se/vinlista"
+  },
+  {
+    "name": "Aira",
+    "area": "Djurgården",
+    "address": "Biskopsvägen 9, Stockholm",
+    "website": "https://aira.se/",
+    "wine_list_url": "https://aira.se/beverages/"
   }
 ]
