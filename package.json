@@ -5,6 +5,7 @@
   "type": "module",
   "description": "Database of Stockholm inner-city restaurant wine lists (wine + price + restaurant). Consumer tool, sibling to vinappen.",
   "scripts": {
+    "search": "node src/search.mjs",
     "collect": "node src/collect.mjs",
     "collect:one": "node src/collect.mjs --only",
     "fetch": "node src/lib/fetch-menu.mjs"
