@@ -1,0 +1,132 @@
+:root {
+  --bg: #fbf8f5;
+  --ink: #1a1a1a;
+  --ink-soft: #5b5450;
+  --line: #e6dfd6;
+  --accent: #6b2238;   /* a deep wine red */
+  --row-hover: #f3ece2;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root {
+  margin: 0;
+  font-family: ui-serif, Georgia, 'Times New Roman', serif;
+  color: var(--ink);
+  background: var(--bg);
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.9rem;
+  letter-spacing: -0.01em;
+  color: var(--accent);
+}
+
+.search {
+  flex: 1 1 320px;
+  max-width: 460px;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: white;
+}
+.search:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: -1px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 0.5rem;
+}
+.controls select {
+  font-family: inherit;
+  font-size: 0.9rem;
+  padding: 0.25rem 0.4rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: white;
+}
+.count {
+  margin-left: auto;
+  font-variant-numeric: tabular-nums;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+thead th {
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  padding: 0.7rem 0.5rem 0.5rem;
+  border-bottom: 1px solid var(--line);
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+}
+
+tbody td {
+  padding: 0.55rem 0.5rem;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+
+tbody tr:hover { background: var(--row-hover); }
+
+.num { text-align: right; font-variant-numeric: tabular-nums; }
+.small { color: var(--ink-soft); font-size: 0.86rem; }
+
+.wine { max-width: 360px; }
+.grape { color: var(--ink-soft); font-style: italic; }
+
+.restaurant { white-space: nowrap; }
+.area { color: var(--ink-soft); font-size: 0.85rem; }
+
+footer {
+  margin-top: 2rem;
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.state {
+  padding: 3rem 0;
+  text-align: center;
+  color: var(--ink-soft);
+}

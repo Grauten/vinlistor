@@ -16,10 +16,11 @@ const here = dirname(fileURLToPath(import.meta.url))
 const args = process.argv.slice(2)
 const dry = args.includes('--dry')
 const onlyIdx = args.indexOf('--only')
-const only = onlyIdx !== -1 ? args[onlyIdx + 1]?.toLowerCase() : null
+// --only accepts one substring or a comma-separated list (matches if any substring is in the name).
+const onlySubs = onlyIdx !== -1 ? args[onlyIdx + 1].split(',').map((s) => s.trim().toLowerCase()).filter(Boolean) : []
 
 const restaurants = JSON.parse(await readFile(join(here, '..', 'restaurants.json'), 'utf8'))
-  .filter((r) => !only || r.name.toLowerCase().includes(only))
+  .filter((r) => !onlySubs.length || onlySubs.some((s) => r.name.toLowerCase().includes(s)))
 
 if (!restaurants.length) {
   console.error('No restaurants matched. Add entries to restaurants.json.')
