@@ -66,7 +66,7 @@ export async function extractWines(menu, restaurantName) {
 
   const params = {
     model: MODEL,
-    max_tokens: 64000, // wine lists can be long (200+ entries); JSON array must fit in full
+    max_tokens: 128000, // model max — wine lists with 300+ entries can fill this
     thinking: { type: 'adaptive' },
     output_config: { effort: 'low', format: FORMAT }, // extraction, not reasoning — save tokens for output
     system: [{ type: 'text', text: SYSTEM_PROMPT, cache_control: { type: 'ephemeral' } }],
