@@ -21,21 +21,31 @@ const li = args.indexOf('--limit')
 const limit = li !== -1 ? parseInt(args[li + 1], 10) : Infinity
 
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36'
-const WINE = /vin(?!yl)|wine|dryck|dricka/i        // wine-ish
-const LISTY = /lista|list|meny|menu|karta|card/i    // list-ish
-const SKIP = /facebook|instagram|google|bokabord|caterbook|booking|maps\.|tel:|mailto:|\.jpg|\.png/i
+const WINE = /vin(?!yl)|wine|dryck|dricka|uva/i                    // wine-ish
+const LISTY = /lista|list|meny|menu|karta|card/i                    // list-ish
+const FOOD = /lunch|frukost|breakfast|brunch|mat|food|tasting/i      // NOT wine
+const SKIP = /facebook|instagram|google|bokabord|caterbook|booking|maps\.|tel:|mailto:|\.jpg|\.png|gift-card|presentkort/i
 
 // Score a link: higher = more likely a real, priced wine list.
+// Negative score = clearly not wine; we reject anything with score <= 0.
 function score(href, text) {
   const s = (text + ' ' + href).toLowerCase()
-  let n = 0
   const isPdf = /\.pdf(\?|$)/i.test(href)
-  if (isPdf && WINE.test(s)) n += 100
-  else if (isPdf && LISTY.test(s)) n += 60
-  else if (isPdf) n += 25
-  if (WINE.test(s) && LISTY.test(s)) n += 40
-  else if (WINE.test(s)) n += 25
-  else if (LISTY.test(s)) n += 8
+  const wine = WINE.test(s)
+  const listy = LISTY.test(s)
+  const food = FOOD.test(s)
+
+  // Food-named link with no wine signal → strong NO.
+  if (food && !wine) return -50
+
+  let n = 0
+  if (isPdf && wine) n += 100
+  else if (isPdf && listy) n += 40
+  else if (isPdf) n += 10                              // generic PDF — weak signal
+  if (wine && listy) n += 40
+  else if (wine) n += 25
+  else if (listy) n += 5
+  if (food && wine) n -= 20                             // "vin & mat" — possibly mixed, demote slightly
   return n
 }
 
@@ -47,7 +57,8 @@ async function bestOn(page, url) {
   await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 25000 })
   await page.waitForTimeout(2500)
   const all = (await links(page)).filter((l) => /^https?:/.test(l.href) && !SKIP.test(l.href))
-  return all.map((l) => ({ ...l, s: score(l.href, l.text) })).filter((l) => l.s > 0).sort((a, b) => b.s - a.s)
+  // Threshold > 10 = must have at least one positive wine/list signal (a bare PDF alone won't qualify).
+  return all.map((l) => ({ ...l, s: score(l.href, l.text) })).filter((l) => l.s > 10).sort((a, b) => b.s - a.s)
 }
 
 const candidates = JSON.parse(await readFile(candPath, 'utf8')).slice(0, limit)

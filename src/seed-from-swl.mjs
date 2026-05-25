@@ -26,13 +26,26 @@ const browser = await chromium.launch({ headless: true })
 const page = await browser.newPage({ userAgent: UA })
 
 try {
-  console.log('Loading Stockholm index…')
-  await page.goto('https://starwinelist.com/wine-lists/stockholm', { waitUntil: 'domcontentloaded', timeout: 45000 })
-  await page.waitForTimeout(7000) // clear Cloudflare + render
-
-  const places = [...new Set(await page.evaluate(() =>
-    [...document.querySelectorAll('a')].map((a) => a.href).filter((h) => h.includes('/wine-place/'))
-  ))]
+  // SWL paginates the city index (was 8 pages × ~23 = ~184 restaurants at scrape time).
+  // Walk each page until we hit one with no results.
+  const placesSet = new Set()
+  for (let pageNum = 1; pageNum <= 30; pageNum++) {
+    const url = pageNum === 1
+      ? 'https://starwinelist.com/wine-lists/stockholm'
+      : `https://starwinelist.com/wine-lists/stockholm?page=${pageNum}`
+    process.stdout.write(`\r  loading page ${pageNum}…`)
+    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 })
+    await page.waitForTimeout(pageNum === 1 ? 7000 : 3500) // page 1 clears Cloudflare
+    const links = await page.evaluate(() =>
+      [...new Set([...document.querySelectorAll('a')].map((a) => a.href).filter((h) => h.includes('/wine-place/')))]
+    )
+    if (!links.length) break
+    const before = placesSet.size
+    for (const l of links) placesSet.add(l)
+    if (placesSet.size === before) break // duplicate page → done
+  }
+  console.log('')
+  const places = [...placesSet]
   console.log(`Found ${places.length} restaurants. Enriching ${Math.min(places.length, limit)}…`)
 
   const SKIP = /starwinelist\.com|google\.|instagram\.|facebook\.|bokabord\.|caterbook|booking|maps\.|\.pdf$/i

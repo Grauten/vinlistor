@@ -15,12 +15,26 @@ const here = dirname(fileURLToPath(import.meta.url))
 
 const args = process.argv.slice(2)
 const dry = args.includes('--dry')
+const skipExisting = args.includes('--skip-existing')
 const onlyIdx = args.indexOf('--only')
 // --only accepts one substring or a comma-separated list (matches if any substring is in the name).
 const onlySubs = onlyIdx !== -1 ? args[onlyIdx + 1].split(',').map((s) => s.trim().toLowerCase()).filter(Boolean) : []
 
+// If --skip-existing, look up all restaurants already in DB and skip them. This covers
+// both successful extractions (have wines) AND known dead ends (row exists, 0 wines).
+// Use --only to force a retry on a specific restaurant.
+let alreadyDone = new Set()
+if (skipExisting && !dry) {
+  const { db } = await import('./lib/db.mjs')
+  const { data, error } = await db.from('restaurants').select('name')
+  if (error) { console.error('skip-existing lookup failed:', error.message); process.exit(1) }
+  alreadyDone = new Set((data || []).map((r) => r.name))
+  console.log(`--skip-existing: ${alreadyDone.size} restaurant(s) already attempted.`)
+}
+
 const restaurants = JSON.parse(await readFile(join(here, '..', 'restaurants.json'), 'utf8'))
   .filter((r) => !onlySubs.length || onlySubs.some((s) => r.name.toLowerCase().includes(s)))
+  .filter((r) => !alreadyDone.has(r.name))
 
 if (!restaurants.length) {
   console.error('No restaurants matched. Add entries to restaurants.json.')

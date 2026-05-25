@@ -4,8 +4,8 @@
     "area": "Stockholm",
     "address": "Regeringsgatan 2, Stockholm",
     "website": "http://adamalbin.se/boka-bord",
-    "wine_list_url": "http://adamalbin.se/assets/260522_winelist_hemsida.pdf",
-    "kind": "pdf"
+    "wine_list_url": null,
+    "kind": null
   },
   {
     "name": "Adria",
@@ -20,7 +20,7 @@
     "area": "Stockholm",
     "address": "Norra Agnegatan 43, Stockholm",
     "website": "http://restaurangagnes.com/",
-    "wine_list_url": "https://media.restaurangagnes.com/2015/03/Agnes_meny_mat_svenska_260521_.pdf",
+    "wine_list_url": "https://media.restaurangagnes.com/2015/03/Agnes_menu_english_260521_.pdf",
     "kind": "pdf"
   },
   {
@@ -28,8 +28,8 @@
     "area": "Stockholm",
     "address": "Biskopsvägen 9, Stockholm",
     "website": "https://aira.se/",
-    "wine_list_url": "https://aira.se/beverages/",
-    "kind": "html"
+    "wine_list_url": null,
+    "kind": null
   },
   {
     "name": "Alba Vinbar",
@@ -52,8 +52,8 @@
     "area": "Stockholm",
     "address": "Regeringsgatan 76, Stockholm",
     "website": "http://amalia.restaurant/",
-    "wine_list_url": null,
-    "kind": null
+    "wine_list_url": "https://amalia.restaurant/wp-content/uploads/2026/05/Amalia-Wine-List.pdf",
+    "kind": "pdf"
   },
   {
     "name": "Aristo",
@@ -68,7 +68,7 @@
     "area": "Stockholm",
     "address": "Regeringsgatan 66, Stockholm",
     "website": "https://www.asianpostoffice.se/",
-    "wine_list_url": "https://www.asianpostoffice.se/s/apolunch_v21-1.pdf",
+    "wine_list_url": "https://www.asianpostoffice.se/s/APO-STHLM_MENU_2026-03-26-ny-WEB.pdf",
     "kind": "pdf"
   },
   {
@@ -84,8 +84,8 @@
     "area": "Stockholm",
     "address": "Brunkebergstorg 6, Stockholm",
     "website": "https://hotelatsix.com/stockholm-restaurants-bars/",
-    "wine_list_url": "https://hotelatsix.com/gift-card",
-    "kind": "html"
+    "wine_list_url": null,
+    "kind": null
   },
   {
     "name": "Ateljéns Pizza",
@@ -108,7 +108,7 @@
     "area": "Stockholm",
     "address": "Arsenalsgatan 6, Stockholm",
     "website": "https://bankhotel.se/restaurants/bonnies/",
-    "wine_list_url": "https://bankhotel.se/wp-content/uploads/2026/02/breakfast_eng_feb_2026.pdf",
+    "wine_list_url": "https://bankhotel.se/wp-content/uploads/2026/05/bonnies_middag_260505-web-swe-2.pdf",
     "kind": "pdf"
   },
   {
@@ -116,16 +116,16 @@
     "area": "Stockholm",
     "address": "Kammakargatan 22, Stockholm",
     "website": "http://allegrine.se/",
-    "wine_list_url": "https://allegrine.se/wp-content/uploads/2026/05/LUNCHMENY-v-22-2026-.pdf",
-    "kind": "pdf"
+    "wine_list_url": null,
+    "kind": null
   },
   {
     "name": "Bar Arsenalen",
     "area": "Stockholm",
     "address": "Arsenalsgatan 1, Stockholm",
     "website": "https://www.bararsenalen.se/",
-    "wine_list_url": "https://www.bararsenalen.se/s/Maj-Vinlista.pdf",
-    "kind": "pdf"
+    "wine_list_url": null,
+    "kind": null
   },
   {
     "name": "Bar Europa",
@@ -172,15 +172,1087 @@
     "area": "Pacs del Penedès",
     "address": "Finca el Maset s/n, Finca el Maset, s/n, Pacs del Penedès",
     "website": "https://www.torres.es/en/wine-tourism",
-    "wine_list_url": "https://www.covermanager.com/images/ppcovermanager.pdf",
-    "kind": "pdf"
+    "wine_list_url": "https://www.torres.es/en/wine-tourism#",
+    "kind": "html"
   },
   {
     "name": "Château Tour des Termes",
     "area": "Saint-Estèphe",
     "address": "Château Tour des Termes, 2 Rue du Pigeonnier, Saint-Estèphe",
     "website": "http://www.chateautourdestermes.com/",
-    "wine_list_url": "https://chateautourdestermes.com/#",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Bar Ninja",
+    "area": "Stockholm",
+    "address": "Katarina Bangata 29, Stockholm",
+    "website": "https://apps.apple.com/us/app/star-wine-list/id1483940755?mt=8",
+    "wine_list_url": "https://apps.apple.com/us/app/star-wine-list/id1483940755#productRatings",
     "kind": "html"
+  },
+  {
+    "name": "Bergamott",
+    "area": "Stockholm",
+    "address": "Hantverkargatan 35, Stockholm",
+    "website": "http://www.restaurangbergamott.se/",
+    "wine_list_url": "http://restaurangbergamott.se/ny-vinlista/",
+    "kind": "html"
+  },
+  {
+    "name": "Berns Asiatiska",
+    "area": "Stockholm",
+    "address": "Berzelii park, Stockholm",
+    "website": "https://berns.se/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Bistro Arsenalen",
+    "area": "Stockholm",
+    "address": "Arsenalsgatan 3, Stockholm",
+    "website": "http://www.bistroarsenalen.se/",
+    "wine_list_url": "https://www.bistroarsenalen.se/s/Webb-Lista-April-2026.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Bistro Mirabelle",
+    "area": "Stockholm",
+    "address": "Tulegatan 22, Stockholm",
+    "website": "https://bistromirabelle.se/bokning/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Blanche & Hierta",
+    "area": "Stockholm",
+    "address": "Brunkebergstorg 6, Stockholm",
+    "website": "https://hotelatsix.com/restaurant-bar/blanche-hierta-wine-bar/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Boqueria Stockholm",
+    "area": "Stockholm",
+    "address": "Mood stockholm, Jakobsbergsgatan 17, Stockholm",
+    "website": "https://www.boqueriastockholm.se/",
+    "wine_list_url": "https://static.thatsup.website/417/62142/VINLISTA_20251023.pdf?v=1761227822",
+    "kind": "pdf"
+  },
+  {
+    "name": "Bord",
+    "area": "Stockholm",
+    "address": "Roslagsgatan 43, Stockholm",
+    "website": "https://www.bord.restaurant/",
+    "wine_list_url": "https://www.bord.restaurant/#",
+    "kind": "html"
+  },
+  {
+    "name": "Brasserie Astoria",
+    "area": "Stockholm",
+    "address": "Nybrogatan 15, Stockholm",
+    "website": "https://www.brasserieastoria.com/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Brasserie Balzac",
+    "area": "Stockholm",
+    "address": "Odengatan 26, Stockholm",
+    "website": "https://balzac.se/vinlista",
+    "wine_list_url": "https://balzac.se/vinlista#tw-main",
+    "kind": "html"
+  },
+  {
+    "name": "Brasserie Bobonne",
+    "area": "Stockholm",
+    "address": "Storgatan 12, Stockholm",
+    "website": "https://www.waiteraid.com/clients/main/bokning.php?hash=b529fb237cb8d5e64c73c1faba7e9854&css=22",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Brasserie Elverket",
+    "area": "Stockholm",
+    "address": "Linnégatan 69, Stockholm",
+    "website": "https://www.brasserieelverket.se/#boka",
+    "wine_list_url": "https://www.brasserieelverket.se/wp-content/uploads/Vinlistan-glas-vinter-26-2.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Brasserie Godot",
+    "area": "Stockholm",
+    "address": "Grev Turegatan 36, Stockholm",
+    "website": "https://godot.se/pages/vin",
+    "wine_list_url": "https://godot.se/pages/vin#MainContent",
+    "kind": "html"
+  },
+  {
+    "name": "Brasserie Greta",
+    "area": "Djursholm",
+    "address": "Vendevägen 14, Djursholm",
+    "website": "https://app.sommit.io/v4/public/menus/2dd27fa9-68c7-4efc-b55e-426588c04793?source=qrCode",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Brasserie Maison",
+    "area": "Bromma",
+    "address": "Rörläggarvägen 27-29, Bromma",
+    "website": "https://vinify.app/pdf-wine-list/531960/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Brasserie Makalös",
+    "area": "Stockholm",
+    "address": "Kocksgränd 1, Stockholm",
+    "website": "http://brasseriemakalos.se/",
+    "wine_list_url": "https://www.brasseriemakalos.se/wp-content/uploads/2026/04/Ny-Vinlista-A4-.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Brutalisten",
+    "area": null,
+    "address": null,
+    "website": "https://apps.apple.com/us/app/star-wine-list/id1483940755?mt=8",
+    "wine_list_url": "https://apps.apple.com/us/app/star-wine-list/id1483940755#productRatings",
+    "kind": "html"
+  },
+  {
+    "name": "Café & Cave Nizza",
+    "area": "Stockholm",
+    "address": "Åsögatan 171, Stockholm",
+    "website": "https://app.waiteraid.com/reservation/?hash=8157635663273fe0e81c48dff96542e8&version=new",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Café Cuvée",
+    "area": "Stockholm",
+    "address": "Högbergsgatan 64, Stockholm",
+    "website": "https://www.cafecuvee.se/",
+    "wine_list_url": "https://www.cafecuvee.se/dokument/cafe-cuvee-meny.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Café Klotet",
+    "area": "Stockholm",
+    "address": "Stadsgården 6, Stockholm",
+    "website": "https://cafeklotet.se/",
+    "wine_list_url": "https://cafeklotet.se/en/wp-content/uploads/sites/2/2026/03/Vinlista-Klotet-26-02-24.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Canta Lola",
+    "area": null,
+    "address": null,
+    "website": "https://apps.apple.com/us/app/star-wine-list/id1483940755?mt=8",
+    "wine_list_url": "https://apps.apple.com/us/app/star-wine-list/id1483940755#productRatings",
+    "kind": "html"
+  },
+  {
+    "name": "CHECA",
+    "area": "Stockholm",
+    "address": "Åsögatan 176, Stockholm",
+    "website": "http://www.checa.se/",
+    "wine_list_url": "https://checa.se/checa-group-menu.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Chewie's Bar",
+    "area": "Stockholm",
+    "address": "Norr Mälarstrand 32, Stockholm",
+    "website": "http://www.chewiesbar.com/",
+    "wine_list_url": "https://thatsup.se/stockholm/bar/chewie-s-bar/articles/",
+    "kind": "html"
+  },
+  {
+    "name": "Chez Jolie",
+    "area": "Stockholm",
+    "address": "Ingmar Bergmans gata 2, Stockholm",
+    "website": "https://chezjolie.se/",
+    "wine_list_url": "https://chezjolie.se/wp-content/uploads/2026/05/WINELIST_260505.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Coco & Carmen",
+    "area": "Stockholm",
+    "address": "Banérgatan 7, Stockholm",
+    "website": "https://beta.waiteraid.com/reservation/?hash=2e0d18dc6b52271be6ee5289060fc739&version=new",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Combo Vinbaren",
+    "area": "Stockholm",
+    "address": "Odengatan 52, Stockholm",
+    "website": "http://www.combovinbaren.com/",
+    "wine_list_url": "https://starwinelist.com/wine-place/combo-vinbaren",
+    "kind": "html"
+  },
+  {
+    "name": "Copine",
+    "area": "Stockholm",
+    "address": "Kommendörsgatan 23, Stockholm",
+    "website": "https://app.waiteraid.com/reservation/?version=new&app_type=bokabord&hash=153ead326f6097aa89a7e5db04760c97&lang=sw",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Cork Vinbar",
+    "area": "Stockholm",
+    "address": "Stora Nygatan 22, Stockholm",
+    "website": "https://www.corkvinbar.se/Boka-bord.php",
+    "wine_list_url": "https://www.corkvinbar.se/resources/Meny%2020250603.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Corvina Enoteca",
+    "area": "Stockholm",
+    "address": "Kornhamnstorg 47, Stockholm",
+    "website": "http://www.corvina.nu/",
+    "wine_list_url": "https://corvina.nu/#",
+    "kind": "html"
+  },
+  {
+    "name": "Cuculo",
+    "area": "Stockholm",
+    "address": "Styrmansgatan 57, Stockholm",
+    "website": "https://www.restaurangcuculo.se/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Dashi",
+    "area": "Stockholm",
+    "address": "Rådmansgatan 23, Stockholm",
+    "website": "https://dashisthlm.se/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "DoMa",
+    "area": "Stockholm",
+    "address": "Nybrogatan 48, Stockholm",
+    "website": "https://www.doma.se/",
+    "wine_list_url": "http://www.doma.se/wp-content/uploads/2026/05/DoMa-Vinlista-hemsida-55.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Dryck Vinbar",
+    "area": "Stockholm",
+    "address": "Swedenborgsgatan 1, Stockholm",
+    "website": "http://www.dryckvinbar.se/",
+    "wine_list_url": "https://www.dryckvinbar.se/#Karta",
+    "kind": "html"
+  },
+  {
+    "name": "E & G",
+    "area": "Stockholm",
+    "address": "Birger Jarlsgatan 112, Stockholm",
+    "website": "http://eochg.se/",
+    "wine_list_url": "https://starwinelist.com/sv/vinstallen/e-och-g",
+    "kind": "html"
+  },
+  {
+    "name": "Ekstedt",
+    "area": "Stockholm",
+    "address": "Humlegårdsgatan 17, Stockholm",
+    "website": "https://ekstedt.nu/reservation",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Ergo",
+    "area": "Stockholm",
+    "address": "Artillerigatan 14, Stockholm",
+    "website": "https://www.restaurantergo.se/reservation",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Etoile",
+    "area": "Stockholm",
+    "address": "Norra Stationsgatan 51, Stockholm",
+    "website": "https://etoile.superbexperience.com/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Ett Hem",
+    "area": "Stockholm",
+    "address": "Sköldungagatan 6, Stockholm",
+    "website": "http://etthem.se/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Farang",
+    "area": "Stockholm",
+    "address": "Tulegatan 7, Stockholm",
+    "website": "http://farang.se/reserveringar/?lang=en",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Folii",
+    "area": "Stockholm",
+    "address": "Erstagatan 21, Stockholm",
+    "website": "http://folii.se/",
+    "wine_list_url": "https://starwinelist.com/folii/",
+    "kind": "html"
+  },
+  {
+    "name": "Främmat",
+    "area": "Stockholm",
+    "address": "Dalagatan 54, Stockholm",
+    "website": "http://www.frammat.com/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Freyja",
+    "area": "Stockholm",
+    "address": "Hornsgatan 18, Stockholm",
+    "website": "https://freyjasoder.se/",
+    "wine_list_url": "https://freyjasoder.se/wp-content/uploads/2026/03/FreyjaVinlistaWebbMars26.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Garage del Gusto",
+    "area": "Stockholm",
+    "address": "Västmannagatan 54, Stockholm",
+    "website": "http://www.garagedelgusto.com/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Gondolen",
+    "area": "Stockholm",
+    "address": "Stadsgården 6, Stockholm",
+    "website": "https://gondolen.se/",
+    "wine_list_url": "https://gondolen.se/wp-content/uploads/2026/05/vinlista-20-MAJ.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Grand Hôtel",
+    "area": "Stockholm",
+    "address": "Södra Blasieholmshamnen 8, Stockholm",
+    "website": "http://www.grandhotel.se/",
+    "wine_list_url": "https://grandhotel.se/index%2Ephp/https%3A//grandhotel.se/sites/default/files/documents/2024/08/faktablad_vintertradgarden_2024.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Griffins Steakhouse Extraordinaire",
+    "area": "Stockholm",
+    "address": "Klarabergsviadukten 67, Stockholm",
+    "website": "http://www.griffinssteakhouse.se/",
+    "wine_list_url": "https://griffinssteakhouse.se/wp-content/uploads/2026/05/Griffins-Vinlista-260508.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Grus Grus",
+    "area": "Stockholm",
+    "address": "Karlbergsvägen 14, Stockholm",
+    "website": "http://grusgrusvinbaren.se/",
+    "wine_list_url": "http://grusgrusvinbaren.se/vinlista/",
+    "kind": "html"
+  },
+  {
+    "name": "Hantverket",
+    "area": "Stockholm",
+    "address": "Sturegatan 15a, Stockholm",
+    "website": "https://restauranghantverket.se/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Hillenberg",
+    "area": "Stockholm",
+    "address": "Humlegårdsgatan 14, Stockholm",
+    "website": "https://hillenberg.se/boka-bord",
+    "wine_list_url": "https://hillenberg.se/wp-content/uploads/2026/05/Hillenberg-Vinlista-Maj-2026_compressed-1.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Hornstulls Bodega",
+    "area": "Stockholm",
+    "address": "Hornsbruksgatan 24, Stockholm",
+    "website": "https://www.hornstullsbodega.com/",
+    "wine_list_url": "https://bodegan-dd9b61.systemless.se/",
+    "kind": "html"
+  },
+  {
+    "name": "Hotel Diplomat",
+    "area": "Stockholm",
+    "address": "Strandvägen 7C, Stockholm",
+    "website": "http://www.diplomathotel.com/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Kanon",
+    "area": "Stockholm",
+    "address": "Tjärhovsgatan 33, Stockholm",
+    "website": "https://kanon.restaurant/",
+    "wine_list_url": "https://cdn.sanity.io/files/940zpbqh/production/409793886db6f2ad98b72d0ee537993efce6f170.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Kasten",
+    "area": "Stockholm",
+    "address": "Fredrikshovsgatan 4, Stockholm",
+    "website": "http://kastenbistro.se/",
+    "wine_list_url": "https://www.kastenbistro.se/_files/ugd/526c09_644c44ba9b3e4c018e5d90fbbf5cdbd7.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Krog Agrikultur",
+    "area": "Stockholm",
+    "address": "Franska bukten 10, Stockholm",
+    "website": "https://agrikultur.se/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Kungsholmens Vinbar",
+    "area": "Stockholm",
+    "address": "Fleminggatan 62B, Stockholm",
+    "website": "https://www.kungsholmensvinbar.se/",
+    "wine_list_url": "https://starwinelist.com/storage/wine_lists/705/kungsholmens-vinbar.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "L'Avventura",
+    "area": "Stockholm",
+    "address": "Sveavägen 77, Stockholm",
+    "website": "https://lavventura.se/boka-bord",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "La Tour",
+    "area": "Stockholm",
+    "address": "Rålambsvägen 17, Stockholm",
+    "website": "https://www.pontusvinlista.com/",
+    "wine_list_url": "https://www.pontusvinlista.com/champagne",
+    "kind": "html"
+  },
+  {
+    "name": "Le Bon Canon",
+    "area": "Stockholm",
+    "address": "Scheelegatan 3, Stockholm",
+    "website": "http://www.leboncanon.se/",
+    "wine_list_url": "https://www.leboncanon.se/ws/media-library/0226eb45a9c55b341b9b75fc87cbf021/meny-le-bon-canon-260522.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Leijontornet",
+    "area": "Stockholm",
+    "address": "Lilla Nygatan 5, Stockholm",
+    "website": "https://leijontornet.superbexperience.com/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Liebling",
+    "area": "Stockholm",
+    "address": "Timmermansgatan 24, Stockholm",
+    "website": "http://www.restaurangliebling.com/",
+    "wine_list_url": "https://assets.ctfassets.net/jqpscb8y457h/69IFNrtZ1AlQNOyHi4Y4Pm/9554f049f53b7e8133bf9baa80fff7fb/Winelist_Liebling_2026.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Lilla Ego",
+    "area": "Stockholm",
+    "address": "Västmannagatan 69, Stockholm",
+    "website": "http://www.lillaego.com/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Lisa Elmqvist",
+    "area": "Stockholm",
+    "address": "Östermalms Saluhall, Östermalmstorg 31, Stockholm",
+    "website": "http://www.lisaelmqvist.se/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Luzette",
+    "area": "Stockholm",
+    "address": "Centralplan 25, Stockholm",
+    "website": "https://www.luzette.se/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Lydmar Hotel",
+    "area": "Stockholm",
+    "address": "Södra Blasieholmshamnen 2, Stockholm",
+    "website": "http://www.lydmar.com/",
+    "wine_list_url": "https://lydmar.com/the-living-rooms/",
+    "kind": "html"
+  },
+  {
+    "name": "Mancini",
+    "area": "Stockholm",
+    "address": "Tunnelgatan 1A, Stockholm",
+    "website": "https://mancini.se/viner",
+    "wine_list_url": "https://mancini.se/s/Vini-Bianchi-2026-05-14.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Mäster Anders",
+    "area": "Stockholm",
+    "address": "Pipersgatan 1, Stockholm",
+    "website": "http://www.masteranders.se/",
+    "wine_list_url": "https://assets.ctfassets.net/3mivpbcp4xs0/6GPUC4gGweRnef1Q4hbXqE/110b484d93c7d05cca7237de29d6d32e/Storavinbok_2025_ho%C3%8C_st.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Mathias Dahlgren – Matbaren",
+    "area": "Stockholm",
+    "address": "Södra Blasieholmshamnen 6, Stockholm",
+    "website": "http://mdghs.se/matbaren/",
+    "wine_list_url": "https://starwinelist.com/storage/wine_lists/193/mathias-dahlgren-matbaren.pdf?1562182921#page=1",
+    "kind": "pdf"
+  },
+  {
+    "name": "Mazra'a",
+    "area": "Sweden",
+    "address": "Skånegatan 82, 116 37 Stockholm, Sweden",
+    "website": "https://www.mazraa.se/",
+    "wine_list_url": "https://www.mazraa.se/wp-content/uploads/2026/05/mazraa-wine-may-26.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Minh Mat",
+    "area": "Stockholm",
+    "address": "Odengatan 94, Stockholm",
+    "website": "http://minhmat.se/#section-three",
+    "wine_list_url": "https://starwinelist.com/sv/vinguide/de-basta-vin-restaurangerna-i-stockholm?utm_source=badge&utm_content=text",
+    "kind": "html"
+  },
+  {
+    "name": "Misshumasshu",
+    "area": "111 46 Stockholm",
+    "address": "Smålandsgatan 10, 111 46 Stockholm",
+    "website": "https://misshumasshu.se/?utm_source=google",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Miyakodori",
+    "area": "Stockholm",
+    "address": "Upplandsgatan 7, Stockholm",
+    "website": "https://miyakodori.se/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Muscadet",
+    "area": "Stockholm",
+    "address": "Sankt Eriksgatan 108, Stockholm",
+    "website": "https://www.muscadet.se/",
+    "wine_list_url": "https://starwinelist.com/storage/wine_lists/9370/muscadet.pdf?1774619474",
+    "kind": "pdf"
+  },
+  {
+    "name": "Nabo",
+    "area": "Stockholm",
+    "address": "Tegnérgatan 34, Stockholm",
+    "website": "https://www.restaurangnabo.se/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Napolyon Bistro et Bar",
+    "area": "Stockholm",
+    "address": "Grev Turegatan 15, Stockholm",
+    "website": "https://www.napolyon.se/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Nektar",
+    "area": "Stockholm",
+    "address": "Rörstrandsgatan 12, Stockholm",
+    "website": "http://www.nektarstockholm.com/",
+    "wine_list_url": "https://www.nektarstockholm.com/_files/ugd/6c5779_67398bec1a944a84b5bb4fb080d3144a.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "NOFO Vinbar",
+    "area": "Stockholm",
+    "address": "Tjärhovsgatan 11C, Stockholm",
+    "website": "https://nofohotel.se/",
+    "wine_list_url": "https://nofohotel.se/wp-content/uploads/2026/04/Meny-UTE-2026.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "NOI by Nobis",
+    "area": "Stockholm",
+    "address": "Norrmalmstorg 4, Stockholm",
+    "website": "https://www.nobishotel.se/noi",
+    "wine_list_url": "https://nobis-2.s3.eu-central-1.amazonaws.com/pdf/Bino/Noi-vinlista-2026-05-05.pdf?v=1777981225",
+    "kind": "pdf"
+  },
+  {
+    "name": "Nybrogatan 38",
+    "area": "Stockholm",
+    "address": "Nybrogatan 38, Stockholm",
+    "website": "http://www.nybrogatan38.com/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Operakällaren",
+    "area": "Stockholm",
+    "address": "Operahuset, Karl XII:s torg, Stockholm",
+    "website": "https://www.operakallaren.se/",
+    "wine_list_url": "https://operakallaren.se/wp-content/uploads/sites/4/2026/05/OK-ALC-2026-05-03-ENG.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Paraden Kvarterskrog & Barservering",
+    "area": "Stockholm",
+    "address": "Valhallavägen 147, Stockholm",
+    "website": "http://www.paradenkvarterskrog.com/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Persona",
+    "area": "Stockholm",
+    "address": "Torstenssonsgatan 11, Stockholm",
+    "website": "https://www.personasthlm.com/",
+    "wine_list_url": "https://personasthlm.com/wine",
+    "kind": "html"
+  },
+  {
+    "name": "Petri",
+    "area": "Stockholm",
+    "address": "Kommendörsgatan 16, Stockholm",
+    "website": "https://petrirestaurant.com/reservations/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Ponti",
+    "area": "Stockholm",
+    "address": "Nytorget 13D, Stockholm",
+    "website": "https://restaurangponti.se/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Portal",
+    "area": "Stockholm",
+    "address": "Sankt Eriksplan 1,Stockholm",
+    "website": "http://www.portalrestaurant.se/",
+    "wine_list_url": "https://www.portalrestaurant.se/wp-content/uploads/2026/05/kallarlista-15-maj-26_converted.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Prospero",
+    "area": "Stockholm",
+    "address": "Roslagsgatan 21, Stockholm",
+    "website": "http://www.prospero-restaurant.com/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Restaurang AG",
+    "area": "Stockholm",
+    "address": "Kronobergsgatan 37, Stockholm",
+    "website": "https://beta.waiteraid.com/reservation/?hash=29f087bafdf8723d0918d6ed5bdf7b06&version=new",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Restaurang Nisch",
+    "area": "Stockholm",
+    "address": "Dalagatan 42, Stockholm",
+    "website": "https://www.nischrestaurant.com/reservations",
+    "wine_list_url": "https://starwinelist.com/wine-place/restaurang-nisch",
+    "kind": "html"
+  },
+  {
+    "name": "Restaurang Tako",
+    "area": "Sweden",
+    "address": "Grev Turegatan 1, 114 34 Stockholm, Sweden",
+    "website": "https://www.restaurangtako.se/?utm_source=google",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Restaurang Triton",
+    "area": "Stockholm",
+    "address": "Ringvägen 87, Stockholm",
+    "website": "https://www.triton.restaurant/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Restaurant Aubergine",
+    "area": "Stockholm",
+    "address": "Linnégatan 38, Stockholm",
+    "website": "http://www.aubergine.se/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Riche",
+    "area": "Stockholm",
+    "address": "Birger Jarlsgatan 4, Stockholm",
+    "website": "https://riche.se/",
+    "wine_list_url": "https://riche.b-cdn.net/wp-content/uploads/2026/05/Vinlista-26-05-21-Riche.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Ricordi",
+    "area": "Stockholm",
+    "address": "Kungsträdgårdsgatan 18, Stockholm",
+    "website": "https://ricordi.se/",
+    "wine_list_url": "https://ricordi.se/wp-content/uploads/sites/14/2026/03/RICORDI_Vinlista.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "RiRi",
+    "area": "Stockholm",
+    "address": "Hornstulls strand 3, Stockholm",
+    "website": "https://riri.restaurant/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Röda Huset",
+    "area": "Stockholm",
+    "address": "Malmskillnadsgatan 9, Stockholm",
+    "website": "https://rodahuset.nu/",
+    "wine_list_url": "https://rodahuset.nu/wp-content/uploads/2026/03/VinlistaRH_19mars2026.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Rolfs Hav",
+    "area": "Stockholm",
+    "address": "Drottninggatan 106, Stockholm",
+    "website": "https://rolfshav.se/boka-bord",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Rolfs Kök",
+    "area": "Stockholm",
+    "address": "Tegnérgatan 41, Stockholm",
+    "website": "http://www.rolfskok.se/boka-bord-2/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Savant Bar",
+    "area": "Stockholm",
+    "address": "Tegnérgatan 4, Stockholm",
+    "website": "https://flasklista.savantbar.se/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Schmaltz",
+    "area": "Stockholm",
+    "address": "Nybrogatan 19, Stockholm",
+    "website": "https://schmaltz.dinesuperb.com/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Seafood Gastro",
+    "area": "Stockholm",
+    "address": "Södra Blasieholmshamnen 6, Stockholm",
+    "website": "https://mdghs.se/en/seafood-gastro/",
+    "wine_list_url": "https://starwinelist.com/storage/wine_lists/193/mathias-dahlgren-matbaren.pdf?1562182921#page=1",
+    "kind": "pdf"
+  },
+  {
+    "name": "Sensum",
+    "area": "Stockholm",
+    "address": "Wallingatan 40, Stockholm",
+    "website": "http://restaurangsensum.se/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "SOLEN",
+    "area": "Johanneshov",
+    "address": "Hallgränd 45, Johanneshov",
+    "website": "https://www.solen.se/?utm_source=google",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Spanjorskan",
+    "area": "Stockholm",
+    "address": "Nybrogatan 42, Stockholm",
+    "website": "https://spanjorskan.se/",
+    "wine_list_url": "https://static.thatsup.website/310/59717/Vinlista--6e-maj-2025.pdf?v=1747914140",
+    "kind": "pdf"
+  },
+  {
+    "name": "Sperling & Co",
+    "area": "Stockholm",
+    "address": "Sturegatan 6, Stockholm",
+    "website": "https://sperlingco.se/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Spesso",
+    "area": "Stockholm",
+    "address": "Malmskillnadsgatan 38B, Stockholm",
+    "website": "https://spesso.se/",
+    "wine_list_url": "https://spesso.se/wp-content/uploads/2026/05/Spesso-vinlista-maj.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Spritmuseum",
+    "area": "Stockholm",
+    "address": "48115 21, Stockholm",
+    "website": "https://spritmuseum.se/restaurangen/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Stadshuskällaren",
+    "area": "Stockholm",
+    "address": "Stockholms Stadshus, Hantverkargatan 1, Stockholm",
+    "website": "http://www.stadshuskallarensthlm.se/",
+    "wine_list_url": "http://stadshuskallarensthlm.se/wp-content/uploads/2026/05/Vinlista-SHK-Maj-1.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Stockholm Stadshotell",
+    "area": "Stockholm",
+    "address": "Björngårdsgatan 23, Stockholm",
+    "website": "https://stockholmstadshotell.com/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Strandvägen 1",
+    "area": "Stockholm",
+    "address": "Strandvägen 1, Stockholm",
+    "website": "http://www.strandvagen1.se/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Sturehof",
+    "area": "Stockholm",
+    "address": "Stureplan 2, Stockholm",
+    "website": "https://sturehof.com/boka-bord/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Supper",
+    "area": "Stockholm",
+    "address": "Humlegårdsgatan 17, Stockholm",
+    "website": "http://supper.nu/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Sushi Sho",
+    "area": "Stockholm",
+    "address": "Upplandsgatan 45, Stockholm",
+    "website": "http://www.sushisho.se/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Svartengrens",
+    "area": "Stockholm",
+    "address": "Tulegatan 24, Stockholm",
+    "website": "http://www.svartengrens.se/boka-bord/",
+    "wine_list_url": "https://www.svartengrens.se/wp-content/uploads/2025/08/svartengrens-meny.pdf?v=2",
+    "kind": "pdf"
+  },
+  {
+    "name": "Teatergrillen",
+    "area": "Stockholm",
+    "address": "Nybrogatan 3, Stockholm",
+    "website": "http://www.teatergrillen.se/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Teddys",
+    "area": "Stockholm",
+    "address": "Sibyllegatan 43, Stockholm",
+    "website": "https://teddyssibyllegatan.se/",
+    "wine_list_url": "https://starwinelist.com/wine-place/teddys",
+    "kind": "html"
+  },
+  {
+    "name": "Tegelbacken",
+    "area": "Stockholm",
+    "address": "Tegelbacken 2, Stockholm",
+    "website": "https://tegelbacken.com/boka/",
+    "wine_list_url": "https://tegelbacken.com/wp-content/uploads/2026/05/Vinlista-260522.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Teuf au Vin",
+    "area": "Stockholm",
+    "address": "Mälartorget 15, Stockholm",
+    "website": "https://teuf.se/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "The Hills",
+    "area": "Stockholm",
+    "address": "Götgatan 29, Stockholm",
+    "website": "http://www.thehillsstockholm.se/",
+    "wine_list_url": "https://www.thehillsstockholm.se/wp-content/uploads/2026/04/Vinlista-web.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "The Sparrow",
+    "area": "Stockholm",
+    "address": "Birger Jarlsgatan 26, Stockholm",
+    "website": "https://www.thesparrow.se/restauranger-och-barer",
+    "wine_list_url": "https://document-tc.galaxy.tf/wdpdf-3ljf2so8unq3vdvnkud6zq6qr/file.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "The Winery Hotel",
+    "area": "Solna",
+    "address": "Rosenborgsgatan 20, Solna",
+    "website": "https://www.thewineryhotel.se/",
+    "wine_list_url": "https://www.thewineryhotel.se/besok/hitta-hit",
+    "kind": "html"
+  },
+  {
+    "name": "Tranan",
+    "area": "Stockholm",
+    "address": "Karlbergsvägen 14, Stockholm",
+    "website": "http://www.tranan.se/restaurang/#boka",
+    "wine_list_url": "http://www.tranan.se/wp-content/uploads/2026/05/Meny-20260522.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Tripletta",
+    "area": "Stockholm",
+    "address": "Åsögatan 163, Stockholm",
+    "website": "https://tripletta.bar/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Tyge & Sessil",
+    "area": "Stockholm",
+    "address": "Brahegatan 4, Stockholm",
+    "website": "http://tygesessil.se/",
+    "wine_list_url": "https://tygesessil.se/wp-content/uploads/2026/04/Uppdaterad-flasklista-April-1.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Uva vinbar",
+    "area": "Stockholm",
+    "address": "Kommendörsgatan 46, Stockholm",
+    "website": "https://www.uvavinbar.se/",
+    "wine_list_url": "https://www.aristokrog.se/s/VINLISTA-UVA-APRIL-2026-2.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Växthuset",
+    "area": null,
+    "address": null,
+    "website": "https://apps.apple.com/us/app/star-wine-list/id1483940755?mt=8",
+    "wine_list_url": "https://apps.apple.com/us/app/star-wine-list/id1483940755#productRatings",
+    "kind": "html"
+  },
+  {
+    "name": "Villa Dagmar",
+    "area": "Stockholm",
+    "address": "Östermalmstorg 25, Stockholm",
+    "website": "https://hotelvilladagmar.com/restaurang-stockholm/",
+    "wine_list_url": "https://hotelvilladagmar.com/wp-content/uploads/2025/05/Varmeny-Maj-2026-sv-1.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Vina",
+    "area": "Stockholm",
+    "address": "Sofiagatan 1, Stockholm",
+    "website": "https://vinaaa.squarespace.com/",
+    "wine_list_url": "https://vinaaa.squarespace.com/#home-1-section",
+    "kind": "html"
+  },
+  {
+    "name": "Vineriet",
+    "area": "Stockholm",
+    "address": "Roslagsgatan 15, Stockholm",
+    "website": "http://www.vinerietsthlm.se/",
+    "wine_list_url": "https://www.vinerietsthlm.se/matovin.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Vingården",
+    "area": "Stockholm",
+    "address": "Lilla Nygatan 5, Stockholm",
+    "website": "https://vingarden.superbexperience.com/reserve/guests",
+    "wine_list_url": "https://vingarden.superbexperience.com/privacy-policy",
+    "kind": "html"
+  },
+  {
+    "name": "Vinverket",
+    "area": "Stockholm",
+    "address": "Norrtullsgatan 24, Stockholm",
+    "website": "http://vinverket.se/",
+    "wine_list_url": "https://vinverket.se/wp-content/uploads/2026/05/Glaslistan-Maj2026.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Voisine",
+    "area": "Stockholm",
+    "address": "Erstagatan 21, Stockholm",
+    "website": "https://app.waiteraid.com/reservation/?hash=e259849e4f38295ab180f2cd2d531ebb&version=new&mealid=12640",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Wärdshuset Ulla Winbladh",
+    "area": "Stockholm",
+    "address": "Rosendalsvägen 8, Stockholm",
+    "website": "http://www.ullawinbladh.se/",
+    "wine_list_url": "https://ullawinbladh.se/wp-content/uploads/2026/05/Vinlista_enda_gallande_20260504.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Wasahof",
+    "area": "Stockholm",
+    "address": "Dalagatan 46, Stockholm",
+    "website": "http://www.wasahof.se/",
+    "wine_list_url": "https://wasahof.se/vinprovning/",
+    "kind": "html"
+  },
+  {
+    "name": "Wedholms Fisk",
+    "area": "Stockholm",
+    "address": "Arsenalsgatan 1, Stockholm",
+    "website": "http://www.wedholmsfisk.se/",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Woodstockholm",
+    "area": "Stockholm",
+    "address": "Mosebacke torg 9, Stockholm",
+    "website": "http://woodstockholm.com/",
+    "wine_list_url": null,
+    "kind": null
   }
 ]
