@@ -3,7 +3,9 @@
 // we only extract what's literally on the menu (prices must be the listed prices).
 import Anthropic from '@anthropic-ai/sdk'
 
-const MODEL = 'claude-opus-4-7'
+// Sonnet 4.6 is plenty for structured PDF→JSON extraction and costs ~1/5 of Opus.
+// Output-heavy work (993-wine lists at $75/M output tokens) was the cost driver.
+const MODEL = 'claude-sonnet-4-6'
 
 const SYSTEM_PROMPT = `You extract a restaurant's wine list into structured data. \
 You are given the text (or PDF/image) of a menu. Return ONLY the wines that have a \
