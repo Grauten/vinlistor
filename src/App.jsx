@@ -3,8 +3,10 @@ import { useEffect, useMemo, useState } from 'react'
 // wine_key + vintage as tail keys keeps "same wine, different vintages" together.
 const SORTS = {
   origin:     { label: 'land → region → producent', keys: ['country', 'region', 'producer', 'wine_key', 'vintage'] },
-  price_asc:  { label: 'pris stigande',             keys: ['price_bottle', 'price_glass', 'wine_key'], dir: 1 },
-  price_desc: { label: 'pris fallande',             keys: ['price_bottle', 'price_glass', 'wine_key'], dir: -1 },
+  price_asc:  { label: 'flaskpris stigande',        keys: ['price_bottle', 'price_glass', 'wine_key'], dir: 1 },
+  price_desc: { label: 'flaskpris fallande',        keys: ['price_bottle', 'price_glass', 'wine_key'], dir: -1 },
+  glass_asc:  { label: 'glaspris stigande',         keys: ['price_glass', 'price_bottle', 'wine_key'], dir: 1 },
+  glass_desc: { label: 'glaspris fallande',         keys: ['price_glass', 'price_bottle', 'wine_key'], dir: -1 },
   name:       { label: 'vinets namn',               keys: ['wine_key', 'vintage', 'name'] },
   restaurant: { label: 'restaurang',                keys: ['restaurant', 'country', 'region', 'producer', 'wine_key', 'vintage'] },
 }
@@ -44,6 +46,7 @@ export default function App() {
   const [area, setArea] = useState('')
   const [restaurant, setRestaurant] = useState('')
   const [sortKey, setSortKey] = useState('origin')
+  const [glassOnly, setGlassOnly] = useState(false)
 
   useEffect(() => {
     fetch('/api/wines')
@@ -67,11 +70,12 @@ export default function App() {
       if (type && w.type !== type) return false
       if (area && w.area !== area) return false
       if (restaurant && w.restaurant !== restaurant) return false
+      if (glassOnly && w.price_glass == null) return false
       if (!nq) return true
       const hay = NORM([w.name, w.producer, w.region, w.country, w.grape].filter(Boolean).join(' '))
       return hay.includes(nq)
     })
-  }, [data, q, type, area, restaurant])
+  }, [data, q, type, area, restaurant, glassOnly])
 
   const rows = useMemo(() => sortRows(filtered, sortKey), [filtered, sortKey])
 
@@ -95,6 +99,10 @@ export default function App() {
         <Select label="Typ" value={type} onChange={setType} options={facets.types} />
         <Select label="Stadsdel" value={area} onChange={setArea} options={facets.areas} />
         <Select label="Krog" value={restaurant} onChange={setRestaurant} options={facets.restaurants} />
+        <label className="glass-only">
+          <input type="checkbox" checked={glassOnly} onChange={(e) => setGlassOnly(e.target.checked)} />
+          &nbsp;endast på glas
+        </label>
         <label className="sort">
           Sortera:&nbsp;
           <select value={sortKey} onChange={(e) => setSortKey(e.target.value)}>
