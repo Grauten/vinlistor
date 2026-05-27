@@ -14,6 +14,7 @@
 import './lib/env.mjs'
 import { readFile } from 'node:fs/promises'
 import { db, upsertRestaurant, replaceWines } from './lib/db.mjs'
+import { normalizeAll } from './lib/normalize.mjs'
 
 const files = process.argv.slice(2)
 if (!files.length) {
@@ -28,3 +29,7 @@ for (const file of files) {
   const n = await replaceWines(id, wines, restaurant.wine_list_url)
   console.log(`  wrote ${n} wines to Supabase`)
 }
+
+console.log('\nNormalising country / region / producer …')
+const n = await normalizeAll()
+console.log(`Done. ${n} total post-load fixes applied.`)

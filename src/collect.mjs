@@ -85,4 +85,11 @@ for (const r of restaurants) {
   }
 }
 
+if (!dry) {
+  console.log('\nNormalising country / region / producer …')
+  const { normalizeAll } = await import('./lib/normalize.mjs')
+  const n = await normalizeAll()
+  console.log(`${n} total post-load fixes applied.`)
+}
+
 console.log('\nDone.')

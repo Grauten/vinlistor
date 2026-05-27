@@ -1,11 +1,12 @@
 import { useEffect, useMemo, useState } from 'react'
 
+// wine_key + vintage as tail keys keeps "same wine, different vintages" together.
 const SORTS = {
-  origin:     { label: 'land → region → producent', keys: ['country', 'region', 'producer', 'name'] },
-  price_asc:  { label: 'pris stigande',             keys: ['price_bottle', 'price_glass', 'name'], dir: 1 },
-  price_desc: { label: 'pris fallande',             keys: ['price_bottle', 'price_glass', 'name'], dir: -1 },
-  name:       { label: 'vinets namn',               keys: ['name', 'producer'] },
-  restaurant: { label: 'restaurang',                keys: ['restaurant', 'country', 'region', 'producer'] },
+  origin:     { label: 'land → region → producent', keys: ['country', 'region', 'producer', 'wine_key', 'vintage'] },
+  price_asc:  { label: 'pris stigande',             keys: ['price_bottle', 'price_glass', 'wine_key'], dir: 1 },
+  price_desc: { label: 'pris fallande',             keys: ['price_bottle', 'price_glass', 'wine_key'], dir: -1 },
+  name:       { label: 'vinets namn',               keys: ['wine_key', 'vintage', 'name'] },
+  restaurant: { label: 'restaurang',                keys: ['restaurant', 'country', 'region', 'producer', 'wine_key', 'vintage'] },
 }
 
 const NORM = (s) => (s ?? '').toString().toLocaleLowerCase('sv').normalize('NFKD').replace(/\p{Diacritic}/gu, '')

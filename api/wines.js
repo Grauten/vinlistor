@@ -24,6 +24,14 @@ export default async function handler(req, res) {
     if (data.length < PAGE) break
   }
 
+  // Stable canonical wine key — producer + name with vintages stripped, lowercased and
+  // de-diacriticked. Same key across restaurants/vintages = the same cuvée.
+  const PREFIX = /^(Domaine|Château|Chateau|Bodegas?|Bodega|Cantine?|Cantina|Tenuta|Casa|Weingut|Maison|Cellier|Cellars?|Azienda Agricola|Az\.|Fattoria|Champagne|Vignobles?|Vignerons?|Quinta|Adega|Mas)\s+/i
+  const canon = (s) => (s || '').replace(PREFIX, '').toLocaleLowerCase('sv')
+    .normalize('NFKD').replace(/\p{Diacritic}/gu, '')
+    .replace(/\b(19|20)\d{2}\b/g, '')
+    .replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim()
+
   // Flatten the joined restaurant for the client.
   const wines = all.map((w) => ({
     name: w.name,
@@ -38,6 +46,7 @@ export default async function handler(req, res) {
     currency: w.currency || 'SEK',
     restaurant: w.restaurants?.name,
     area: w.restaurants?.area,
+    wine_key: w.producer ? canon(w.producer) + '||' + canon(w.name) : null,
   }))
 
   // Cache aggressively at the edge — wine lists change on the order of weeks.
