@@ -24,13 +24,34 @@ export default async function handler(req, res) {
     if (data.length < PAGE) break
   }
 
-  // Stable canonical wine key — producer + name with vintages stripped, lowercased and
-  // de-diacriticked. Same key across restaurants/vintages = the same cuvée.
+  // Token-set wine key. Same key = same cuvée regardless of vintage, word order, or
+  // small text variations across restaurants. Strategy:
+  //   1. Strip producer-noun prefix from producer, vintages from name
+  //   2. Split into tokens (lower, no diacritics, no punctuation; separate digits from letters)
+  //   3. Drop generic "filler" tokens (cuvée, édition, magnum, reims, NV, …) and tiny ones
+  //   4. Bag = sorted unique remaining tokens from producer ∪ name
   const PREFIX = /^(Domaine|Château|Chateau|Bodegas?|Bodega|Cantine?|Cantina|Tenuta|Casa|Weingut|Maison|Cellier|Cellars?|Azienda Agricola|Az\.|Fattoria|Champagne|Vignobles?|Vignerons?|Quinta|Adega|Mas)\s+/i
-  const canon = (s) => (s || '').replace(PREFIX, '').toLocaleLowerCase('sv')
+  const FILLER = new Set([
+    'cuvee','grand','grande','edition','editions','eme','iere','ier','er',
+    'magnum','mag','jeroboam','mgn','mgm','ml','cl','fl',
+    'nv','mv','sa','brut','extra','dry',                  // generic champagne descriptors
+    'reims','epernay','ay','cramant','vertus','avize',     // champagne towns
+    'de','la','le','les','du','et','di','del','della','das','do','von','y',
+  ])
+  const tokenise = (s) => (s || '')
+    .replace(PREFIX, '')
+    .toLocaleLowerCase('sv')
     .normalize('NFKD').replace(/\p{Diacritic}/gu, '')
     .replace(/\b(19|20)\d{2}\b/g, '')
-    .replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim()
+    .replace(/(\d)([a-z])|([a-z])(\d)/g, '$1$3 $2$4') // separate "173ème" → "173 eme"
+    .replace(/[^a-z0-9 ]/g, ' ')
+    .split(/\s+/)
+    .filter((t) => t.length >= 2 && !FILLER.has(t))
+
+  const wineKey = (producer, name) => {
+    const all = new Set([...tokenise(producer), ...tokenise(name)])
+    return all.size ? [...all].sort().join(' ') : null
+  }
 
   // Flatten the joined restaurant for the client.
   const wines = all.map((w) => ({
@@ -46,7 +67,7 @@ export default async function handler(req, res) {
     currency: w.currency || 'SEK',
     restaurant: w.restaurants?.name,
     area: w.restaurants?.area,
-    wine_key: w.producer ? canon(w.producer) + '||' + canon(w.name) : null,
+    wine_key: wineKey(w.producer, w.name),
   }))
 
   // Cache aggressively at the edge — wine lists change on the order of weeks.
