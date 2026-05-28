@@ -18,19 +18,32 @@ const TYPE_BY_HEADER = [
   { rx: /^MAGNUM OCH HALVBUTELJER/i, type: null }, // magnums of various — keep last type
 ]
 
-const COUNTRIES = {
-  'Frankrike': 'Frankrike', 'France': 'Frankrike',
-  'Italien': 'Italien', 'Italy': 'Italien',
-  'Tyskland': 'Tyskland', 'Germany': 'Tyskland',
-  'Österrike': 'Österrike', 'Austria': 'Österrike',
-  'Sverige': 'Sverige', 'Sweden': 'Sverige',
-  'Spanien': 'Spanien', 'Spain': 'Spanien',
-  'USA': 'USA',
-  'Portugal': 'Portugal',
-  'Australien': 'Australien', 'Australia': 'Australien',
-  'Sydafrika': 'Sydafrika', 'South Africa': 'Sydafrika',
-  'Argentina': 'Argentina', 'Chile': 'Chile',
+// Country lookup is case-insensitive — the PDF mixes "Frankrike / France" (Title Case
+// pages 3-4), "FRANKRIKE / FRANCE" (ALL CAPS pages 5+), and "Italien/Italy" (no space).
+const COUNTRY_MAP = {
+  frankrike: 'Frankrike', france: 'Frankrike',
+  italien: 'Italien', italy: 'Italien',
+  tyskland: 'Tyskland', germany: 'Tyskland',
+  österrike: 'Österrike', austria: 'Österrike',
+  sverige: 'Sverige', sweden: 'Sverige',
+  spanien: 'Spanien', spain: 'Spanien',
+  portugal: 'Portugal',
+  usa: 'USA',
+  australien: 'Australien', australia: 'Australien',
+  sydafrika: 'Sydafrika', 'south africa': 'Sydafrika',
+  argentina: 'Argentina', chile: 'Chile',
+  england: 'England', uk: 'England',
+  nya: 'Nya Zeeland', // "Nya Zeeland / New Zealand" — first token "Nya"
+  ungern: 'Ungern', hungary: 'Ungern',
+  schweiz: 'Schweiz', switzerland: 'Schweiz',
+  grekland: 'Grekland', greece: 'Grekland',
+  georgien: 'Georgien', georgia: 'Georgien',
+  libanon: 'Libanon', lebanon: 'Libanon',
+  kroatien: 'Kroatien', croatia: 'Kroatien',
+  slovenien: 'Slovenien', slovenia: 'Slovenien',
+  tjeckien: 'Tjeckien',
 }
+const lookupCountry = (token) => COUNTRY_MAP[token.toLowerCase()] || null
 
 const REGIONS = new Set(['Champagne', 'Bourgogne', 'Alsace', 'Loire', 'Rhône', 'Bordeaux', 'Languedoc', 'Provence', 'Jura', 'Beaujolais', 'Savoie', 'Sud-Ouest', 'Piemonte', 'Toscana', 'Sicilien', 'Veneto', 'Lombardia', 'Friuli', 'Alto Adige', 'Marche', 'Abruzzo', 'Sardinien', 'Mosel', 'Rheingau', 'Rheinhessen', 'Nahe', 'Pfalz', 'Baden', 'Württemberg', 'Franken', 'Saar', 'Ruwer', 'Wachau', 'Kamptal', 'Kremstal', 'Burgenland', 'Steiermark', 'Rioja', 'Ribera del Duero', 'Priorat', 'Penedès', 'Rías Baixas', 'Galicien', 'Mallorca', 'Canarias', 'Napa Valley', 'Sonoma', 'Oregon', 'Washington', 'Santa Barbara', 'Central Coast', 'Mendoza', 'Stellenbosch', 'Swartland', 'Vinho Verde', 'Douro', 'Dao', 'Alentejo', 'Setubal', 'Toscana - Coast', 'Skåne'])
 
@@ -58,9 +71,10 @@ for (const raw of text.split('\n')) {
   if (setType !== null) { type = setType; producer = null; region = null; continue }
   if (TYPE_BY_HEADER.some((r) => r.rx.test(line))) continue
 
-  // Country header: "Frankrike" or "Frankrike / France"
-  const first = line.split(/\s*\/\s*/)[0]
-  if (COUNTRIES[first]) { country = COUNTRIES[first]; producer = null; region = null; continue }
+  // Country header: "Frankrike" / "FRANKRIKE / FRANCE" / "Italien/Italy" — case-insensitive
+  const firstToken = line.split(/\s*\/\s*/)[0].trim()
+  const ctyHit = lookupCountry(firstToken)
+  if (ctyHit && !/\d/.test(line)) { country = ctyHit; producer = null; region = null; continue }
 
   // Region header
   if (REGIONS.has(line)) { region = line; producer = null; continue }
