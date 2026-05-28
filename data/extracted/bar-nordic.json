@@ -1,0 +1,47 @@
+{
+  "restaurant": {
+    "name": "Bar Nordic",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.barnordic.com/",
+    "wine_list_url": "https://www.barnordic.com/_files/ugd/991018_bc1c189718124c7f95fc02268b12ed21.pdf"
+  },
+  "wines": [
+    {
+      "name": "White Sparkling Gooseberry Wine K1",
+      "producer": "Bar Nordic", "vintage": null, "type": "mousserande",
+      "country": "Sverige", "region": null, "grape": "Krusbär",
+      "price_glass": 155, "price_bottle": null, "currency": "SEK"
+    },
+    {
+      "name": "Bergskär Rosé",
+      "producer": "Bar Nordic", "vintage": null, "type": "rosé",
+      "country": "Sverige", "region": null, "grape": "Lingon",
+      "price_glass": 155, "price_bottle": 765, "currency": "SEK"
+    },
+    {
+      "name": "K4 Krusbär",
+      "producer": "Bar Nordic", "vintage": null, "type": "vitt",
+      "country": "Sverige", "region": null, "grape": "Krusbär",
+      "price_glass": 155, "price_bottle": 765, "currency": "SEK"
+    },
+    {
+      "name": "Rålund Classic",
+      "producer": "Bar Nordic", "vintage": null, "type": "rött",
+      "country": "Sverige", "region": null, "grape": "Blåbär",
+      "price_glass": 155, "price_bottle": 765, "currency": "SEK"
+    },
+    {
+      "name": "Rålund Exclusive",
+      "producer": "Bar Nordic", "vintage": null, "type": "rött",
+      "country": "Sverige", "region": null, "grape": "Blåbär",
+      "price_glass": 170, "price_bottle": 825, "currency": "SEK"
+    },
+    {
+      "name": "Rålund Superior",
+      "producer": "Bar Nordic", "vintage": null, "type": "rött",
+      "country": "Sverige", "region": null, "grape": "Blåbär",
+      "price_glass": 190, "price_bottle": 930, "currency": "SEK"
+    }
+  ]
+}
