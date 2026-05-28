@@ -1254,5 +1254,29 @@
     "website": "http://woodstockholm.com/",
     "wine_list_url": null,
     "swl_url": "https://starwinelist.com/wine-place/woodstockholm-matbar"
+  },
+  {
+    "name": "Frantzén",
+    "area": "Stockholm",
+    "address": "Klara Norra kyrkogata 26, Stockholm",
+    "website": "https://starwinelist.com/",
+    "swl_url": "https://starwinelist.com/wine-place/frantzen",
+    "source": "swl-guide"
+  },
+  {
+    "name": "Ambar",
+    "area": "Stockholm",
+    "address": "Tomtebogatan 22, Stockholm",
+    "website": "https://starwinelist.com/",
+    "swl_url": "https://starwinelist.com/wine-place/ambar",
+    "source": "swl-guide"
+  },
+  {
+    "name": "Bar à Vins",
+    "area": "Stockholm",
+    "address": "Narvavägen 32, Stockholm",
+    "website": "https://starwinelist.com/",
+    "swl_url": "https://starwinelist.com/wine-place/bar-a-vins",
+    "source": "swl-guide"
   }
 ]
