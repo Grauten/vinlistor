@@ -161,13 +161,6 @@
     "source": "bokabord"
   },
   {
-    "name": "Adam Albin",
-    "area": "Stockholm",
-    "address": null,
-    "website": "https://adamalbin.se/",
-    "source": "bokabord"
-  },
-  {
     "name": "Restaurang Hantverket",
     "area": "Stockholm",
     "address": null,
@@ -182,20 +175,6 @@
     "source": "bokabord"
   },
   {
-    "name": "Solen",
-    "area": "Stockholm",
-    "address": null,
-    "website": "https://solen.se/",
-    "source": "bokabord"
-  },
-  {
-    "name": "Teuf",
-    "area": "Stockholm",
-    "address": null,
-    "website": "http://teuf.se/",
-    "source": "bokabord"
-  },
-  {
     "name": "Asian Post Office",
     "area": "Stockholm",
     "address": null,
@@ -203,31 +182,17 @@
     "source": "bokabord"
   },
   {
-    "name": "Dersch",
+    "name": "Brasserie Astrid",
     "area": "Stockholm",
     "address": null,
-    "website": "https://dersch.se/",
+    "website": "https://www.brasserieastrid.se/",
     "source": "bokabord"
   },
   {
-    "name": "Sushi Sho",
+    "name": "Solen",
     "area": "Stockholm",
     "address": null,
-    "website": "https://www.sushisho.se/",
-    "source": "bokabord"
-  },
-  {
-    "name": "Rolfs Kök",
-    "area": "Stockholm",
-    "address": null,
-    "website": "https://www.rolfskok.se/",
-    "source": "bokabord"
-  },
-  {
-    "name": "Aifur",
-    "area": "Stockholm",
-    "address": null,
-    "website": "https://aifur.se/",
+    "website": "https://solen.se/",
     "source": "bokabord"
   },
   {
@@ -238,38 +203,38 @@
     "source": "bokabord"
   },
   {
-    "name": "Ekstedt",
+    "name": "Davidathome",
     "area": "Stockholm",
     "address": null,
-    "website": "https://ekstedt.nu/",
+    "website": "https://davidathome.se/",
     "source": "bokabord"
   },
   {
-    "name": "Bar Nîmes",
+    "name": "Teuf",
     "area": "Stockholm",
     "address": null,
-    "website": "https://bar-nimes.se/",
+    "website": "http://teuf.se/",
     "source": "bokabord"
   },
   {
-    "name": "Ulla Winbladh",
+    "name": "Aifur",
     "area": "Stockholm",
     "address": null,
-    "website": "https://www.ullawinbladh.se/",
+    "website": "https://aifur.se/",
     "source": "bokabord"
   },
   {
-    "name": "AIRA",
+    "name": "Sushi Sho",
     "area": "Stockholm",
     "address": null,
-    "website": "https://www.aira.se/",
+    "website": "https://www.sushisho.se/",
     "source": "bokabord"
   },
   {
-    "name": "Punk Royale",
+    "name": "Dersch",
     "area": "Stockholm",
     "address": null,
-    "website": "https://www.tiktok.com/legal/privacy-policy?lang=en",
+    "website": "https://dersch.se/",
     "source": "bokabord"
   },
   {
@@ -280,17 +245,10 @@
     "source": "bokabord"
   },
   {
-    "name": "Spesso",
+    "name": "Ulla Winbladh",
     "area": "Stockholm",
     "address": null,
-    "website": "https://spesso.se/",
-    "source": "bokabord"
-  },
-  {
-    "name": "TAK",
-    "area": "Stockholm",
-    "address": null,
-    "website": "https://tak.se/",
+    "website": "https://www.ullawinbladh.se/",
     "source": "bokabord"
   },
   {
@@ -298,6 +256,20 @@
     "area": "Stockholm",
     "address": null,
     "website": "https://restaurangprinsen.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Bar Nîmes",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://bar-nimes.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Ekstedt",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://ekstedt.nu/",
     "source": "bokabord"
   },
   {
@@ -315,10 +287,10 @@
     "source": "bokabord"
   },
   {
-    "name": "Edsbacka krog",
+    "name": "AIRA",
     "area": "Stockholm",
     "address": null,
-    "website": "https://edsbacka.nu/",
+    "website": "https://www.aira.se/",
     "source": "bokabord"
   },
   {
@@ -329,10 +301,45 @@
     "source": "bokabord"
   },
   {
-    "name": "Pat's Place",
+    "name": "Rolfs Kök",
     "area": "Stockholm",
     "address": null,
-    "website": "https://www.patsplace.se/",
+    "website": "https://www.rolfskok.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Etoile",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurantetoile.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Thaiboat",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://thaiboat.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Edsbacka krog",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://edsbacka.nu/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Spesso",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://spesso.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Punk Royale",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.tiktok.com/legal/privacy-policy?lang=en",
     "source": "bokabord"
   },
   {
@@ -343,17 +350,10 @@
     "source": "bokabord"
   },
   {
-    "name": "Olli Ristorante",
+    "name": "TAK",
     "area": "Stockholm",
     "address": null,
-    "website": "https://olliristorante.se/",
-    "source": "bokabord"
-  },
-  {
-    "name": "Triton",
-    "area": "Stockholm",
-    "address": null,
-    "website": "https://www.triton.restaurant/",
+    "website": "https://tak.se/",
     "source": "bokabord"
   },
   {
@@ -364,10 +364,395 @@
     "source": "bokabord"
   },
   {
-    "name": "Supper",
+    "name": "OSO Omakase",
     "area": "Stockholm",
     "address": null,
     "website": "https://www.tiktok.com/legal/privacy-policy?lang=en",
+    "source": "bokabord"
+  },
+  {
+    "name": "Krog Agrikultur",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://agrikultur.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "The French Kiss",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://thefrenchkiss.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "G.A.T.",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.gatstockholm.com/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Bibon",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://bibon.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Mr. Bronck",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://mrbronck.com/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Levi bistro",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.levibistro.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Bistro Monello",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.bistromonello.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Leche Negra",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lechenegra.com/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Landbyska Verket",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://landbyska.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Kotetsu",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://kotetsu.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Dansken Slaktis",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.danskenrestauranger.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Restauranto",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restauranto.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Tavino Nytorget",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://tavino.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "NOOK",
+    "area": "Stockholm",
+    "address": "Avslappnat",
+    "website": "https://www.nookrestaurang.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Tripletta",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://tripletta.bar/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Köket vid bordet",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://koketvidbordet.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Matateljén",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://matateljen.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Brasserie Lou Lou",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.brasserieloulou.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Ponti",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangponti.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Nabo Hornsgatan",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.tiktok.com/legal/privacy-policy?lang=en",
+    "source": "bokabord"
+  },
+  {
+    "name": "Juno",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.tiktok.com/legal/privacy-policy?lang=en",
+    "source": "bokabord"
+  },
+  {
+    "name": "Typ",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangtyp.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Shibumi",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://shibumi.nu/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Baroma",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.baroma.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Misshumasshu",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://misshumasshu.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Bistro Tartine",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.bistrotartine.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Ateljéns Pizza Haga Norra",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.tiktok.com/legal/privacy-policy?lang=en",
+    "source": "bokabord"
+  },
+  {
+    "name": "Gaijin",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://gaijinsthlm.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Bastardo",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.bastardosthlm.com/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Flor Matbar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.flormatbar.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Tosto",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://tosto.nu/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Trattoria Giorgio's",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.giorgios.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Tête",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangtete.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Oscars Bar & Brasserie",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.oscarsbb.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Gabagool",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.gabagoolsthlm.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Restaurang Hedvig",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restauranghedvig.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Bonaccorso",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://bonaccorso.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Framfickan på Maxim",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.tiktok.com/legal/privacy-policy?lang=en",
+    "source": "bokabord"
+  },
+  {
+    "name": "Bar Central Hornsgatan",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.barcentral.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Rolfs Hav",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://rolfshav.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Seafood Gastro",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.tiktok.com/legal/privacy-policy?lang=en",
+    "source": "bokabord"
+  },
+  {
+    "name": "Frippe",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.frippe.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Gaia Matbar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.tiktok.com/legal/privacy-policy?lang=en",
+    "source": "bokabord"
+  },
+  {
+    "name": "Amalia",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://amalia.restaurant/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Panza",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.tiktok.com/legal/privacy-policy?lang=en",
+    "source": "bokabord"
+  },
+  {
+    "name": "MXCO",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://mxco.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Mormors Pastabageri",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://mormorspasta.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Bistro Zissou",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.bistrozissou.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Ristorante Isola",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.ristoranteisola.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Ergo",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurantergo.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Villa Foresta",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.tiktok.com/legal/privacy-policy?lang=en",
+    "source": "bokabord"
+  },
+  {
+    "name": "Bacchanale",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://bacchanalesthlm.com/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Urban Deli Hagastaden",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.tiktok.com/legal/privacy-policy?lang=en",
+    "source": "bokabord"
+  },
+  {
+    "name": "Café Klotet",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://cafeklotet.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Ett Hem",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.etthem.se/",
     "source": "bokabord"
   },
   {
@@ -375,6 +760,391 @@
     "area": "Stockholm",
     "address": null,
     "website": "https://sturehof.com/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Pelago",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://pelagosthlm.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Freyja",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.freyjasoder.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Bleck",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangbleck.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Långholmens Wärdshus",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.tiktok.com/legal/privacy-policy?lang=en",
+    "source": "bokabord"
+  },
+  {
+    "name": "Häktet",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.haktet.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Liebling",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangliebling.com/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Lydmar Hotel",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lydmar.com/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Calle P",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://callep.nu/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Artilleriet",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangartilleriet.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Supper",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.tiktok.com/legal/privacy-policy?lang=en",
+    "source": "bokabord"
+  },
+  {
+    "name": "Restaurang Eden",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.edensthlm.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Piren Restaurang & Bar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://piren-bar.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Trattorian",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://trattorian.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Eira",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://eirasommarkrog.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Grinda Wärdshus",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://grinda.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Fågelbro Säteri",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.tiktok.com/legal/privacy-policy?lang=en",
+    "source": "bokabord"
+  },
+  {
+    "name": "Restaurang Kroken",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangkroken.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Sandhamn Seglarhotell",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.sandhamn.com/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Sandhamns Värdshus",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.sandhamns-vardshus.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Bistro Sågen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.bistrosagen.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Hotell Furusund",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.hotellfurusund.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Smådalarö Gård Hotell & Spa / Brasserie & Bränneri",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.tiktok.com/legal/privacy-policy?lang=en",
+    "source": "bokabord"
+  },
+  {
+    "name": "Portal",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://portalrestaurant.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Nisch",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.nischrestaurant.com/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Prospero",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.prospero-restaurant.com/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Minako",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.minakosushi.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Nana",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.tiktok.com/legal/privacy-policy?lang=en",
+    "source": "bokabord"
+  },
+  {
+    "name": "Svartengrens",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.svartengrens.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "L'Avventura",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://lavventura.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Främmat",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://frammat.com/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Babette",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://babette.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Las Brasas",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lasbrasas.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Capannone",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://capannone.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Aperitivo by Ingrosso",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.aperitivo-ingrosso.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Wasahof",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://wasahof.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Tranan",
+    "area": "Stockholm",
+    "address": "Karlbergsvägen 14",
+    "website": "http://www.tranan.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Tennstopet",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.tennstopet.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Noema",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://noemastockholm.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Fotografiska",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.tiktok.com/legal/privacy-policy?lang=en",
+    "source": "bokabord"
+  },
+  {
+    "name": "Brasserie Hötorget",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://brasseriehotorget.com/",
+    "source": "bokabord"
+  },
+  {
+    "name": "SMAK Stockholm",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://smakstockholm.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Strand Stockholm",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://strandstockholm.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Spanjorskan",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://spanjorskan.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Restaurang BAR",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://restaurangbar.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Grodan Kungliga Operan",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.tiktok.com/legal/privacy-policy?lang=en",
+    "source": "bokabord"
+  },
+  {
+    "name": "Farang",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://farang.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Oljebaren",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.oljebaren.com/",
+    "source": "bokabord"
+  },
+  {
+    "name": "German Beer Hall Norrtull",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://germanbeerhall.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Brasserie Balzac",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.balzac.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Sue Ellen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://sue-ellen.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Restaurang Himlen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restauranghimlen.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Biblioteket Live",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://biblioteketlive.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Kanon",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://kanon.restaurant/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Urban Deli Nytorget",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.urbandeli.se/",
+    "source": "bokabord"
+  },
+  {
+    "name": "Debaser Nova",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.tiktok.com/legal/privacy-policy?lang=en",
     "source": "bokabord"
   }
 ]

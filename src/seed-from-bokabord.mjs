@@ -9,7 +9,12 @@ import { dirname } from 'node:path'
 
 const GUIDES = [
   'https://www.bokabord.se/guider/stockholms-basta-vinbarer-just-nu',
-  // Additional guides can be added here as we discover them
+  'https://www.bokabord.se/guider/nya-restauranger-i-stockholm',
+  'https://www.bokabord.se/guider/restaurangtips-stockholm-10-restauranger-du-inte-far-missa',
+  'https://www.bokabord.se/guider/harliga-sommarrestauranger-i-stockholm',
+  'https://www.bokabord.se/guider/guide-till-basta-restaurangerna-i-vasastan-stockholm',
+  'https://www.bokabord.se/guider/restauranger-som-passar-for-storre-sallskap-i-stockholm',
+  'https://www.bokabord.se/guider/guide-till-soliga-pontoner-i-stockholm',
 ]
 
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36'

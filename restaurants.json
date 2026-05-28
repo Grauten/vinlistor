@@ -390,5 +390,124 @@
     "address": null,
     "website": "https://edsbacka.nu/",
     "wine_list_url": "https://edsbacka.nu/wp-content/uploads/2025/10/Vinlista-1.1-251205.pdf"
+  },
+  {
+    "name": "The French Kiss",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://thefrenchkiss.se/",
+    "wine_list_url": "https://static.thatsup.website/626/85611/The-french-kiss_A4_Sv_11_maj(3).pdf?v=1778593875"
+  },
+  {
+    "name": "Bibon",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://bibon.se/",
+    "wine_list_url": "https://cdn.sanity.io/files/8mcognpo/production/dd9c43703870044adc0a2baf858c1d70fecd63b6.pdf"
+  },
+  {
+    "name": "Levi bistro",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.levibistro.se/",
+    "wine_list_url": "https://www.levibistro.se/_files/ugd/860071_1d0ac797bd0a4344a9707b08ccd9bd08.pdf"
+  },
+  {
+    "name": "Tavino Nytorget",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://tavino.se/",
+    "wine_list_url": "https://www.tavino.se/s/Vinlista-Version-26.pdf"
+  },
+  {
+    "name": "Brasserie Lou Lou",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.brasserieloulou.se/",
+    "wine_list_url": "https://www.brasserieloulou.se/wp-content/uploads/2026/04/vinlista.pdf"
+  },
+  {
+    "name": "Bastardo",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.bastardosthlm.com/",
+    "wine_list_url": "https://www.bastardosthlm.com/s/Vinmeny47.pdf"
+  },
+  {
+    "name": "Tosto",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://tosto.nu/",
+    "wine_list_url": "https://tosto.nu/wp-content/uploads/2026/05/Tosto-Winelist-2026-05-12.pdf"
+  },
+  {
+    "name": "Trattoria Giorgio's",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.giorgios.se/",
+    "wine_list_url": "https://cdn.prod.website-files.com/68f8c03ff14957b1f9b9e716/6a15fecc25515204f2fbd54c_Giorgios%20.pdf"
+  },
+  {
+    "name": "Tête",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangtete.se/",
+    "wine_list_url": "https://cdn.prod.website-files.com/686a33f636db05eba371603a/6984a9e16bdd89c8b040de8f_tete_vinlista.pdf"
+  },
+  {
+    "name": "Frippe",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.frippe.se/",
+    "wine_list_url": "https://www.frippe.se/wp-content/uploads/2025/01/frippe-vinlista-ny-250118.pdf"
+  },
+  {
+    "name": "Calle P",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://callep.nu/",
+    "wine_list_url": "https://callep.nu/wp-content/uploads/2026/05/Vinlista-Calle-P-2026-05-21.pdf"
+  },
+  {
+    "name": "Eira",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://eirasommarkrog.se/",
+    "wine_list_url": "https://eirasommarkrog.se/wp-content/uploads/sites/21/2026/05/Eira-ALC-SWE-A4-2026-05-14.pdf"
+  },
+  {
+    "name": "Capannone",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://capannone.se/",
+    "wine_list_url": "https://capannone.se/wp-content/uploads/2026/04/Winelist-2026-April.pdf"
+  },
+  {
+    "name": "Noema",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://noemastockholm.se/",
+    "wine_list_url": "https://noemastockholm.se/wp-content/uploads/2026/05/vinlista-hemsida2026maj-1.pdf"
+  },
+  {
+    "name": "SMAK Stockholm",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://smakstockholm.se/",
+    "wine_list_url": "https://smakstockholm.se/wp-content/uploads/2026/05/Gruppmeny-VAR-3-2026.pdf"
+  },
+  {
+    "name": "Strand Stockholm",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://strandstockholm.se/",
+    "wine_list_url": "https://strandstockholm.se/wp-content/uploads/2025/10/Strand-Wine-List-2025-10-16.pdf"
+  },
+  {
+    "name": "Biblioteket Live",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://biblioteketlive.se/",
+    "wine_list_url": "https://www.biblioteketlive.se/s/Stormeny_2026_04-22_hemsida_2.pdf"
   }
 ]
