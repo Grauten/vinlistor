@@ -1,0 +1,155 @@
+{
+  "restaurant": {
+    "name": "Haggans",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.haggans.se/",
+    "wine_list_url": "https://www-static.haggans.se/wp-content/uploads/2026/04/Meny-Dryck-Haggans-1.pdf"
+  },
+  "wines": [
+    {
+      "name": "Grace Rosé Côtes de Provence",
+      "producer": null,
+      "vintage": null,
+      "type": "rosé",
+      "country": "Frankrike",
+      "region": null,
+      "grape": null,
+      "price_glass": 135,
+      "price_bottle": 495,
+      "currency": "SEK"
+    },
+    {
+      "name": "Olivier Ravoire IGP Méditerranée",
+      "producer": null,
+      "vintage": null,
+      "type": "rosé",
+      "country": "Frankrike",
+      "region": null,
+      "grape": null,
+      "price_glass": 155,
+      "price_bottle": 595,
+      "currency": "SEK"
+    },
+    {
+      "name": "Mont Marçal Cava Brut Reserva Organic EKO Penedès",
+      "producer": null,
+      "vintage": 2023,
+      "type": "mousserande",
+      "country": "Spanien",
+      "region": null,
+      "grape": null,
+      "price_glass": 120,
+      "price_bottle": 495,
+      "currency": "SEK"
+    },
+    {
+      "name": "Dissegna Prosecco DOC Extra Dry Millesimato EKO Veneto",
+      "producer": null,
+      "vintage": null,
+      "type": "mousserande",
+      "country": "Italien",
+      "region": null,
+      "grape": null,
+      "price_glass": 130,
+      "price_bottle": 520,
+      "currency": "SEK"
+    },
+    {
+      "name": "Deutz Brut Classic NW 1 Champagne",
+      "producer": null,
+      "vintage": null,
+      "type": "mousserande",
+      "country": "Frankrike",
+      "region": null,
+      "grape": null,
+      "price_glass": null,
+      "price_bottle": 990,
+      "currency": "SEK"
+    },
+    {
+      "name": "Sanz Calvo Onira Tempranillo Castilla La Mancha",
+      "producer": null,
+      "vintage": 2025,
+      "type": "rött",
+      "country": "Spanien",
+      "region": null,
+      "grape": null,
+      "price_glass": 120,
+      "price_bottle": 480,
+      "currency": "SEK"
+    },
+    {
+      "name": "Famille Fabre Grande Courtade Pinot Noir BIO Languedoc",
+      "producer": null,
+      "vintage": 2024,
+      "type": "rött",
+      "country": "Frankrike",
+      "region": null,
+      "grape": null,
+      "price_glass": 160,
+      "price_bottle": 590,
+      "currency": "SEK"
+    },
+    {
+      "name": "Scrimaglio Barbaresco DOCG Piemonte",
+      "producer": null,
+      "vintage": 2021,
+      "type": "rött",
+      "country": "Italien",
+      "region": null,
+      "grape": null,
+      "price_glass": 240,
+      "price_bottle": 850,
+      "currency": "SEK"
+    },
+    {
+      "name": "Tenuta di Sesta Camponovo Rosso Toscana IGT",
+      "producer": null,
+      "vintage": null,
+      "type": "rött",
+      "country": "Italien",
+      "region": null,
+      "grape": null,
+      "price_glass": 150,
+      "price_bottle": 550,
+      "currency": "SEK"
+    },
+    {
+      "name": "Chapeau Melon Blanc Loire-dalen",
+      "producer": null,
+      "vintage": 2024,
+      "type": "vitt",
+      "country": "Frankrike",
+      "region": null,
+      "grape": null,
+      "price_glass": 160,
+      "price_bottle": 580,
+      "currency": "SEK"
+    },
+    {
+      "name": "Dissegna Maddalena Chardonnay Organic EKO Veneto",
+      "producer": null,
+      "vintage": 2024,
+      "type": "vitt",
+      "country": "Italien",
+      "region": null,
+      "grape": null,
+      "price_glass": 120,
+      "price_bottle": 450,
+      "currency": "SEK"
+    },
+    {
+      "name": "Javier San Pedro Viuda Negra Levantadas Rioja Blanco",
+      "producer": null,
+      "vintage": 2023,
+      "type": "vitt",
+      "country": "Spanien",
+      "region": null,
+      "grape": null,
+      "price_glass": 160,
+      "price_bottle": 600,
+      "currency": "SEK"
+    }
+  ]
+}
