@@ -775,5 +775,12 @@
     "address": null,
     "website": "https://www.thewineryhotel.se/",
     "wine_list_url": "https://www.thewineryhotel.se/assets/local/pdf/Vinkallarlista.pdf"
+  },
+  {
+    "name": "Grand Hôtel",
+    "area": "Norrmalm",
+    "address": null,
+    "website": "https://grandhotel.se/",
+    "wine_list_url": "https://grandhotel.se/en/media/1500/download?inline="
   }
 ]
