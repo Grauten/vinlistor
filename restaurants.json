@@ -712,5 +712,47 @@
     "address": null,
     "website": "http://www.villagodthem.se/",
     "wine_list_url": "https://villagodthem.se/wp-content/uploads/sites/13/2026/04/Villa_Godthem_Vinlista_A4.pdf"
+  },
+  {
+    "name": "Sperling & Co",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://sperlingco.se/",
+    "wine_list_url": "https://sperlingco.se/wp-content/uploads/2026/04/Vinlista-26-04-09.pdf"
+  },
+  {
+    "name": "Teatergrillen",
+    "area": "Norrmalm",
+    "address": null,
+    "website": "https://teatergrillen.se/",
+    "wine_list_url": "https://teatergrillen.se/wp-content/uploads/2026/04/Vinlista-26-04-30-Teatergrillen.pdf"
+  },
+  {
+    "name": "Glou Glou Vinbar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://vinbarglouglou.se/",
+    "wine_list_url": "https://vinbarglouglou.se/pdf/vinlista.pdf"
+  },
+  {
+    "name": "Wagners Bistro",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://wagnersbistro.se/",
+    "wine_list_url": "https://wagnersbistro.se/wp-content/uploads/2026/04/Vinlista-April-2026.pdf"
+  },
+  {
+    "name": "Lilla Vildt",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lillavildt.se/",
+    "wine_list_url": "https://www.lillavildt.se/wp-content/uploads/2024/12/vinlista-9.pdf"
+  },
+  {
+    "name": "Restaurang Amano",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangamano.se/",
+    "wine_list_url": "https://gastrogate.com/files/attachments/20992/amano-dryckesmeny.pdf"
   }
 ]
