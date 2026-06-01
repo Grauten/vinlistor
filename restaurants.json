@@ -754,5 +754,26 @@
     "address": null,
     "website": "https://restaurangamano.se/",
     "wine_list_url": "https://gastrogate.com/files/attachments/20992/amano-dryckesmeny.pdf"
+  },
+  {
+    "name": "Ulfsunda Slott",
+    "area": "Bromma",
+    "address": null,
+    "website": "https://www.ulfsundaslott.se/",
+    "wine_list_url": "https://www.ulfsundaslott.se/wp-content/uploads/sites/2/2026/04/Dryckesmeny-2026-20-1.pdf"
+  },
+  {
+    "name": "Sturehof",
+    "area": "Östermalm",
+    "address": null,
+    "website": "https://sturehof.com/",
+    "wine_list_url": "https://sturehof.com/wp-content/uploads/2023/02/Mega-Vinlistan-2023-storre-vinlista-kopia.pdf"
+  },
+  {
+    "name": "The Winery Hotel",
+    "area": "Solna",
+    "address": null,
+    "website": "https://www.thewineryhotel.se/",
+    "wine_list_url": "https://www.thewineryhotel.se/assets/local/pdf/Vinkallarlista.pdf"
   }
 ]
