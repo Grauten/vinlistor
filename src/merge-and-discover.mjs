@@ -13,7 +13,9 @@ const limit = limitIdx !== -1 ? parseInt(process.argv[limitIdx + 1], 10) : Infin
 // --- Load all sources -----------------------------------------------------
 const swl = JSON.parse(await readFile('data/swl-candidates.json', 'utf8'))
 const bok = JSON.parse(await readFile('data/bokabord-candidates.json', 'utf8'))
-console.log(`Loaded ${swl.length} SWL + ${bok.length} Bokabord candidates`)
+let thatsup = []
+try { thatsup = JSON.parse(await readFile('data/thatsup-candidates.json', 'utf8')) } catch {}
+console.log(`Loaded ${swl.length} SWL + ${bok.length} Bokabord + ${thatsup.length} thatsup candidates`)
 
 // --- Fuzzy-dedupe against the DB ------------------------------------------
 const { data: existing } = await db.from('restaurants').select('name')
@@ -26,7 +28,7 @@ console.log(`${existingKeys.size} restaurants already in DB`)
 // Combine, dedupe across sources (prefer SWL — it already has the wine-list link logic).
 const seen = new Set([...existingKeys]) // start with DB names so we skip those
 const combined = []
-for (const src of [...swl, ...bok]) {
+for (const src of [...swl, ...bok, ...thatsup]) {
   if (!src.website) continue
   const cookieJunk = /cookiebot|tiktok|onetrust|usercentrics|trustpilot|cookielaw|cdn-cookieyes/i
   if (cookieJunk.test(src.website)) continue

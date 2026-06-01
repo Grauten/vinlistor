@@ -1,0 +1,2536 @@
+[
+  {
+    "name": "Hantverket",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "AG",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangag.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Las Brasas",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lasbrasas.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Lilla Ego",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lillaego.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Sturehof, Riche & Teatergrillen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Tak",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://tak.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Punk Royale",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.punkroyale.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Bar Nîmes",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://bar-nimes.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Främmat",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://frammat.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Voisine",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://voisine.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Grodan",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Aristo",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.aristokrog.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Astoria",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.brasserieastoria.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Tegelbacken",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://tegelbacken.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Mr. Bronck",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://mrbronck.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Animo",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.animorestaurant.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Portal",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.portalrestaurant.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Kasten",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.kastenbistro.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Bar Montan",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://barmontan.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Smak",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://smakstockholm.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Fotografiska",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://stockholm.fotografiska.com/sv/mat-och-dryck",
+    "source": "thatsup"
+  },
+  {
+    "name": "Brasserie Balzac",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://balzac.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "The Social",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://sign.socialbarbistro.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Farang",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://farang.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Copine",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://copine.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Såstaholm",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.sastaholm.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Chez Jolie",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://chezjolie.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Paraden",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://paradenkvarterskrog.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Omaka",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://omaka.beer/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Nostrano",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangnostrano.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Noi",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://nobishotel.se/noi",
+    "source": "thatsup"
+  },
+  {
+    "name": "Bleck",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.restaurangbleck.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Shanti",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.shanti.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Scandwich",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.scandwich.se/malmskillnadsgatan",
+    "source": "thatsup"
+  },
+  {
+    "name": "Sin Ramen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "M.O.A.S – Meat on a Stick",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Meno Male",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Eatnam",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Frantzén",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurantfrantzen.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Ergo",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurantergo.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Essence",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurantessence.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Nana",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurantnana.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Operakällaren",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.operakallaren.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Aira",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://aira.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Wedholms Fisk",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.wedholmsfisk.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Ekstedt",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.ekstedt.nu/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Nour",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurantnour.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Etoile",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.restaurantetoile.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Sushi Sho",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.sushisho.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Bord",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.bord.restaurant/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Fine dining",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Foodie experiences",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Hidden gems",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Related",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Laid-back luxe foodie experiences",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Adam Albin",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://adamalbin.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "G.A.T.",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.gatstockholm.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Krog Agrikultur",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://agrikultur.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Kanon",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://kanon.restaurant/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Sperling & Co",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://sperlingco.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Teuf",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://teuf.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Solen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.solen.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Bar Nacka",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://barnacka.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Chingu",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangchingu.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Shibumi",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://shibumi.nu/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Tripletta",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://tripletta.bar/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Bacchanale",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.bacchanalesthlm.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Rolfs Hav",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://rolfshav.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Gigis",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.gigis.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Bastardo",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.bastardosthlm.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Leijontornet",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.leijontornet.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Klotet",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://cafeklotet.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Triton",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.triton.restaurant/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Misshumasshu",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://misshumasshu.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Miyakodori",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://miyakodori.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Amalia",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.amalia.restaurant/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Hernö Gin Bar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.hernogin.com/herno-gin-bar/",
+    "source": "thatsup"
+  },
+  {
+    "name": "RiRi",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.biorio.se/riri",
+    "source": "thatsup"
+  },
+  {
+    "name": "Noema",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://noemastockholm.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Kouthoofd Familie Winkel",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.kouthoofdfamiliewinkel.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Lu",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.koket.lu/stockholm",
+    "source": "thatsup"
+  },
+  {
+    "name": "Spanjorskan",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://spanjorskan.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Persona",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.personasthlm.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Forma",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangforma.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Gondolen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://gondolen.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Bistro Mirabelle",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://bistromirabelle.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Röda Huset",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://rodahuset.nu/",
+    "source": "thatsup"
+  },
+  {
+    "name": "NÒR",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://sodermalm.restaurant-nor.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Frippe",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.frippe.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Riche Fenix",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://richefenix.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Duvan",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://duvanpub.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Black Milk Gastro Bar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.blackmilkgastrobar.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Boulebar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://adamalbin.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Subculture",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://adamalbin.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Villa Dahlia",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://hotelvilladahlia.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Pom Friterie",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.pomfriterie.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Coquetel Social",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://coquetelsocial.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Panza",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://clk.tradedoubler.com/click?p=317466&a=3327846&ttid=18&url=https%3A%2F%2Fwww.elite.se%2Frestauranger%2Fstockholm%2Fpanza%2F",
+    "source": "thatsup"
+  },
+  {
+    "name": "LYKKE",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://nordiclighthotel.se/restaurang/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Swing by Golfbaren",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://golfbaren.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Basta",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangbasta.se/restauranger/stockholm",
+    "source": "thatsup"
+  },
+  {
+    "name": "Recently opened",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Los Tacos",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Liv",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangliv.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Mackverket",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.mackverket.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Tegelbackens kiosk",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "The French Kiss",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://thefrenchkiss.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Le Kebab",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://lekebab.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Leche Negra",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lechenegra.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Taco Club",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Ateljéns Pizza",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Salon Terminal",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://salonterminal.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Landbyska Verket",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.landbyska.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Five Guys Mall of Scandinavia",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.fiveguys.com.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Luna Sthlm",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Omaka Ölbar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangponti.se/omaka-olbar",
+    "source": "thatsup"
+  },
+  {
+    "name": "Haggans",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.haggans.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Bibon",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://bibon.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Trattoria Sperandio",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Mister York",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.misteryork.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Levi Bistro",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.levibistro.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Göta Bistro",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://gotabistro.com/sv",
+    "source": "thatsup"
+  },
+  {
+    "name": "Ramons Tapas Bar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://ramonstapasbar.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Francois Vinbar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://francoisvinbar.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Slussporten",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangslussporten.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Lido",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://barlido.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Elsa",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://elsarestaurang.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Gusto d'Italia La Barca",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://gustoitalia.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Monello",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.bistromonello.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Jäst Vinbar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Baroma",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.baroma.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Non Solo Bar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://nonsolobar.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Studio Canteen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Taco Bell",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.tacobellsverige.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Tosto",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://tosto.nu/",
+    "source": "thatsup"
+  },
+  {
+    "name": "La Civetta",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lacivetta.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Trattoria Giorgio's",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.giorgios.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Kura",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.kurastockholm.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Dansken",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.danskenrestauranger.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Tête",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangtete.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Gamestreet 1",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.gamestreet.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Vigårda",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Lilla Ljunggren",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://lillaljunggren.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Snotty's Bar Klow",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Oscars",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.oscarsbb.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Oas Dinner Club",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.oasdinnerclub.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Kapten Jack",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.kaptenjack.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Gaijin",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://gaijinsthlm.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Sessanta",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.barsessanta.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Nook",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.nookrestaurang.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Tavino",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.tavino.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Köket vid bordet",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://koketvidbordet.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Krogen i Kungsan",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "DanDan Ramen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://qopla.com/restaurant/dandan-ramen/q4PMrwOdMa/home",
+    "source": "thatsup"
+  },
+  {
+    "name": "La Brace",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://labrace.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "The Street Food Labs",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.streetfoodlabs.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Tan Tan Dan",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Hedvig",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restauranghedvig.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Matateljén",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://matateljen.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Savoca",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://savoca.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Café Pascal",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://cafepascal.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Bistro Tartine",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.bistrotartine.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Ollis Deli Humlegården",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://humlanstockholm.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Brasserie Lou Lou",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.brasserieloulou.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Dersch",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.dersch.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Gabagool",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.gabagoolsthlm.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Juno",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangjuno.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Bonaccorso",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://bonaccorso.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Enkai",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.enkai.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Djurgårdsbrunn",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://djurgardsbrunn.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "German Beer Hall",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://germanbeerhall.se/restauranger/gbh-hornstull/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Maxim Framfickan",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.maximstockholm.se/framfickan/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Pontus Frithiof at Bro Hof",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.pontusfrithiof.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Villa Valentina",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.villavalentina.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Brasserie Astrid",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://brasserieastrid.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Non Grata",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Eira Sommarkrog",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://eirasommarkrog.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Emberlin",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.emberlinstockholm.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "The Bristol",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Clandestin",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Bar Zissou",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://bistrozissou.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Boef",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Ponti",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangponti.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "La Republica",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Ygbergs",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.ygbergs.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Södermalm",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://folii.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Folii",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://folii.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Hornstulls Bodega",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.hornstullsbodega.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Il Merlo",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://ilmerlo.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "NOFO",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://nofohotel.se/wine-bar/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Bar Ninja",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://folii.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Ring Katarina",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://ringkatarina.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Bambi",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://bambi.nu/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Dryck Vinbar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.dryckvinbar.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Vasastan",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://folii.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Savant Bar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.savantbar.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Vineriet",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://vinerietsthlm.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Capannone Bottega",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://capannone.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Combo Vinbaren",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://combovinbaren.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Bar Nombre",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.barnombre.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Grus Grus",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.grusgrusvinbaren.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Sosta",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.sosta.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Ambar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://ambarvinbar.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Avec",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.avecstockholm.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Garage del Gusto",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.garagedelgusto.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Vinverket",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://vinverket.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "City/Norrmalm",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://folii.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Vinfolket",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://vinfolket.se/info/vinbarer/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Cachette",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangtete.se/cachette",
+    "source": "thatsup"
+  },
+  {
+    "name": "Bar Nordic",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://barnordic.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Blanche & Hierta",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://folii.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Kungsholmen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://folii.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Chewie's Bar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.chewiesbar.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Kungsholmens Vinbar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.kungsholmensvinbar.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Östermalm",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://folii.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Kung Carl",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.kungcarl.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Teddys",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://teddyssibyllegatan.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Tyge & Sessil",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://tygesessil.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "The Sparrow Wine Bar & Bistro",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.thesparrowhotel.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Old Town",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://folii.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Leijontornet Bar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.leijontornet.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Cork Vinbar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.corkvinbar.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Outside the city centre",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://folii.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Slow Hands",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://folii.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Sundbybergs vinbar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.sundbybergsvinbar.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Ica Kvantum Liljeholmen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.ica.se/butiker/kvantum/stockholm/ica-kvantum-liljeholmen-13418/start/",
+    "source": "thatsup"
+  },
+  {
+    "name": "L'Avventura",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://lavventura.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Spesso",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://spesso.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Weidao",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://weidao.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Indio Kitchen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://indio.se/kitchen/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Biblioteket Live",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.biblioteketlive.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "At Six",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangag.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Villa Källhagen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.villakallhagen.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Restaurang J",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangj.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Miss Voon",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://stockholm.missvoon.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Florentine",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.florentinerestaurants.com/stockholm",
+    "source": "thatsup"
+  },
+  {
+    "name": "Stortorgskällaren",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://stortorgskallaren.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Berns Asiatiska",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://berns.se/sv/restaurang/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Soho House",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.sohohouse.com/sv/houses/soho-house-stockholm",
+    "source": "thatsup"
+  },
+  {
+    "name": "Brasserie Season",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.brasserieseason.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Have a wow-cocktail before dinner",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangag.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Pharmarium",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://pharmarium.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Capital",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.scandichotels.se/hotell/sverige/stockholm/scandic-continental/restaurang-bar/capital",
+    "source": "thatsup"
+  },
+  {
+    "name": "Guldbaren",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.nobishotel.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Capannone & Capannone Bottega",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangnostrano.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Un Poco",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://unpoco.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "O'Pizzicato",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.opizzicato.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Cuculo",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangcuculo.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Den gamle och havet",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.dengamleochhavet.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Il Tempo",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.iltempo.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Mancini",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.mancini.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Hosteria Tre Santi",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.tresanti.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Villa Romana",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangnostrano.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Gazza",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://gazzasthlm.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Olli",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.olliristorante.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Eataly",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.eataly.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Papà & Italiano",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangnostrano.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Trattoria Montanari",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.montanari.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Claudio Kitchen & Friends",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://claudiokitchen.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Adria",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.adriaristorante.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Agaton",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangagaton.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Bonus tips",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangnostrano.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Pizza",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangnostrano.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Pasta",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangnostrano.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Al Dente",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.aldentestockholm.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Café Nizza",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.cafenizza.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Pelikan",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://pelikan.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Bar Agrikultur",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://baragrikultur.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Hommage",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://hommage.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Café Cuvée",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.cafecuvee.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Hornsgatan Kvarterskrog",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://hornsgatankvarterskrog.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "La Olita",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.laolita.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Barbro",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.bar-bro.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Celeste",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.celesterestaurant.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Pat's Place",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.patsplace.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Brisket & Friends",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://brisketandfriends.se/sodermalm/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Urban Deli",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://urbandeli.se/nytorget",
+    "source": "thatsup"
+  },
+  {
+    "name": "Bird",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.birdsthlm.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Racamaca",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.racamaca.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Kryp In",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://sodermalm.restaurangkrypin.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Aleks y Filip",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://aleksfilip.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Mormors Dumplings",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangforma.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Rosetta's",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://rosettas.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Pelago",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://pelagosthlm.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Hellstens Glashus",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://hellstensglashus.se/hellstens-glashus-restaurang/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Mazra'a",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.mazraa.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Checa",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.checa.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Bar Central",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.barcentral.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Lebanon Meza Lounge",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.lebanonml.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Ted",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangted.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Lisa Elmqvist",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lisaelmqvist.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Tako",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangtako.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Napolyon",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.napolyon.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Nybroe Smørrebrød",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.nybroe.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Zink",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://zinkitalian.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Aubergine",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://aubergine.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Kung Carl Mat & Bar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.kungcarl.se/mat-och-dryck/cocktailbaren",
+    "source": "thatsup"
+  },
+  {
+    "name": "Fiore",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangfiore.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Tengu",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://tengu.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Supper",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.supper.nu/stockholm",
+    "source": "thatsup"
+  },
+  {
+    "name": "Nybrogatan 38",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://nybrogatan38.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "DoMa",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.doma.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Glashuset",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.glashuset.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Artilleriet",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangartilleriet.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Ming",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangming.com/sv/hem/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Brasserie Bobonne",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.bobonne.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Italiano, Papà & Italiano Bar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "PA & Co",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.paco.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Ett Hem",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.etthem.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Coco & Carmen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://cococarmen.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Österlånggatan 17",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://osterlanggatan17.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Bistro Zissou",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://bistrozissou.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Pastis",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.pastis.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Järnet",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://jarnetbar.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Den Gyldene Freden",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.gyldenefreden.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Formosa",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.stockholmformosa.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Restaurang Avi",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangavi.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Fika & Wine",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.cafefika.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Cong Cong",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://cong.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Restaurant Reisen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurantreisen.com/sv",
+    "source": "thatsup"
+  },
+  {
+    "name": "Engelen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.engelen.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Matrosen Smörrebröd",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://matrosensmorrebrod.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "The Bishops Arms",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.bishopsarms.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Tradition",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangtradition.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Zum Franziskaner",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.zumen.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Barrels",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://barrels.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Bistro Ruby & Grill Ruby",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://osterlanggatan17.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Portofino",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.ristoranteportofino.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Mogge Sushi",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.moggesushi.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Restaurang Eld",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://thevikingmuseum.com/restaurang/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Slipen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://slipen.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Ulla Winbladh",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.ullawinbladh.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Villa Godthem",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.villagodthem.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Josefina",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.josefina.nu/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Spritmuseum",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://spritmuseum.se/restaurangen/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Backstage Brasserie",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://backstagehotelsthlm.com/sv/brasserie/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Prinsens kök",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://waldemarsudde.se/besok-oss/restaurang-och-cafe/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Hasselbacken",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://hasselbacken.com/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Restaurangen Moderna Museet",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.modernamuseet.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Svartengrens",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://svartengrens.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Lennart & Bror",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.lennartochbror.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Griffins' Steakhouse",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://griffinssteakhouse.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Erth",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://erth.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Rolfs Kök",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.rolfskok.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Prime Burgers & Smokehouse",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://primeburgerssmokehouse.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Det Arroganta Svinet",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangag.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Adams Smokehouse",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangag.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "The Old Smokehouse",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.theoldsmokehouse.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "The Meat",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://themeat.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Bonus tip",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangag.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "C.G. Vilt",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://cgvilt.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Boqueria",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.boqueriastockholm.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "La Esquina de La Tonteria",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://laesquina.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Xarcuteria",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.xarcuteria.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Sthlm Tapas",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.sthlmtapas.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Mondo Tapas Bar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.mondotapas.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Aqui Tapas & Bar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.aquitapas.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Caliente",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://spanjorskan.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Tapas 28",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.tapas28.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Olé Olé",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://baroleole.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Ramblas",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://spanjorskan.se/",
+    "source": "thatsup"
+  },
+  {
+    "name": "Sangria Tapas Bar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://sangriatapasbar.se/",
+    "source": "thatsup"
+  }
+]

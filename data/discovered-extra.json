@@ -1179,30 +1179,12 @@
     "kind": "html"
   },
   {
-    "name": "Bibon",
-    "area": "Stockholm",
-    "address": null,
-    "website": "https://bibon.se/",
-    "source": "bokabord",
-    "wine_list_url": "https://cdn.sanity.io/files/8mcognpo/production/dd9c43703870044adc0a2baf858c1d70fecd63b6.pdf",
-    "kind": "pdf"
-  },
-  {
     "name": "Mr. Bronck",
     "area": "Stockholm",
     "address": null,
     "website": "https://mrbronck.com/",
     "source": "bokabord",
     "wine_list_url": "https://static.thatsup.website/590/80312/Wine-Menu_mrbronck.pdf?v=1772971005",
-    "kind": "pdf"
-  },
-  {
-    "name": "Levi bistro",
-    "area": "Stockholm",
-    "address": null,
-    "website": "https://www.levibistro.se/",
-    "source": "bokabord",
-    "wine_list_url": "https://www.levibistro.se/_files/ugd/860071_1d0ac797bd0a4344a9707b08ccd9bd08.pdf",
     "kind": "pdf"
   },
   {
@@ -1239,7 +1221,8 @@
     "website": "https://kotetsu.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://k"
   },
   {
     "name": "Dansken Slaktis",
@@ -1248,7 +1231,8 @@
     "website": "https://www.danskenrestauranger.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://w"
   },
   {
     "name": "Restauranto",
@@ -1257,7 +1241,8 @@
     "website": "https://www.restauranto.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://w"
   },
   {
     "name": "Tavino Nytorget",
@@ -1265,8 +1250,9 @@
     "address": null,
     "website": "https://tavino.se/",
     "source": "bokabord",
-    "wine_list_url": "https://www.tavino.se/s/Vinlista-Version-26.pdf",
-    "kind": "pdf"
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://t"
   },
   {
     "name": "NOOK",
@@ -1275,7 +1261,8 @@
     "website": "https://www.nookrestaurang.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://w"
   },
   {
     "name": "Köket vid bordet",
@@ -1284,7 +1271,8 @@
     "website": "https://koketvidbordet.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://k"
   },
   {
     "name": "Matateljén",
@@ -1293,16 +1281,8 @@
     "website": "https://matateljen.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
-  },
-  {
-    "name": "Brasserie Lou Lou",
-    "area": "Stockholm",
-    "address": null,
-    "website": "https://www.brasserieloulou.se/",
-    "source": "bokabord",
-    "wine_list_url": "https://www.brasserieloulou.se/wp-content/uploads/2026/04/vinlista.pdf",
-    "kind": "pdf"
+    "kind": null,
+    "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://m"
   },
   {
     "name": "Typ",
@@ -1311,7 +1291,8 @@
     "website": "https://restaurangtyp.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://r"
   },
   {
     "name": "Shibumi",
@@ -1319,8 +1300,9 @@
     "address": null,
     "website": "https://shibumi.nu/",
     "source": "bokabord",
-    "wine_list_url": "https://shibumi.nu/wp-content/uploads/2026/03/SHIBUMI-meny-10-mars.pdf",
-    "kind": "pdf"
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://s"
   },
   {
     "name": "Baroma",
@@ -1329,7 +1311,8 @@
     "website": "https://www.baroma.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://w"
   },
   {
     "name": "Bistro Tartine",
@@ -1338,7 +1321,8 @@
     "website": "https://www.bistrotartine.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://w"
   },
   {
     "name": "Gaijin",
@@ -1347,16 +1331,8 @@
     "website": "https://gaijinsthlm.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
-  },
-  {
-    "name": "Bastardo",
-    "area": "Stockholm",
-    "address": null,
-    "website": "https://www.bastardosthlm.com/",
-    "source": "bokabord",
-    "wine_list_url": "https://www.bastardosthlm.com/s/Vinmeny47.pdf",
-    "kind": "pdf"
+    "kind": null,
+    "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://g"
   },
   {
     "name": "Flor Matbar",
@@ -1365,16 +1341,8 @@
     "website": "https://www.flormatbar.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
-  },
-  {
-    "name": "Tosto",
-    "area": "Stockholm",
-    "address": null,
-    "website": "https://tosto.nu/",
-    "source": "bokabord",
-    "wine_list_url": "https://tosto.nu/wp-content/uploads/2026/05/Tosto-Winelist-2026-05-12.pdf",
-    "kind": "pdf"
+    "kind": null,
+    "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://w"
   },
   {
     "name": "Trattoria Giorgio's",
@@ -1382,8 +1350,9 @@
     "address": null,
     "website": "https://www.giorgios.se/",
     "source": "bokabord",
-    "wine_list_url": "https://cdn.prod.website-files.com/68f8c03ff14957b1f9b9e716/6a15fecc25515204f2fbd54c_Giorgios%20.pdf",
-    "kind": "pdf"
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://w"
   },
   {
     "name": "Tête",
@@ -1391,8 +1360,9 @@
     "address": null,
     "website": "https://www.restaurangtete.se/",
     "source": "bokabord",
-    "wine_list_url": "https://cdn.prod.website-files.com/686a33f636db05eba371603a/6984a9e16bdd89c8b040de8f_tete_vinlista.pdf",
-    "kind": "pdf"
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Oscars Bar & Brasserie",
@@ -1400,8 +1370,9 @@
     "address": null,
     "website": "https://www.oscarsbb.se/",
     "source": "bokabord",
-    "wine_list_url": "https://www.oscarsbb.se/s/Oscars-Meny-6.pdf",
-    "kind": "pdf"
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Gabagool",
@@ -1410,7 +1381,8 @@
     "website": "https://www.gabagoolsthlm.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Restaurang Hedvig",
@@ -1419,7 +1391,8 @@
     "website": "https://www.restauranghedvig.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Bonaccorso",
@@ -1428,7 +1401,8 @@
     "website": "https://bonaccorso.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Bar Central Hornsgatan",
@@ -1437,16 +1411,8 @@
     "website": "https://www.barcentral.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
-  },
-  {
-    "name": "Frippe",
-    "area": "Stockholm",
-    "address": null,
-    "website": "https://www.frippe.se/",
-    "source": "bokabord",
-    "wine_list_url": "https://www.frippe.se/wp-content/uploads/2025/01/frippe-vinlista-ny-250118.pdf",
-    "kind": "pdf"
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "MXCO",
@@ -1455,7 +1421,8 @@
     "website": "https://mxco.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Mormors Pastabageri",
@@ -1464,7 +1431,8 @@
     "website": "https://mormorspasta.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Bistro Zissou",
@@ -1473,7 +1441,8 @@
     "website": "http://www.bistrozissou.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at http:"
   },
   {
     "name": "Ristorante Isola",
@@ -1482,7 +1451,8 @@
     "website": "https://www.ristoranteisola.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Bacchanale",
@@ -1491,7 +1461,8 @@
     "website": "https://bacchanalesthlm.com/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Pelago",
@@ -1499,8 +1470,9 @@
     "address": null,
     "website": "https://pelagosthlm.se/",
     "source": "bokabord",
-    "wine_list_url": "https://pelagosthlm.se/kalender/midsommar-pa-pelago/",
-    "kind": "html"
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Bleck",
@@ -1508,8 +1480,9 @@
     "address": null,
     "website": "https://restaurangbleck.se/",
     "source": "bokabord",
-    "wine_list_url": "https://restaurangbleck.se/meny/",
-    "kind": "html"
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Häktet",
@@ -1518,16 +1491,8 @@
     "website": "https://www.haktet.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
-  },
-  {
-    "name": "Calle P",
-    "area": "Stockholm",
-    "address": null,
-    "website": "https://callep.nu/",
-    "source": "bokabord",
-    "wine_list_url": "https://callep.nu/wp-content/uploads/2026/05/Vinlista-Calle-P-2026-05-21.pdf",
-    "kind": "pdf"
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Artilleriet",
@@ -1536,7 +1501,8 @@
     "website": "https://www.restaurangartilleriet.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Restaurang Eden",
@@ -1544,8 +1510,9 @@
     "address": null,
     "website": "https://www.edensthlm.se/",
     "source": "bokabord",
-    "wine_list_url": "https://www.edensthlm.se/oppettider",
-    "kind": "html"
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Piren Restaurang & Bar",
@@ -1554,7 +1521,8 @@
     "website": "https://piren-bar.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Trattorian",
@@ -1563,7 +1531,8 @@
     "website": "https://trattorian.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Eira",
@@ -1571,8 +1540,9 @@
     "address": null,
     "website": "https://eirasommarkrog.se/",
     "source": "bokabord",
-    "wine_list_url": "https://eirasommarkrog.se/wp-content/uploads/sites/21/2026/05/Eira-ALC-SWE-A4-2026-05-14.pdf",
-    "kind": "pdf"
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Grinda Wärdshus",
@@ -1581,7 +1551,8 @@
     "website": "https://grinda.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Restaurang Kroken",
@@ -1589,8 +1560,9 @@
     "address": null,
     "website": "https://restaurangkroken.se/",
     "source": "bokabord",
-    "wine_list_url": "https://restaurangkroken.se/#experience",
-    "kind": "html"
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Sandhamn Seglarhotell",
@@ -1598,8 +1570,9 @@
     "address": null,
     "website": "https://www.sandhamn.com/",
     "source": "bokabord",
-    "wine_list_url": "https://www.sandhamn.com/sv/seglingskargarden",
-    "kind": "html"
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Sandhamns Värdshus",
@@ -1607,8 +1580,9 @@
     "address": null,
     "website": "https://www.sandhamns-vardshus.se/",
     "source": "bokabord",
-    "wine_list_url": "https://www.sandhamns-vardshus.se/meny/menyvinlista/",
-    "kind": "html"
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Bistro Sågen",
@@ -1617,7 +1591,8 @@
     "website": "https://www.bistrosagen.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Hotell Furusund",
@@ -1626,7 +1601,8 @@
     "website": "https://www.hotellfurusund.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Nisch",
@@ -1634,8 +1610,9 @@
     "address": null,
     "website": "https://www.nischrestaurant.com/",
     "source": "bokabord",
-    "wine_list_url": "https://starwinelist.com/wine-place/restaurang-nisch",
-    "kind": "html"
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Minako",
@@ -1644,7 +1621,8 @@
     "website": "https://www.minakosushi.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Las Brasas",
@@ -1653,7 +1631,8 @@
     "website": "https://www.lasbrasas.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Capannone",
@@ -1661,8 +1640,9 @@
     "address": null,
     "website": "https://capannone.se/",
     "source": "bokabord",
-    "wine_list_url": "https://capannone.se/wp-content/uploads/2026/04/Winelist-2026-April.pdf",
-    "kind": "pdf"
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Aperitivo by Ingrosso",
@@ -1671,7 +1651,8 @@
     "website": "https://www.aperitivo-ingrosso.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Tennstopet",
@@ -1680,16 +1661,8 @@
     "website": "https://www.tennstopet.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
-  },
-  {
-    "name": "Noema",
-    "area": "Stockholm",
-    "address": null,
-    "website": "https://noemastockholm.se/",
-    "source": "bokabord",
-    "wine_list_url": "https://noemastockholm.se/wp-content/uploads/2026/05/vinlista-hemsida2026maj-1.pdf",
-    "kind": "pdf"
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Brasserie Hötorget",
@@ -1698,7 +1671,8 @@
     "website": "https://brasseriehotorget.com/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "SMAK Stockholm",
@@ -1706,8 +1680,9 @@
     "address": null,
     "website": "https://smakstockholm.se/",
     "source": "bokabord",
-    "wine_list_url": "https://smakstockholm.se/wp-content/uploads/2026/05/Gruppmeny-VAR-3-2026.pdf",
-    "kind": "pdf"
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Strand Stockholm",
@@ -1715,8 +1690,9 @@
     "address": null,
     "website": "https://strandstockholm.se/",
     "source": "bokabord",
-    "wine_list_url": "https://strandstockholm.se/wp-content/uploads/2025/10/Strand-Wine-List-2025-10-16.pdf",
-    "kind": "pdf"
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Restaurang BAR",
@@ -1725,7 +1701,8 @@
     "website": "http://restaurangbar.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at http:"
   },
   {
     "name": "Oljebaren",
@@ -1733,8 +1710,9 @@
     "address": null,
     "website": "https://www.oljebaren.com/",
     "source": "bokabord",
-    "wine_list_url": "https://www.oljebaren.com/drink",
-    "kind": "html"
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "German Beer Hall Norrtull",
@@ -1743,7 +1721,8 @@
     "website": "https://germanbeerhall.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Sue Ellen",
@@ -1751,8 +1730,9 @@
     "address": null,
     "website": "http://sue-ellen.se/",
     "source": "bokabord",
-    "wine_list_url": "https://cdn.prod.website-files.com/646336cad0288c711843fd4c/69f9bfd690e8e1e6c746c30c_Meny%20LO%CC%88R%20-%20-%20ENG%20-%20Maj%20-%2026%5B45%5D.pdf",
-    "kind": "pdf"
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at http:"
   },
   {
     "name": "Restaurang Himlen",
@@ -1761,7 +1741,8 @@
     "website": "https://www.restauranghimlen.se/",
     "source": "bokabord",
     "wine_list_url": null,
-    "kind": null
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Biblioteket Live",
@@ -1769,8 +1750,9 @@
     "address": null,
     "website": "https://biblioteketlive.se/",
     "source": "bokabord",
-    "wine_list_url": "https://www.biblioteketlive.se/s/Stormeny_2026_04-22_hemsida_2.pdf",
-    "kind": "pdf"
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
   },
   {
     "name": "Urban Deli Nytorget",
@@ -1779,6 +1761,2249 @@
     "website": "https://www.urbandeli.se/",
     "source": "bokabord",
     "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "AG",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangag.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Sturehof, Riche & Teatergrillen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Punk Royale",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.punkroyale.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Grodan",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Astoria",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.brasserieastoria.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Animo",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.animorestaurant.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Bar Montan",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://barmontan.com/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Smak",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://smakstockholm.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Fotografiska",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://stockholm.fotografiska.com/sv/mat-och-dryck",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "The Social",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://sign.socialbarbistro.com/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Såstaholm",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.sastaholm.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Paraden",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://paradenkvarterskrog.com/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Omaka",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://omaka.beer/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Nostrano",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangnostrano.com/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Noi",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://nobishotel.se/noi",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Shanti",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.shanti.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Scandwich",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.scandwich.se/malmskillnadsgatan",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Sin Ramen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "M.O.A.S – Meat on a Stick",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Meno Male",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Eatnam",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Essence",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurantessence.com/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Nana",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurantnana.com/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Nour",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurantnour.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Fine dining",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Foodie experiences",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Hidden gems",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Related",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Laid-back luxe foodie experiences",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Chingu",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangchingu.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Gigis",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.gigis.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Klotet",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://cafeklotet.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Triton",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.triton.restaurant/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Hernö Gin Bar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.hernogin.com/herno-gin-bar/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Kouthoofd Familie Winkel",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.kouthoofdfamiliewinkel.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https"
+  },
+  {
+    "name": "Lu",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.koket.lu/stockholm",
+    "source": "thatsup",
+    "wine_list_url": null,
     "kind": null
+  },
+  {
+    "name": "Forma",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangforma.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "NÒR",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://sodermalm.restaurant-nor.com/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Riche Fenix",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://richefenix.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Duvan",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://duvanpub.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://duvanpub.se/wp-content/uploads/2026/05/A5-Mat-21-maj.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Black Milk Gastro Bar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.blackmilkgastrobar.com/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Boulebar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://adamalbin.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Subculture",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://adamalbin.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Villa Dahlia",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://hotelvilladahlia.com/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Pom Friterie",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.pomfriterie.com/",
+    "source": "thatsup",
+    "wine_list_url": "https://www.pomfriterie.com/site/assets/files/1299/may_2026_website.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Coquetel Social",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://coquetelsocial.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://coquetelsocial.se/#",
+    "kind": "html"
+  },
+  {
+    "name": "Panza",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://clk.tradedoubler.com/click",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "LYKKE",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://nordiclighthotel.se/restaurang/",
+    "source": "thatsup",
+    "wine_list_url": "https://nordiclighthotel.com/wp-content/uploads/2026/04/Three-Course-Lykke.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Swing by Golfbaren",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://golfbaren.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Basta",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangbasta.se/restauranger/stockholm",
+    "source": "thatsup",
+    "wine_list_url": "https://cdn.prod.website-files.com/62db99bf22fdbe8a3df362a1/637a4d5fab34500f230f6298_NYA%CC%8ARSMENY.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Recently opened",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Los Tacos",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Liv",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangliv.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://restaurangliv.se/wp-content/uploads/2026/05/WEB_LIV-menu-2705.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Mackverket",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.mackverket.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Tegelbackens kiosk",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Le Kebab",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://lekebab.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Taco Club",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Salon Terminal",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://salonterminal.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Five Guys Mall of Scandinavia",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.fiveguys.com.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Luna Sthlm",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Omaka Ölbar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangponti.se/omaka-olbar",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Haggans",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.haggans.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://www-static.haggans.se/wp-content/uploads/2026/04/Meny-Dryck-Haggans-1.pdf?media=1779784391",
+    "kind": "pdf"
+  },
+  {
+    "name": "Trattoria Sperandio",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Mister York",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.misteryork.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Göta Bistro",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://gotabistro.com/sv",
+    "source": "thatsup",
+    "wine_list_url": "https://gotabistro.com/sv/produkter/5671928833045954665/5671928875358093417/5671929407262949481",
+    "kind": "html"
+  },
+  {
+    "name": "Ramons Tapas Bar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://ramonstapasbar.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Francois Vinbar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://francoisvinbar.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://francoisvinbar.se/meny.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Slussporten",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangslussporten.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://restaurangslussporten.se/wp-content/uploads/sites/18/2026/04/Slussporten-Vinlista-2026-04-23.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Lido",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://barlido.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Elsa",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://elsarestaurang.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Gusto d'Italia La Barca",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://gustoitalia.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Monello",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.bistromonello.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Jäst Vinbar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Non Solo Bar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://nonsolobar.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Studio Canteen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Taco Bell",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.tacobellsverige.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "La Civetta",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lacivetta.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://www.lacivetta.se/ws/media-library/4af109c494db4584a70ac2f30b56fbf6/la-civetta-staende.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Kura",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.kurastockholm.com/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Dansken",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.danskenrestauranger.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Gamestreet 1",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.gamestreet.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Vigårda",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Lilla Ljunggren",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://lillaljunggren.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Snotty's Bar Klow",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Oscars",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.oscarsbb.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://www.oscarsbb.se/s/Oscars-Meny-6.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Oas Dinner Club",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.oasdinnerclub.com/",
+    "source": "thatsup",
+    "wine_list_url": "https://oasdinnerclub.com/#",
+    "kind": "html"
+  },
+  {
+    "name": "Kapten Jack",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.kaptenjack.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Sessanta",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.barsessanta.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://barsessanta.se/vinlista",
+    "kind": "html"
+  },
+  {
+    "name": "Tavino",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.tavino.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://www.tavino.se/s/Vinlista-Version-26.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Krogen i Kungsan",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "DanDan Ramen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://qopla.com/restaurant/dandan-ramen/q4PMrwOdMa/home",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "La Brace",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://labrace.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://labrace.se/vinmeny/",
+    "kind": "html"
+  },
+  {
+    "name": "The Street Food Labs",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.streetfoodlabs.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://cdn.prod.website-files.com/676c48172dbaf97bee657cdb/6968fd7f7f0820d718f78bb1_Tsfl%20Valentines%20.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Tan Tan Dan",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Hedvig",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restauranghedvig.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Savoca",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://savoca.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Café Pascal",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://cafepascal.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Ollis Deli Humlegården",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://humlanstockholm.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://humlanstockholm.se/wp-content/uploads/2026/05/ollismeny_2026.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Juno",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangjuno.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://restaurangjuno.se/wp-content/uploads/sites/19/2026/04/JunoMeny_MAJ.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Enkai",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.enkai.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Djurgårdsbrunn",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://djurgardsbrunn.com/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "German Beer Hall",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://germanbeerhall.se/restauranger/gbh-hornstull/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Maxim Framfickan",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.maximstockholm.se/framfickan/",
+    "source": "thatsup",
+    "wine_list_url": "https://www.maximstockholm.se/wp-content/uploads/2025/10/framfickan-dryck-a4-2025-1.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Pontus Frithiof at Bro Hof",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.pontusfrithiof.com/",
+    "source": "thatsup",
+    "wine_list_url": "https://cdn.prod.website-files.com/6404e4c0d39581cd5af18e29/68164f4f24850f155ecc7b56_Platinum%20Vin%3Adryck.1.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Villa Valentina",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.villavalentina.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://cdn.prod.website-files.com/69de817fa43b7efc02084f7f/6a01fdc324ea944754d7c05b_Wine%20Menu%20.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Non Grata",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Eira Sommarkrog",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://eirasommarkrog.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://eirasommarkrog.se/wp-content/uploads/sites/21/2026/05/Eira-ALC-SWE-A4-2026-05-14.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Emberlin",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.emberlinstockholm.com/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "The Bristol",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Clandestin",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Bar Zissou",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://bistrozissou.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Boef",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "La Republica",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lostacos.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Ygbergs",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.ygbergs.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://www.ygbergs.se/wp-content/uploads/2025/11/Ygbergs-Menu-SWE.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Södermalm",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://folii.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://starwinelist.com/folii/",
+    "kind": "html"
+  },
+  {
+    "name": "Il Merlo",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://ilmerlo.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "NOFO",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://nofohotel.se/wine-bar/",
+    "source": "thatsup",
+    "wine_list_url": "https://starwinelist.com/storage/food_menus/1706/nofo-vinbar.pdf?1776816000",
+    "kind": "pdf"
+  },
+  {
+    "name": "Ring Katarina",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://ringkatarina.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://ringkatarina.se/dryckesmeny/",
+    "kind": "html"
+  },
+  {
+    "name": "Bambi",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://bambi.nu/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Vasastan",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://folii.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://starwinelist.com/folii/",
+    "kind": "html"
+  },
+  {
+    "name": "Capannone Bottega",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://capannone.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://capannone.se/wp-content/uploads/2026/04/Winelist-2026-April.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Sosta",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.sosta.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Avec",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.avecstockholm.com/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "City/Norrmalm",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://folii.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://starwinelist.com/folii/",
+    "kind": "html"
+  },
+  {
+    "name": "Vinfolket",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://vinfolket.se/info/vinbarer/",
+    "source": "thatsup",
+    "wine_list_url": "https://vinfolket.se/userfiles/files/Vinmeny-4(1).pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Cachette",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangtete.se/cachette",
+    "source": "thatsup",
+    "wine_list_url": "https://cdn.prod.website-files.com/686a33f636db05eba371603a/6984a9e16bdd89c8b040de8f_tete_vinlista.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Kungsholmen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://folii.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://starwinelist.com/folii/",
+    "kind": "html"
+  },
+  {
+    "name": "Östermalm",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://folii.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://starwinelist.com/folii/",
+    "kind": "html"
+  },
+  {
+    "name": "Kung Carl",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.kungcarl.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Old Town",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://folii.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://starwinelist.com/folii/",
+    "kind": "html"
+  },
+  {
+    "name": "Leijontornet Bar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.leijontornet.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://www.vingardensthlm.se/?welcome=true#menu",
+    "kind": "html"
+  },
+  {
+    "name": "Outside the city centre",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://folii.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://starwinelist.com/folii/",
+    "kind": "html"
+  },
+  {
+    "name": "Slow Hands",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://folii.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://starwinelist.com/folii/",
+    "kind": "html"
+  },
+  {
+    "name": "Sundbybergs vinbar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.sundbybergsvinbar.com/",
+    "source": "thatsup",
+    "wine_list_url": "https://starwinelist.com/sv/vin-story/sundbybergs-vinbar-korade-till-arets-vinbar",
+    "kind": "html"
+  },
+  {
+    "name": "Ica Kvantum Liljeholmen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.ica.se/butiker/kvantum/stockholm/ica-kvantum-liljeholmen-13418/start/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Weidao",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://weidao.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Indio Kitchen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://indio.se/kitchen/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "At Six",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangag.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Villa Källhagen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.villakallhagen.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Restaurang J",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangj.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Miss Voon",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://stockholm.missvoon.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Florentine",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.florentinerestaurants.com/stockholm",
+    "source": "thatsup",
+    "wine_list_url": "https://cdn.prod.website-files.com/63728bf3f3f63c22f5b62cb0/6a06c852a5c17d72d2ce8657_FLORENTINE%20Stockholm%20A%20la%20carte%20Menu.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Stortorgskällaren",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://stortorgskallaren.com/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Soho House",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.sohohouse.com/sv/houses/soho-house-stockholm",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Brasserie Season",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.brasserieseason.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Have a wow-cocktail before dinner",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangag.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Pharmarium",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://pharmarium.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Capital",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.scandichotels.se/hotell/sverige/stockholm/scandic-continental/restaurang-bar/capital",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Guldbaren",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.nobishotel.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Capannone & Capannone Bottega",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangnostrano.com/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Un Poco",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://unpoco.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://usercontent.one/wp/unpoco.se/wp-content/uploads/Vinlista_mars_2019.pdf?media=1768843413",
+    "kind": "pdf"
+  },
+  {
+    "name": "O'Pizzicato",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.opizzicato.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://www.opizzicato.se/s/OPIZZICATO-WINELIST-Okt24.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Den gamle och havet",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.dengamleochhavet.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://acrobat.adobe.com/id/urn:aaid:sc:EU:6af3e9d7-1e6b-4b8c-bdf9-2c49590200ba",
+    "kind": "html"
+  },
+  {
+    "name": "Il Tempo",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.iltempo.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Hosteria Tre Santi",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.tresanti.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://hosteriatresanti.gastrogate.com/vinlista/",
+    "kind": "html"
+  },
+  {
+    "name": "Villa Romana",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangnostrano.com/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Gazza",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://gazzasthlm.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://gazzasthlm.se/wp-content/uploads/2026/05/fonster-maj-26-1.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Olli",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.olliristorante.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://www.olliristorante.se/s/OLLI0003_menu_drink_105x305_v13_ENGweb.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Eataly",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.eataly.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://www.eataly.se/news/italian-wine-fair/",
+    "kind": "html"
+  },
+  {
+    "name": "Papà & Italiano",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangnostrano.com/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Trattoria Montanari",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.montanari.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://www.montanari.se/uploaded/vinlista.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Claudio Kitchen & Friends",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://claudiokitchen.com/",
+    "source": "thatsup",
+    "wine_list_url": "https://claudiokitchen.com/#mobile-sub-t-3-10",
+    "kind": "html"
+  },
+  {
+    "name": "Agaton",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangagaton.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Bonus tips",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangnostrano.com/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Pizza",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangnostrano.com/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Pasta",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangnostrano.com/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Al Dente",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.aldentestockholm.com/",
+    "source": "thatsup",
+    "wine_list_url": "https://aldentestockholm.com/vinprovningar/",
+    "kind": "html"
+  },
+  {
+    "name": "Café Nizza",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.cafenizza.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://cafenizza.se/wp-content/uploads/2026/05/les-vins-nouveau-12.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Pelikan",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://pelikan.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Bar Agrikultur",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://baragrikultur.com/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Hommage",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://hommage.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Hornsgatan Kvarterskrog",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://hornsgatankvarterskrog.com/",
+    "source": "thatsup",
+    "wine_list_url": "https://hornsgatankvarterskrog.com/sida/blommor-vin",
+    "kind": "html"
+  },
+  {
+    "name": "La Olita",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.laolita.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Barbro",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.bar-bro.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Celeste",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.celesterestaurant.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Pat's Place",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.patsplace.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.goto: Page crashed\nCall log:\n\u001b[2m  - navigati"
+  },
+  {
+    "name": "Brisket & Friends",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://brisketandfriends.se/sodermalm/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Urban Deli",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://urbandeli.se/nytorget",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Bird",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.birdsthlm.com/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Racamaca",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.racamaca.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://racamaca.se/wp-content/uploads/sites/2838/2026/05/DRYCKESLISTA-JUNI-tisdag.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Kryp In",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://sodermalm.restaurangkrypin.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Mormors Dumplings",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangforma.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Rosetta's",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://rosettas.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Hellstens Glashus",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://hellstensglashus.se/hellstens-glashus-restaurang/",
+    "source": "thatsup",
+    "wine_list_url": "https://hellstensglashus.se/wp-content/uploads/2026/05/HG_menu_may2026.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Bar Central",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.barcentral.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Lebanon Meza Lounge",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.lebanonml.com/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Ted",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangted.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://www.restaurangted.se/vinkvall/",
+    "kind": "html"
+  },
+  {
+    "name": "Tako",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangtako.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Napolyon",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.napolyon.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Nybroe Smørrebrød",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.nybroe.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Zink",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://zinkitalian.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Aubergine",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://aubergine.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Kung Carl Mat & Bar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.kungcarl.se/mat-och-dryck/cocktailbaren",
+    "source": "thatsup",
+    "wine_list_url": "https://www.kungcarl.se/assets/local/Kvallsmeny-15-apr-2026.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Fiore",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangfiore.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Tengu",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://tengu.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Glashuset",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.glashuset.com/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Ming",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangming.com/sv/hem/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Italiano, Papà & Italiano Bar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restauranghantverket.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "PA & Co",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.paco.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://starwinelist.com/wine-place/combo-vinbaren",
+    "kind": "html"
+  },
+  {
+    "name": "Österlånggatan 17",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://osterlanggatan17.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Pastis",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.pastis.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Järnet",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://jarnetbar.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Den Gyldene Freden",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.gyldenefreden.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://gyldenefreden.se/mat-meny/",
+    "kind": "html"
+  },
+  {
+    "name": "Formosa",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.stockholmformosa.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://www.stockholmformosa.se/drycker/#",
+    "kind": "html"
+  },
+  {
+    "name": "Restaurang Avi",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangavi.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Fika & Wine",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.cafefika.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://www.cafefika.se/_files/ugd/dcc57f_8a2a23cc1115435cbab58041ed8f5f99.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Cong Cong",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://cong.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Restaurant Reisen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurantreisen.com/sv",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Engelen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.engelen.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Matrosen Smörrebröd",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://matrosensmorrebrod.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "The Bishops Arms",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.bishopsarms.com/",
+    "source": "thatsup",
+    "wine_list_url": "https://www.bishopsarms.com/aktuellt/vinnare-av-bombay-sapphire-quizet-i-april/",
+    "kind": "html"
+  },
+  {
+    "name": "Tradition",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangtradition.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Zum Franziskaner",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.zumen.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Barrels",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://barrels.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://barrels.se/app/uploads/2026/01/menu-barrels-city-2601.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Bistro Ruby & Grill Ruby",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://osterlanggatan17.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Portofino",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.ristoranteportofino.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Mogge Sushi",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.moggesushi.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Restaurang Eld",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://thevikingmuseum.com/restaurang/",
+    "source": "thatsup",
+    "wine_list_url": "https://thevikingmuseum.com/wp-content/uploads/2026/05/DRYCK_SE-1.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Slipen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://slipen.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://slipen.se/slipen_meny_dryck.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Villa Godthem",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.villagodthem.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://villagodthem.se/wp-content/uploads/sites/13/2026/04/Villa_Godthem_Vinlista_A4.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Josefina",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.josefina.nu/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Backstage Brasserie",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://backstagehotelsthlm.com/sv/brasserie/",
+    "source": "thatsup",
+    "wine_list_url": "https://backstagehotelsthlm.com/wp-content/uploads/2026/02/Backstage-Brasserie-Meny-Februari-2026-A3.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Prinsens kök",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://waldemarsudde.se/besok-oss/restaurang-och-cafe/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Hasselbacken",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://hasselbacken.com/",
+    "source": "thatsup",
+    "wine_list_url": "https://cdn.prod.website-files.com/65c263967c47750b08c24b78/6a1d26ab60cdc3eb255c10e6_Meny%20Sk%C3%A5p%20A3%20v.%2023.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Restaurangen Moderna Museet",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.modernamuseet.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Lennart & Bror",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.lennartochbror.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Griffins' Steakhouse",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://griffinssteakhouse.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://griffinssteakhouse.se/wp-content/uploads/2026/05/Griffins-Vinlista-260508.pdf",
+    "kind": "pdf"
+  },
+  {
+    "name": "Erth",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://erth.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Prime Burgers & Smokehouse",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://primeburgerssmokehouse.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Det Arroganta Svinet",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangag.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Adams Smokehouse",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangag.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "The Old Smokehouse",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.theoldsmokehouse.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "The Meat",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://themeat.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Bonus tip",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangag.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "C.G. Vilt",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://cgvilt.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Boqueria",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.boqueriastockholm.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://static.thatsup.website/417/62142/VINLISTA_20251023.pdf?v=1761227822",
+    "kind": "pdf"
+  },
+  {
+    "name": "La Esquina de La Tonteria",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://laesquina.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Xarcuteria",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.xarcuteria.se/",
+    "source": "thatsup",
+    "wine_list_url": "http://www.xarcuteria.se/sv/#",
+    "kind": "html"
+  },
+  {
+    "name": "Sthlm Tapas",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.sthlmtapas.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null,
+    "error": "page.evaluate: Execution context was destroyed, mo"
+  },
+  {
+    "name": "Mondo Tapas Bar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.mondotapas.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Aqui Tapas & Bar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.aquitapas.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Caliente",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://spanjorskan.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://static.thatsup.website/310/59717/Vinlista--6e-maj-2025.pdf?v=1747914140",
+    "kind": "pdf"
+  },
+  {
+    "name": "Tapas 28",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.tapas28.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Olé Olé",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://baroleole.se/",
+    "source": "thatsup",
+    "wine_list_url": null,
+    "kind": null
+  },
+  {
+    "name": "Ramblas",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://spanjorskan.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://static.thatsup.website/310/59717/Vinlista--6e-maj-2025.pdf?v=1747914140",
+    "kind": "pdf"
+  },
+  {
+    "name": "Sangria Tapas Bar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://sangriatapasbar.se/",
+    "source": "thatsup",
+    "wine_list_url": "https://www.sangriatapasbar.se/sangria-tapas-bar-meny.pdf",
+    "kind": "pdf"
   }
 ]

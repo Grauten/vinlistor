@@ -509,5 +509,208 @@
     "address": null,
     "website": "https://biblioteketlive.se/",
     "wine_list_url": "https://www.biblioteketlive.se/s/Stormeny_2026_04-22_hemsida_2.pdf"
+  },
+  {
+    "name": "Pom Friterie",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.pomfriterie.com/",
+    "wine_list_url": "https://www.pomfriterie.com/site/assets/files/1299/may_2026_website.pdf"
+  },
+  {
+    "name": "LYKKE",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://nordiclighthotel.se/restaurang/",
+    "wine_list_url": "https://nordiclighthotel.com/wp-content/uploads/2026/04/Three-Course-Lykke.pdf"
+  },
+  {
+    "name": "Basta",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangbasta.se/restauranger/stockholm",
+    "wine_list_url": "https://cdn.prod.website-files.com/62db99bf22fdbe8a3df362a1/637a4d5fab34500f230f6298_NYA%CC%8ARSMENY.pdf"
+  },
+  {
+    "name": "Haggans",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.haggans.se/",
+    "wine_list_url": "https://www-static.haggans.se/wp-content/uploads/2026/04/Meny-Dryck-Haggans-1.pdf?media=1779784391"
+  },
+  {
+    "name": "Slussporten",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangslussporten.se/",
+    "wine_list_url": "https://restaurangslussporten.se/wp-content/uploads/sites/18/2026/04/Slussporten-Vinlista-2026-04-23.pdf"
+  },
+  {
+    "name": "La Civetta",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.lacivetta.se/",
+    "wine_list_url": "https://www.lacivetta.se/ws/media-library/4af109c494db4584a70ac2f30b56fbf6/la-civetta-staende.pdf"
+  },
+  {
+    "name": "Tavino",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.tavino.se/",
+    "wine_list_url": "https://www.tavino.se/s/Vinlista-Version-26.pdf"
+  },
+  {
+    "name": "The Street Food Labs",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.streetfoodlabs.se/",
+    "wine_list_url": "https://cdn.prod.website-files.com/676c48172dbaf97bee657cdb/6968fd7f7f0820d718f78bb1_Tsfl%20Valentines%20.pdf"
+  },
+  {
+    "name": "Ollis Deli Humlegården",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://humlanstockholm.se/",
+    "wine_list_url": "https://humlanstockholm.se/wp-content/uploads/2026/05/ollismeny_2026.pdf"
+  },
+  {
+    "name": "Juno",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://restaurangjuno.se/",
+    "wine_list_url": "https://restaurangjuno.se/wp-content/uploads/sites/19/2026/04/JunoMeny_MAJ.pdf"
+  },
+  {
+    "name": "Maxim Framfickan",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.maximstockholm.se/framfickan/",
+    "wine_list_url": "https://www.maximstockholm.se/wp-content/uploads/2025/10/framfickan-dryck-a4-2025-1.pdf"
+  },
+  {
+    "name": "Pontus Frithiof at Bro Hof",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.pontusfrithiof.com/",
+    "wine_list_url": "https://cdn.prod.website-files.com/6404e4c0d39581cd5af18e29/68164f4f24850f155ecc7b56_Platinum%20Vin%3Adryck.1.pdf"
+  },
+  {
+    "name": "Villa Valentina",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.villavalentina.se/",
+    "wine_list_url": "https://cdn.prod.website-files.com/69de817fa43b7efc02084f7f/6a01fdc324ea944754d7c05b_Wine%20Menu%20.pdf"
+  },
+  {
+    "name": "Eira Sommarkrog",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://eirasommarkrog.se/",
+    "wine_list_url": "https://eirasommarkrog.se/wp-content/uploads/sites/21/2026/05/Eira-ALC-SWE-A4-2026-05-14.pdf"
+  },
+  {
+    "name": "Capannone Bottega",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://capannone.se/",
+    "wine_list_url": "https://capannone.se/wp-content/uploads/2026/04/Winelist-2026-April.pdf"
+  },
+  {
+    "name": "Vinfolket",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://vinfolket.se/info/vinbarer/",
+    "wine_list_url": "https://vinfolket.se/userfiles/files/Vinmeny-4(1).pdf"
+  },
+  {
+    "name": "Cachette",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.restaurangtete.se/cachette",
+    "wine_list_url": "https://cdn.prod.website-files.com/686a33f636db05eba371603a/6984a9e16bdd89c8b040de8f_tete_vinlista.pdf"
+  },
+  {
+    "name": "Florentine",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.florentinerestaurants.com/stockholm",
+    "wine_list_url": "https://cdn.prod.website-files.com/63728bf3f3f63c22f5b62cb0/6a06c852a5c17d72d2ce8657_FLORENTINE%20Stockholm%20A%20la%20carte%20Menu.pdf"
+  },
+  {
+    "name": "Un Poco",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://unpoco.se/",
+    "wine_list_url": "https://usercontent.one/wp/unpoco.se/wp-content/uploads/Vinlista_mars_2019.pdf?media=1768843413"
+  },
+  {
+    "name": "O'Pizzicato",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.opizzicato.se/",
+    "wine_list_url": "https://www.opizzicato.se/s/OPIZZICATO-WINELIST-Okt24.pdf"
+  },
+  {
+    "name": "Gazza",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://gazzasthlm.se/",
+    "wine_list_url": "https://gazzasthlm.se/wp-content/uploads/2026/05/fonster-maj-26-1.pdf"
+  },
+  {
+    "name": "Trattoria Montanari",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.montanari.se/",
+    "wine_list_url": "https://www.montanari.se/uploaded/vinlista.pdf"
+  },
+  {
+    "name": "Café Nizza",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.cafenizza.se/",
+    "wine_list_url": "https://cafenizza.se/wp-content/uploads/2026/05/les-vins-nouveau-12.pdf"
+  },
+  {
+    "name": "Racamaca",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.racamaca.se/",
+    "wine_list_url": "https://racamaca.se/wp-content/uploads/sites/2838/2026/05/DRYCKESLISTA-JUNI-tisdag.pdf"
+  },
+  {
+    "name": "Kung Carl Mat & Bar",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.kungcarl.se/mat-och-dryck/cocktailbaren",
+    "wine_list_url": "https://www.kungcarl.se/assets/local/Kvallsmeny-15-apr-2026.pdf"
+  },
+  {
+    "name": "Fika & Wine",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://www.cafefika.se/",
+    "wine_list_url": "https://www.cafefika.se/_files/ugd/dcc57f_8a2a23cc1115435cbab58041ed8f5f99.pdf"
+  },
+  {
+    "name": "Restaurang Eld",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://thevikingmuseum.com/restaurang/",
+    "wine_list_url": "https://thevikingmuseum.com/wp-content/uploads/2026/05/DRYCK_SE-1.pdf"
+  },
+  {
+    "name": "Slipen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://slipen.se/",
+    "wine_list_url": "https://slipen.se/slipen_meny_dryck.pdf"
+  },
+  {
+    "name": "Villa Godthem",
+    "area": "Stockholm",
+    "address": null,
+    "website": "http://www.villagodthem.se/",
+    "wine_list_url": "https://villagodthem.se/wp-content/uploads/sites/13/2026/04/Villa_Godthem_Vinlista_A4.pdf"
   }
 ]
