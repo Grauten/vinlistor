@@ -1,17 +1,41 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+
+// Normalising a string is expensive (toLocaleLowerCase + NFKD + regex), so every value we
+// search or sort on is normalised ONCE in prepare() when the data arrives. The hot paths
+// below only ever read the precomputed `_`-prefixed fields.
+const NORM = (s) => (s ?? '').toString().toLocaleLowerCase('sv').normalize('NFKD').replace(/\p{Diacritic}/gu, '')
+
+// One shared collator. Calling String.prototype.localeCompare inside the comparator
+// dominated sort time once the table passed a few thousand rows.
+const COLLATOR = new Intl.Collator('sv', { numeric: true })
+
+function prepare(wines) {
+  for (const w of wines) {
+    w._hay = NORM([w.name, w.producer, w.region, w.country, w.grape].filter(Boolean).join(' '))
+    w._country = NORM(w.country)
+    w._region = NORM(w.region)
+    w._producer = NORM(w.producer)
+    w._wine_key = NORM(w.wine_key)
+    w._restaurant = NORM(w.restaurant)
+    w._name = NORM(w.name)
+  }
+  return wines
+}
 
 // wine_key + vintage as tail keys keeps "same wine, different vintages" together.
 const SORTS = {
-  origin:     { label: 'land → region → producent', keys: ['country', 'region', 'producer', 'wine_key', 'vintage'] },
-  price_asc:  { label: 'flaskpris stigande',        keys: ['price_bottle', 'price_glass', 'wine_key'], dir: 1 },
-  price_desc: { label: 'flaskpris fallande',        keys: ['price_bottle', 'price_glass', 'wine_key'], dir: -1 },
-  glass_asc:  { label: 'glaspris stigande',         keys: ['price_glass', 'price_bottle', 'wine_key'], dir: 1 },
-  glass_desc: { label: 'glaspris fallande',         keys: ['price_glass', 'price_bottle', 'wine_key'], dir: -1 },
-  name:       { label: 'vinets namn',               keys: ['wine_key', 'vintage', 'name'] },
-  restaurant: { label: 'restaurang',                keys: ['restaurant', 'country', 'region', 'producer', 'wine_key', 'vintage'] },
+  origin:     { label: 'land → region → producent', keys: ['_country', '_region', '_producer', '_wine_key', 'vintage'] },
+  price_asc:  { label: 'flaskpris stigande',        keys: ['price_bottle', 'price_glass', '_wine_key'], dir: 1 },
+  price_desc: { label: 'flaskpris fallande',        keys: ['price_bottle', 'price_glass', '_wine_key'], dir: -1 },
+  glass_asc:  { label: 'glaspris stigande',         keys: ['price_glass', 'price_bottle', '_wine_key'], dir: 1 },
+  glass_desc: { label: 'glaspris fallande',         keys: ['price_glass', 'price_bottle', '_wine_key'], dir: -1 },
+  name:       { label: 'vinets namn',               keys: ['_wine_key', 'vintage', '_name'] },
+  restaurant: { label: 'restaurang',                keys: ['_restaurant', '_country', '_region', '_producer', '_wine_key', 'vintage'] },
 }
 
-const NORM = (s) => (s ?? '').toString().toLocaleLowerCase('sv').normalize('NFKD').replace(/\p{Diacritic}/gu, '')
+// How many rows go into the DOM at once. The whole result set stays in memory and is
+// counted; putting all 25k <tr> on the page froze it for seconds on every keystroke.
+const CHUNK = 200
 
 function cmp(a, b, dir = 1) {
   // null/undefined sort to the end regardless of direction
@@ -21,7 +45,7 @@ function cmp(a, b, dir = 1) {
   if (an) return 1
   if (bn) return -1
   if (typeof a === 'number' && typeof b === 'number') return (a - b) * dir
-  return NORM(a).localeCompare(NORM(b), 'sv') * dir
+  return COLLATOR.compare(a, b) * dir
 }
 
 function sortRows(rows, key) {
@@ -41,19 +65,26 @@ const formatPrice = (n) => (n == null ? '—' : `${n.toLocaleString('sv-SE')}`)
 export default function App() {
   const [data, setData] = useState(null)
   const [error, setError] = useState(null)
-  const [q, setQ] = useState('')
+  const [q, setQ] = useState('')      // what the input shows — updates on every keystroke
+  const [dq, setDq] = useState('')    // what we filter on — trails `q` so typing stays smooth
   const [type, setType] = useState('')
   const [area, setArea] = useState('')
   const [restaurant, setRestaurant] = useState('')
   const [sortKey, setSortKey] = useState('origin')
   const [glassOnly, setGlassOnly] = useState(false)
+  const [visible, setVisible] = useState(CHUNK)
 
   useEffect(() => {
     fetch('/api/wines')
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status))))
-      .then((j) => setData(j.wines))
+      .then((j) => setData(prepare(j.wines)))
       .catch((e) => setError(e.message))
   }, [])
+
+  useEffect(() => {
+    const t = setTimeout(() => setDq(q), 150)
+    return () => clearTimeout(t)
+  }, [q])
 
   const facets = useMemo(() => {
     if (!data) return { types: [], areas: [], restaurants: [] }
@@ -65,22 +96,38 @@ export default function App() {
 
   const filtered = useMemo(() => {
     if (!data) return []
-    const nq = NORM(q.trim())
+    const nq = NORM(dq.trim())
     return data.filter((w) => {
       if (type && w.type !== type) return false
       if (area && w.area !== area) return false
       if (restaurant && w.restaurant !== restaurant) return false
       if (glassOnly && w.price_glass == null) return false
-      if (!nq) return true
-      const hay = NORM([w.name, w.producer, w.region, w.country, w.grape].filter(Boolean).join(' '))
-      return hay.includes(nq)
+      return !nq || w._hay.includes(nq)
     })
-  }, [data, q, type, area, restaurant, glassOnly])
+  }, [data, dq, type, area, restaurant, glassOnly])
 
   const rows = useMemo(() => sortRows(filtered, sortKey), [filtered, sortKey])
 
+  // Any change to the result set starts the window over at the top.
+  useEffect(() => { setVisible(CHUNK) }, [rows])
+
+  // Grow the window when the sentinel below the table scrolls into view.
+  const observer = useRef(null)
+  const sentinelRef = useCallback((node) => {
+    observer.current?.disconnect()
+    if (!node) return
+    observer.current = new IntersectionObserver(
+      ([e]) => { if (e.isIntersecting) setVisible((v) => v + CHUNK) },
+      { rootMargin: '600px' },
+    )
+    observer.current.observe(node)
+  }, [])
+  useEffect(() => () => observer.current?.disconnect(), [])
+
   if (error) return <div className="state">Kunde inte ladda viner: {error}</div>
   if (!data) return <div className="state">Laddar vinlistor…</div>
+
+  const shown = rows.slice(0, visible)
 
   return (
     <div className="app">
@@ -128,7 +175,7 @@ export default function App() {
             </tr>
           </thead>
           <tbody>
-            {rows.map((w, i) => (
+            {shown.map((w, i) => (
               <tr key={i}>
                 <td>{w.country || '—'}</td>
                 <td>{w.region || '—'}</td>
@@ -144,6 +191,11 @@ export default function App() {
           </tbody>
         </table>
         {!rows.length && <div className="state">Inga träffar.</div>}
+        {visible < rows.length && (
+          <div className="more" ref={sentinelRef}>
+            visar {shown.length.toLocaleString('sv-SE')} av {rows.length.toLocaleString('sv-SE')} — scrolla för fler
+          </div>
+        )}
       </div>
 
       <footer>

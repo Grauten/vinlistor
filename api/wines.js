@@ -15,14 +15,19 @@ export default async function handler(req, res) {
 
   const db = createClient(url, key, { auth: { persistSession: false } })
   // Pull in batches because PostgREST caps a single request at 1000 rows by default.
+  // Ask for the row count first so the batches can go out together — fetching them in
+  // sequence meant 25 round-trips to Supabase and put the response near maxDuration.
   const PAGE = 1000
-  const all = []
-  for (let from = 0; ; from += PAGE) {
-    const { data, error } = await db.from('wines').select(COLS).range(from, from + PAGE - 1)
-    if (error) return res.status(500).json({ error: error.message })
-    all.push(...data)
-    if (data.length < PAGE) break
-  }
+  const head = await db.from('wines').select('*', { count: 'exact', head: true })
+  if (head.error) return res.status(500).json({ error: head.error.message })
+
+  const pages = await Promise.all(
+    Array.from({ length: Math.ceil(head.count / PAGE) }, (_, i) =>
+      db.from('wines').select(COLS).range(i * PAGE, i * PAGE + PAGE - 1)),
+  )
+  const failed = pages.find((p) => p.error)
+  if (failed) return res.status(500).json({ error: failed.error.message })
+  const all = pages.flatMap((p) => p.data)
 
   // Token-set wine key. Same key = same cuvée regardless of vintage, word order, or
   // small text variations across restaurants. Strategy:
