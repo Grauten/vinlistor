@@ -25,19 +25,35 @@ for (const raw of text.split('\n')) {
   const line = raw.trim()
   if (!line || /^-- \d/.test(line)) continue
   if (line === 'GLASLISTA') { glassMode = true; continue }
-  if (line === 'FLASKLISTA' || /^Flasklista/.test(line)) { glassMode = false; continue }
+  // Bottle list starts at "Vinlista" (or "FLASKLISTA" if ever present)
+  if (line === 'Vinlista' || line === 'VINLISTA' || line === 'FLASKLISTA' || /^Flasklista/.test(line)) { glassMode = false; continue }
+  if (line === 'gl fl' || line === 'gl/fl') continue // column header artefact
   if (TYPES[line] !== undefined) { if (TYPES[line]) type = TYPES[line]; country = null; continue }
   if (COUNTRIES[line] !== undefined) { country = COUNTRIES[line] || null; continue }
   if (!type) continue
 
-  // Wine row: optional year, body, then "price:-" or "g/b:-" or numeric
-  const m = line.match(/^(\d{4})?\s*(.+?)\s+(\d{2,5}(?:\/\d{2,5})?)\s*:?-\s*$/)
-  if (!m) continue
-  const [, vintRaw, body, priceStr] = m
-  let price_glass = null, price_bottle = null
-  if (priceStr.includes('/')) { const [g, b] = priceStr.split('/').map(parseFloat); price_glass = g; price_bottle = b }
-  else if (glassMode) price_glass = parseFloat(priceStr)
-  else price_bottle = parseFloat(priceStr)
+  // Wine row variants:
+  //   "WINE 980:-"            → single price (glass if glassMode, else bottle)
+  //   "WINE 180:- 980:-"      → glass 180 + bottle 980
+  //   "WINE 180/980:-"        → slash-form (legacy)
+  let price_glass = null, price_bottle = null, body = null, vintRaw = null
+
+  // Try two-price form first
+  const m2 = line.match(/^(\d{4})?\s*(.+?)\s+(\d{2,5})\s*:-\s+(\d{2,5})\s*:-\s*$/)
+  if (m2) {
+    vintRaw = m2[1]; body = m2[2]
+    price_glass = parseFloat(m2[3])
+    price_bottle = parseFloat(m2[4])
+  } else {
+    const m1 = line.match(/^(\d{4})?\s*(.+?)\s+(\d{2,5}(?:\/\d{2,5})?)\s*:?-\s*$/)
+    if (!m1) continue
+    vintRaw = m1[1]; body = m1[2]
+    const priceStr = m1[3]
+    if (priceStr.includes('/')) {
+      const [g, b] = priceStr.split('/').map(parseFloat); price_glass = g; price_bottle = b
+    } else if (glassMode) price_glass = parseFloat(priceStr)
+    else price_bottle = parseFloat(priceStr)
+  }
 
   // Pull region (last comma piece) and country (next-to-last if recognized)
   const parts = body.split(',').map((s) => s.trim()).filter(Boolean)

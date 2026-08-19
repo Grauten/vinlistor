@@ -1,0 +1,131 @@
+{
+  "restaurant": {
+    "name": "Slipen",
+    "area": "Stockholm",
+    "address": null,
+    "website": "https://slipen.se/",
+    "wine_list_url": "https://slipen.se/slipen_meny_dryck.pdf"
+  },
+  "wines": [
+    {
+      "name": "Mandois Brut Origine, Chardonnay, Pinot Noir",
+      "producer": null,
+      "vintage": null,
+      "type": "mousserande",
+      "country": null,
+      "region": null,
+      "grape": "Pinot Meunier",
+      "price_glass": 195,
+      "price_bottle": 1150,
+      "currency": "SEK"
+    },
+    {
+      "name": "Corvezzo Prosecco DOC",
+      "producer": null,
+      "vintage": null,
+      "type": "mousserande",
+      "country": null,
+      "region": null,
+      "grape": "Glera",
+      "price_glass": 135,
+      "price_bottle": 795,
+      "currency": "SEK"
+    },
+    {
+      "name": "Terlan Tradition",
+      "producer": null,
+      "vintage": 2023,
+      "type": "vitt",
+      "country": null,
+      "region": null,
+      "grape": "Chardonnay",
+      "price_glass": 169,
+      "price_bottle": 820,
+      "currency": "SEK"
+    },
+    {
+      "name": "Terlan Winkl",
+      "producer": null,
+      "vintage": 2023,
+      "type": "vitt",
+      "country": null,
+      "region": null,
+      "grape": "Sauvignon",
+      "price_glass": 175,
+      "price_bottle": 850,
+      "currency": "SEK"
+    },
+    {
+      "name": "Villa Bucci",
+      "producer": null,
+      "vintage": 2022,
+      "type": "vitt",
+      "country": null,
+      "region": null,
+      "grape": "Verdicchio",
+      "price_glass": 195,
+      "price_bottle": 975,
+      "currency": "SEK"
+    },
+    {
+      "name": "Ellena",
+      "producer": null,
+      "vintage": 2021,
+      "type": "rött",
+      "country": null,
+      "region": null,
+      "grape": "Barbera d'Alba",
+      "price_glass": 159,
+      "price_bottle": 750,
+      "currency": "SEK"
+    },
+    {
+      "name": "Giovanni Rosso Barolo",
+      "producer": null,
+      "vintage": 2019,
+      "type": "rött",
+      "country": null,
+      "region": null,
+      "grape": "Nebbiolo",
+      "price_glass": 219,
+      "price_bottle": 1050,
+      "currency": "SEK"
+    },
+    {
+      "name": "Brunello Col d'Orcia Nastagio",
+      "producer": null,
+      "vintage": 2018,
+      "type": "rött",
+      "country": null,
+      "region": null,
+      "grape": "Sangiovese",
+      "price_glass": 259,
+      "price_bottle": 1200,
+      "currency": "SEK"
+    },
+    {
+      "name": "Bardolino Chiaretto, Corvina, Molinara",
+      "producer": null,
+      "vintage": 2024,
+      "type": "rosé",
+      "country": null,
+      "region": null,
+      "grape": "Rondinella",
+      "price_glass": 145,
+      "price_bottle": 700,
+      "currency": "SEK"
+    },
+    {
+      "name": "Rosato Ereo Vesuvio, Piedirosso, Guarnaccia Nera",
+      "producer": null,
+      "vintage": 2023,
+      "type": "rosé",
+      "country": null,
+      "region": null,
+      "grape": "Sciascinoso",
+      "price_glass": 165,
+      "price_bottle": 800,
+      "currency": "SEK"
+    }
+  ]
+}
