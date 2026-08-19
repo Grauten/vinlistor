@@ -78,14 +78,13 @@ for (const raw of allLines) {
   })
 }
 
+// Only Cachette. This parser used to fan the same list out to Tête as well, which put
+// 115 of Cachette's wines in the DB under a different restaurant. Tête (tete.se) is an
+// unrelated venue and needs its own source before it can be added back.
 await mkdir('data/extracted', { recursive: true })
-for (const r of [
-  { name: 'Cachette', slug: 'cachette', area: 'Stockholm', website: 'https://cachette.se/', wine_list_url: null },
-  { name: 'Tête', slug: 't-te', area: 'Stockholm', website: 'https://www.tete.se/', wine_list_url: null },
-]) {
-  await writeFile(`data/extracted/${r.slug}.json`, JSON.stringify({
-    restaurant: { name: r.name, area: r.area, address: null, website: r.website, wine_list_url: r.wine_list_url }, wines,
-  }, null, 2))
-}
+const r = { name: 'Cachette', area: 'Stockholm', website: 'https://cachette.se/', wine_list_url: null }
+await writeFile('data/extracted/cachette.json', JSON.stringify({
+  restaurant: { name: r.name, area: r.area, address: null, website: r.website, wine_list_url: r.wine_list_url }, wines,
+}, null, 2))
 const t = {}; for (const w of wines) t[w.type] = (t[w.type] || 0) + 1
 console.log(`Parsed ${wines.length} wines`, t)
