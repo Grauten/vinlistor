@@ -192,9 +192,11 @@ export default function App() {
         </table>
         {!rows.length && <div className="state">Inga träffar.</div>}
         {visible < rows.length && (
-          <div className="more" ref={sentinelRef}>
-            visar {shown.length.toLocaleString('sv-SE')} av {rows.length.toLocaleString('sv-SE')} — scrolla för fler
-          </div>
+          // The observer extends the list on scroll; the button is the explicit path for
+          // anyone it doesn't reach (keyboard, reduced-motion, observer unsupported).
+          <button className="more" ref={sentinelRef} onClick={() => setVisible((v) => v + CHUNK)}>
+            visar {shown.length.toLocaleString('sv-SE')} av {rows.length.toLocaleString('sv-SE')} — visa fler
+          </button>
         )}
       </div>
 

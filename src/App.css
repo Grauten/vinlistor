@@ -132,8 +132,16 @@ footer {
 }
 
 .more {
+  display: block;
+  width: 100%;
   padding: 1.2rem 0 2rem;
   text-align: center;
   color: var(--ink-soft);
   font-size: 0.85rem;
+  font-family: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
+.more:hover { color: var(--accent); }
+.more:focus-visible { outline: 2px solid var(--accent); outline-offset: -4px; }
