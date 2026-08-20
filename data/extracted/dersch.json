@@ -37,10 +37,10 @@
       "vintage": 2020,
       "type": "mousserande",
       "country": null,
-      "region": "Champagne \t200:-/ 1",
+      "region": "Champagne",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 90,
+      "price_glass": 200,
+      "price_bottle": 1090,
       "currency": "SEK"
     },
     {
@@ -53,6 +53,18 @@
       "grape": null,
       "price_glass": 135,
       "price_bottle": 595,
+      "currency": "SEK"
+    },
+    {
+      "name": "Weingut Bründlmayer Grüner Veltliner L&T",
+      "producer": null,
+      "vintage": 2024,
+      "type": "vitt",
+      "country": null,
+      "region": "Kamptal",
+      "grape": null,
+      "price_glass": 150,
+      "price_bottle": 750,
       "currency": "SEK"
     },
     {
@@ -125,6 +137,18 @@
       "grape": null,
       "price_glass": 190,
       "price_bottle": 950,
+      "currency": "SEK"
+    },
+    {
+      "name": "Soalheiro Alvarinho",
+      "producer": null,
+      "vintage": 2024,
+      "type": "vitt",
+      "country": null,
+      "region": "Vinho Verde",
+      "grape": null,
+      "price_glass": 150,
+      "price_bottle": 750,
       "currency": "SEK"
     },
     {
@@ -440,7 +464,7 @@
       "currency": "SEK"
     },
     {
-      "name": "N.V. Langlois Cremant Brut Rosé",
+      "name": "Langlois Cremant Brut Rosé",
       "producer": null,
       "vintage": null,
       "type": "mousserande",
@@ -469,10 +493,10 @@
       "vintage": 2011,
       "type": "mousserande",
       "country": null,
-      "region": "Champagne \t2",
+      "region": "Champagne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 200,
+      "price_bottle": 2200,
       "currency": "SEK"
     },
     {
@@ -481,10 +505,10 @@
       "vintage": 2015,
       "type": "mousserande",
       "country": null,
-      "region": "Champagne \t4",
+      "region": "Champagne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 900,
+      "price_bottle": 4900,
       "currency": "SEK"
     },
     {
@@ -493,10 +517,10 @@
       "vintage": 2016,
       "type": "mousserande",
       "country": null,
-      "region": "Champagne \t4",
+      "region": "Champagne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 900,
+      "price_bottle": 4900,
       "currency": "SEK"
     },
     {
@@ -505,22 +529,22 @@
       "vintage": 2015,
       "type": "mousserande",
       "country": null,
-      "region": "Champagne \t3",
+      "region": "Champagne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 500,
+      "price_bottle": 3500,
       "currency": "SEK"
     },
     {
-      "name": "N.V. Ayala Brut Majeur",
+      "name": "Ayala Brut Majeur",
       "producer": null,
       "vintage": null,
       "type": "mousserande",
       "country": null,
-      "region": "Champagne \t2",
+      "region": "Champagne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 100,
+      "price_bottle": 2100,
       "currency": "SEK"
     },
     {
@@ -529,10 +553,10 @@
       "vintage": 2015,
       "type": "mousserande",
       "country": null,
-      "region": "Champagne \t4",
+      "region": "Champagne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 500,
+      "price_bottle": 4500,
       "currency": "SEK"
     },
     {
@@ -541,10 +565,10 @@
       "vintage": 2015,
       "type": "mousserande",
       "country": null,
-      "region": "Champagne \t1",
+      "region": "Champagne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 650,
+      "price_bottle": 1650,
       "currency": "SEK"
     },
     {
@@ -553,10 +577,10 @@
       "vintage": null,
       "type": "mousserande",
       "country": null,
-      "region": "Champagne \t2",
+      "region": "Champagne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 990,
+      "price_bottle": 2990,
       "currency": "SEK"
     },
     {
@@ -565,10 +589,10 @@
       "vintage": 2018,
       "type": "mousserande",
       "country": null,
-      "region": "Champagne \t1",
+      "region": "Champagne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 890,
+      "price_bottle": 1890,
       "currency": "SEK"
     },
     {
@@ -577,10 +601,10 @@
       "vintage": 2018,
       "type": "mousserande",
       "country": null,
-      "region": "Champagne \t3",
+      "region": "Champagne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 950,
+      "price_bottle": 3950,
       "currency": "SEK"
     },
     {
@@ -589,10 +613,10 @@
       "vintage": null,
       "type": "mousserande",
       "country": null,
-      "region": "Champagne \t1",
+      "region": "Champagne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 90,
+      "price_bottle": 1090,
       "currency": "SEK"
     },
     {
@@ -637,10 +661,10 @@
       "vintage": 2023,
       "type": "mousserande",
       "country": null,
-      "region": "Rheingau \t1",
+      "region": "Rheingau",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 800,
+      "price_bottle": 1800,
       "currency": "SEK"
     },
     {
@@ -649,10 +673,10 @@
       "vintage": 2023,
       "type": "mousserande",
       "country": null,
-      "region": "Rheingau \t1",
+      "region": "Rheingau",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 50,
+      "price_bottle": 1050,
       "currency": "SEK"
     },
     {
@@ -673,10 +697,10 @@
       "vintage": 2021,
       "type": "mousserande",
       "country": null,
-      "region": "Chablis \t2",
+      "region": "Chablis",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 290,
+      "price_bottle": 2290,
       "currency": "SEK"
     },
     {
@@ -697,10 +721,10 @@
       "vintage": 2023,
       "type": "mousserande",
       "country": null,
-      "region": "Bourgogne \t1",
+      "region": "Bourgogne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 390,
+      "price_bottle": 1390,
       "currency": "SEK"
     },
     {
@@ -709,10 +733,10 @@
       "vintage": 2021,
       "type": "mousserande",
       "country": null,
-      "region": "Bourgogne \t2",
+      "region": "Bourgogne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 200,
+      "price_bottle": 2200,
       "currency": "SEK"
     },
     {
@@ -721,10 +745,10 @@
       "vintage": 2022,
       "type": "mousserande",
       "country": null,
-      "region": "Bourgogne \t1",
+      "region": "Bourgogne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 400,
+      "price_bottle": 1400,
       "currency": "SEK"
     },
     {
@@ -733,10 +757,10 @@
       "vintage": 2022,
       "type": "mousserande",
       "country": null,
-      "region": "Bourgogne \t1",
+      "region": "Bourgogne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 750,
+      "price_bottle": 1750,
       "currency": "SEK"
     },
     {
@@ -745,10 +769,10 @@
       "vintage": 2022,
       "type": "mousserande",
       "country": null,
-      "region": "Mersault \t2",
+      "region": "Mersault",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 600,
+      "price_bottle": 2600,
       "currency": "SEK"
     },
     {
@@ -757,10 +781,10 @@
       "vintage": 2021,
       "type": "mousserande",
       "country": null,
-      "region": "Puligny-Montrachet \t2",
+      "region": "Puligny-Montrachet",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 450,
+      "price_bottle": 2450,
       "currency": "SEK"
     },
     {
@@ -817,10 +841,10 @@
       "vintage": null,
       "type": "vitt",
       "country": null,
-      "region": "Kamptal \t1",
+      "region": "Kamptal",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 90,
+      "price_bottle": 1090,
       "currency": "SEK"
     },
     {
@@ -925,10 +949,10 @@
       "vintage": 2022,
       "type": "vitt",
       "country": null,
-      "region": "Bourgogne \t1",
+      "region": "Bourgogne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 925,
+      "price_bottle": 1925,
       "currency": "SEK"
     },
     {
@@ -937,10 +961,10 @@
       "vintage": 2023,
       "type": "vitt",
       "country": null,
-      "region": "Bourgogne \t1",
+      "region": "Bourgogne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 400,
+      "price_bottle": 1400,
       "currency": "SEK"
     },
     {
@@ -949,10 +973,10 @@
       "vintage": 2021,
       "type": "vitt",
       "country": null,
-      "region": "Bourgogne \t1",
+      "region": "Bourgogne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 350,
+      "price_bottle": 1350,
       "currency": "SEK"
     },
     {
@@ -961,10 +985,10 @@
       "vintage": 2022,
       "type": "vitt",
       "country": null,
-      "region": "Bourgogne \t6",
+      "region": "Bourgogne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 0,
+      "price_bottle": 6000,
       "currency": "SEK"
     },
     {
@@ -973,22 +997,22 @@
       "vintage": 2022,
       "type": "vitt",
       "country": null,
-      "region": "Bourgogne \t2",
+      "region": "Bourgogne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 950,
+      "price_bottle": 2950,
       "currency": "SEK"
     },
     {
-      "name": "Magnum",
+      "name": "Dom Drouhin-Lroze Gevrey- Chambertin En Combe – Magnum",
       "producer": null,
-      "vintage": null,
+      "vintage": 2021,
       "type": "vitt",
       "country": null,
-      "region": "Bourgogne \t3",
+      "region": "Bourgogne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 690,
+      "price_bottle": 3690,
       "currency": "SEK"
     },
     {
@@ -1004,15 +1028,15 @@
       "currency": "SEK"
     },
     {
-      "name": "Magnum",
+      "name": "Ch. Mont-Redon Chateauneuf-du-Pape Rouge – Magnum",
       "producer": null,
-      "vintage": null,
+      "vintage": 2023,
       "type": "vitt",
       "country": null,
-      "region": "Rhône \t1",
+      "region": "Rhône",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 990,
+      "price_bottle": 1990,
       "currency": "SEK"
     },
     {
@@ -1033,10 +1057,10 @@
       "vintage": 2023,
       "type": "vitt",
       "country": null,
-      "region": "Burgenland \t2",
+      "region": "Burgenland",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 450,
+      "price_bottle": 2450,
       "currency": "SEK"
     },
     {
@@ -1057,10 +1081,10 @@
       "vintage": 2022,
       "type": "rött",
       "country": null,
-      "region": "Piemonte \t1",
+      "region": "Piemonte",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 690,
+      "price_bottle": 1690,
       "currency": "SEK"
     },
     {
@@ -1069,10 +1093,10 @@
       "vintage": 2018,
       "type": "rött",
       "country": null,
-      "region": "Piemonte \t2",
+      "region": "Piemonte",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 190,
+      "price_bottle": 2190,
       "currency": "SEK"
     },
     {
@@ -1081,10 +1105,10 @@
       "vintage": 2013,
       "type": "rött",
       "country": null,
-      "region": "Piemonte \t1",
+      "region": "Piemonte",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 990,
+      "price_bottle": 1990,
       "currency": "SEK"
     },
     {
@@ -1093,10 +1117,10 @@
       "vintage": 2023,
       "type": "rött",
       "country": null,
-      "region": "Piemonte \t1",
+      "region": "Piemonte",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 90,
+      "price_bottle": 1090,
       "currency": "SEK"
     },
     {
@@ -1105,10 +1129,10 @@
       "vintage": 2021,
       "type": "rött",
       "country": null,
-      "region": "Piemonte \t1",
+      "region": "Piemonte",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 290,
+      "price_bottle": 1290,
       "currency": "SEK"
     },
     {
@@ -1129,10 +1153,10 @@
       "vintage": 2022,
       "type": "rött",
       "country": null,
-      "region": "Toscana \t1",
+      "region": "Toscana",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 290,
+      "price_bottle": 1290,
       "currency": "SEK"
     },
     {
@@ -1141,10 +1165,10 @@
       "vintage": 2021,
       "type": "rött",
       "country": null,
-      "region": "Toscana \t1",
+      "region": "Toscana",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 90,
+      "price_bottle": 1090,
       "currency": "SEK"
     },
     {
@@ -1153,10 +1177,10 @@
       "vintage": 2023,
       "type": "rött",
       "country": null,
-      "region": "Bolghieri \t1",
+      "region": "Bolghieri",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 290,
+      "price_bottle": 1290,
       "currency": "SEK"
     },
     {
@@ -1177,10 +1201,10 @@
       "vintage": 2021,
       "type": "rött",
       "country": null,
-      "region": "Santa Maria Valley \t1",
+      "region": "Santa Maria Valley",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 590,
+      "price_bottle": 1590,
       "currency": "SEK"
     },
     {
@@ -1189,10 +1213,10 @@
       "vintage": 2020,
       "type": "rött",
       "country": null,
-      "region": "Bekaa \t1",
+      "region": "Bekaa",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 700,
+      "price_bottle": 1700,
       "currency": "SEK"
     },
     {
