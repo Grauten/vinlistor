@@ -2154,54 +2154,6 @@
       "price_glass": null,
       "price_bottle": 975,
       "currency": "SEK"
-    },
-    {
-      "name": "Fernet Branca",
-      "producer": null,
-      "vintage": null,
-      "type": "rött",
-      "country": "Österrike",
-      "region": null,
-      "grape": null,
-      "price_glass": null,
-      "price_bottle": 38,
-      "currency": "SEK"
-    },
-    {
-      "name": "Gammeldansk",
-      "producer": null,
-      "vintage": null,
-      "type": "rött",
-      "country": "Österrike",
-      "region": null,
-      "grape": null,
-      "price_glass": null,
-      "price_bottle": 38,
-      "currency": "SEK"
-    },
-    {
-      "name": "Jägermeister",
-      "producer": null,
-      "vintage": null,
-      "type": "rött",
-      "country": "Österrike",
-      "region": null,
-      "grape": null,
-      "price_glass": null,
-      "price_bottle": 38,
-      "currency": "SEK"
-    },
-    {
-      "name": "Averna",
-      "producer": null,
-      "vintage": null,
-      "type": "rött",
-      "country": "Österrike",
-      "region": null,
-      "grape": null,
-      "price_glass": null,
-      "price_bottle": 38,
-      "currency": "SEK"
     }
   ]
 }

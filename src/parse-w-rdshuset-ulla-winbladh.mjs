@@ -38,7 +38,11 @@ for (const raw of text.split('\n')) {
   if (/^Viner på glas$/i.test(line)) { inGlassSection = true; skip = false; continue }
 
   // Section markers that turn off wine parsing entirely
-  if (SKIP_SECTIONS.test(line)) { skip = true; continue }
+  // The spirits half of the menu heads each section with its pour size — "Vodka 1 cl",
+  // "Rom 1 cl", "Fatöl 40 cl". Only a few were named in SKIP_SECTIONS, so the rest inherited
+  // the previous wine type and 16 bottles of vodka and whisky were stored as red wine.
+  // Wine rows always carry a "kr" amount, section headers never do.
+  if (SKIP_SECTIONS.test(line) || (/\s\d+\s?cl$/i.test(line) && !/\bkr\b/i.test(line))) { skip = true; continue }
 
   // Check type headers
   let matched = false
@@ -84,6 +88,17 @@ for (const raw of text.split('\n')) {
     if (cm) { rowCountry = cm[2] === 'Kalifornien' ? 'USA' : cm[2]; body = cm[1].trim() }
   }
 
+  // The dessert list marks its by-the-glass rows with a trailing "glas" before the amount:
+  // "2019 Kracher, Beerenauslese Zweigelt glas 120 kr". That amount was going into
+  // price_bottle, leaving eleven 85-195:- "bottles", and "glas" stayed in the wine's name.
+  let rowGlass = glass, rowBottle = bottle
+  const glasM = body.match(/^(.*\S)\s+glas$/i)
+  if (glasM && rowBottle != null && rowGlass == null) {
+    body = glasM[1].trim()
+    rowGlass = rowBottle
+    rowBottle = null
+  }
+
   wines.push({
     name: body,
     producer: null,
@@ -92,8 +107,8 @@ for (const raw of text.split('\n')) {
     country: rowCountry,
     region: rowRegion,
     grape: null,
-    price_glass: glass,
-    price_bottle: bottle,
+    price_glass: rowGlass,
+    price_bottle: rowBottle,
     currency: 'SEK',
   })
 }

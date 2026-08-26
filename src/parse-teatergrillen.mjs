@@ -30,9 +30,12 @@ const COUNTRIES = {
 const STOP = /^(Alkoholfria drycker|Non Alcoholic|Mocktails|Öl|Beer|Cider|Spirits|Avec|Cocktails)$/
 
 let type = null, country = null, skip = false
+let glassList = false
 const wines = []
 for (const raw of text.split('\n')) {
-  const line = raw.trim()
+  // One row trails a stray digit after its cellar code — "… Sous la Chapelle 2100 (Z6) 20" —
+  // and the row regex takes the last number it sees, pricing a Volnay 1er Cru at 20:-.
+  const line = raw.trim().replace(/(\([A-Za-zÅÄÖåäö]\d{1,2}\))\s+\d{1,3}$/, '$1')
   if (!line || /^-- \d/.test(line) || /^\d+$/.test(line)) continue
   if (STOP.test(line)) { skip = true; continue }
   if (TYPES[line] !== undefined) { if (TYPES[line]) type = TYPES[line]; skip = false; country = null; continue }
@@ -42,6 +45,11 @@ for (const raw of text.split('\n')) {
   if (/^Roséviner\b/i.test(line) || /^Rosé Viner\b/i.test(line) || /^Rosé wine\b/i.test(line)) { type = 'rosé'; skip = false; country = null; continue }
   if (/^Söta? \w+ viner|^Söta? viner|^Sweet & Fortified/i.test(line)) { type = 'dessert'; skip = false; country = null; continue }
   if (COUNTRIES[line] !== undefined) { country = COUNTRIES[line] || null; continue }
+  // Page 2 is "Viner som serveras per glas / Wines by the glass" and its amounts are glass
+  // prices. They were going into price_bottle, so the same wine appeared twice — once at its
+  // glass price (Le Petit Xavier Blanc 145:-) and once at its real bottle price (570:-).
+  if (/^(Viner som serveras per glas|Wines? by the glass)$/i.test(line)) { glassList = true; continue }
+  if (/^(House Cocktails|Cocktails|Öl|Beer)$/i.test(line)) { glassList = false }
   if (ENG_SKIP.test(line)) continue
   if (skip) continue
   if (!type) continue
@@ -69,12 +77,43 @@ for (const raw of text.split('\n')) {
   const parts = name.split(',').map((s) => s.trim()).filter(Boolean)
   if (parts.length >= 2) region = parts[parts.length - 1]
 
+  // Coravin rows carry both: "… Fr 15cl 430 (the bottle) 1920". The row regex keeps only the
+  // trailing amount, so pull the pour price out of the body before it is discarded.
+  let priceGlass = null
+  let priceBottle = parseFloat(priceStr)
+  // "Château d´Yquem, 1er Cru Supérieur, Sauternes 1cl 160" prices a single centilitre, so
+  // 160 is a pour, not a bottle.
+  const perCl = body.match(/^(.*\S)\s+(\d{1,2})\s?cl$/i)
+  if (perCl) {
+    wines.push({
+      name: perCl[1].replace(/\s+/g, ' ').trim(),
+      producer: null,
+      vintage: /^\d{4}$/.test(vintRaw) ? parseInt(vintRaw, 10) : null,
+      type, country: rowCountry, region, grape: null,
+      price_glass: parseFloat(priceStr), price_bottle: null, currency: 'SEK',
+    })
+    continue
+  }
+
+  const coravin = body.match(/\b\d{1,2}\s?cl\s+(\d{2,5})\b/i)
+  if (coravin) {
+    priceGlass = parseFloat(coravin[1])
+    name = name.replace(/\b\d{1,2}\s?cl\s+\d{2,5}\b/i, ' ')
+      .replace(/\(\s*(?:the|last)\s+bottle\s*\)/gi, ' ')
+      .replace(/\(\s*thebottle\s*\)/gi, ' ')
+      .replace(/\s+/g, ' ').trim().replace(/,\s*$/, '')
+    if (priceBottle === priceGlass) priceBottle = null
+  } else if (glassList) {
+    priceGlass = priceBottle
+    priceBottle = null
+  }
+
   wines.push({
     name: name.replace(/\s+/g, ' ').trim(),
     producer: null,
     vintage: /^\d{4}$/.test(vintRaw) ? parseInt(vintRaw, 10) : null,
     type, country: rowCountry, region, grape: null,
-    price_glass: null, price_bottle: parseFloat(priceStr), currency: 'SEK',
+    price_glass: priceGlass, price_bottle: priceBottle, currency: 'SEK',
   })
 }
 

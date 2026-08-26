@@ -96,16 +96,29 @@ for (let raw of lines) {
   if (/^\d{4}$/.test(vintageRaw)) vintage = parseInt(vintageRaw, 10)
   else if (/^\d{4}-\d{4}$/.test(vintageRaw)) vintage = parseInt(vintageRaw.split('-')[1], 10) // pick later year
 
+  // The dessert rows are 8cl pours: "… Västerbotten Sweden <tab> 8cl 95". The measure was
+  // left glued to the name and the 95 went into price_bottle, so seven dessert wines looked
+  // like 95-165:- bottles.
+  let cleanName = nameBody.replace(/\s+/g, ' ').trim()
+  const pour = cleanName.match(/^(.*\S)\s+(\d{1,2})\s?cl$/i)
+  const amount = parseFloat(priceStr)
+  let priceGlass = null, priceBottle = amount
+  if (pour) {
+    cleanName = pour[1].trim()
+    priceGlass = amount
+    priceBottle = null
+  }
+
   wines.push({
-    name: nameBody.replace(/\s+/g, ' ').trim(),
+    name: cleanName,
     producer: null,
     vintage,
     type,
     country: rowCountry,
     region: rowRegion,
     grape: null,
-    price_glass: null,
-    price_bottle: parseFloat(priceStr),
+    price_glass: priceGlass,
+    price_bottle: priceBottle,
     currency: 'SEK',
   })
 }

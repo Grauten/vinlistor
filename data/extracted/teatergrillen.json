@@ -15,8 +15,8 @@
       "country": "Frankrike",
       "region": "Champagne",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 230,
+      "price_glass": 230,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -27,8 +27,8 @@
       "country": null,
       "region": "Fr (coravin)",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 340,
+      "price_glass": 340,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -39,8 +39,8 @@
       "country": null,
       "region": "Fr (coravin)",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 310,
+      "price_glass": 310,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -51,8 +51,8 @@
       "country": "Frankrike",
       "region": "Vin de France",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 145,
+      "price_glass": 145,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -63,8 +63,8 @@
       "country": "Frankrike",
       "region": "Bourgogne",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 240,
+      "price_glass": 240,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -75,8 +75,8 @@
       "country": "Frankrike",
       "region": "Bourgogne",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 200,
+      "price_glass": 200,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -87,8 +87,8 @@
       "country": "Frankrike",
       "region": "Loire",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 225,
+      "price_glass": 225,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -99,8 +99,8 @@
       "country": "Frankrike",
       "region": "Loire",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 155,
+      "price_glass": 155,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -111,8 +111,8 @@
       "country": "Frankrike",
       "region": "Alsace",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 190,
+      "price_glass": 190,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -123,8 +123,8 @@
       "country": "Tyskland",
       "region": "Pfalz",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 170,
+      "price_glass": 170,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -135,8 +135,8 @@
       "country": "Österrike",
       "region": "Niederösterreich",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 175,
+      "price_glass": 175,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -147,8 +147,8 @@
       "country": "Portugal",
       "region": "Monção e Melgaço",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 180,
+      "price_glass": 180,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -159,115 +159,115 @@
       "country": "USA",
       "region": "Kalifornien",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 180,
+      "price_glass": 180,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
-      "name": "Dom Moreau - Naudet, Chablis 1er Cru Forets, Bourgogne, Fr 15cl 300 (the bottle)",
+      "name": "Dom Moreau - Naudet, Chablis 1er Cru Forets, Bourgogne, Fr",
       "producer": null,
       "vintage": 2022,
       "type": "vitt",
       "country": null,
       "region": "Fr 15cl 300 (the bottle)",
       "grape": null,
-      "price_glass": null,
+      "price_glass": 300,
       "price_bottle": 1400,
       "currency": "SEK"
     },
     {
-      "name": "Dom Pattes Loup, Chablis 1er Cru Butteaux, Bourgogne, Fr 15cl 420 ( last bottle)",
+      "name": "Dom Pattes Loup, Chablis 1er Cru Butteaux, Bourgogne, Fr",
       "producer": null,
       "vintage": 2018,
       "type": "vitt",
       "country": null,
       "region": "Fr 15cl 420 ( last bottle)",
       "grape": null,
-      "price_glass": null,
+      "price_glass": 420,
       "price_bottle": 1900,
       "currency": "SEK"
     },
     {
-      "name": "Esprit Leflaive, Pouilly - Fuissé 1er Cru Sur la Roche, Bourgogne, Fr 15cl 550 (the bottle)",
+      "name": "Esprit Leflaive, Pouilly - Fuissé 1er Cru Sur la Roche, Bourgogne, Fr",
       "producer": null,
       "vintage": 2020,
       "type": "vitt",
       "country": null,
       "region": "Fr 15cl 550 (the bottle)",
       "grape": null,
-      "price_glass": null,
+      "price_glass": 550,
       "price_bottle": 2500,
       "currency": "SEK"
     },
     {
-      "name": "Jean - Louis Chavy, Puligny - Montrachet, Bourgogne, Fr 15cl 460 (the bottle)",
+      "name": "Jean - Louis Chavy, Puligny - Montrachet, Bourgogne, Fr",
       "producer": null,
       "vintage": 2024,
       "type": "vitt",
       "country": null,
       "region": "Fr 15cl 460 (the bottle)",
       "grape": null,
-      "price_glass": null,
+      "price_glass": 460,
       "price_bottle": 2100,
       "currency": "SEK"
     },
     {
-      "name": "Didier Dagueneau, Blanc ETC, Vin de France, Loire, Fr 15cl 400 (the bottle)",
+      "name": "Didier Dagueneau, Blanc ETC, Vin de France, Loire, Fr",
       "producer": null,
       "vintage": 2019,
       "type": "vitt",
       "country": null,
       "region": "Fr 15cl 400 (the bottle)",
       "grape": null,
-      "price_glass": null,
+      "price_glass": 400,
       "price_bottle": 1790,
       "currency": "SEK"
     },
     {
-      "name": "Joh. Jos. Prüm, Graacher Himmelreich, Riesling Spätlese, Mosel, Ty 15cl 250 (the bottle)",
+      "name": "Joh. Jos. Prüm, Graacher Himmelreich, Riesling Spätlese, Mosel, Ty",
       "producer": null,
       "vintage": 2021,
       "type": "vitt",
       "country": null,
       "region": "Ty 15cl 250 (the bottle)",
       "grape": null,
-      "price_glass": null,
+      "price_glass": 250,
       "price_bottle": 1180,
       "currency": "SEK"
     },
     {
-      "name": "Weinrieder, Ried Kugler Riesling, Niederösterreich, Ös 15cl 220 (the bottle)",
+      "name": "Weinrieder, Ried Kugler Riesling, Niederösterreich, Ös",
       "producer": null,
       "vintage": 2022,
       "type": "vitt",
       "country": null,
       "region": "Ös 15cl 220 (the bottle)",
       "grape": null,
-      "price_glass": null,
+      "price_glass": 220,
       "price_bottle": 990,
       "currency": "SEK"
     },
     {
-      "name": "Frog´s Leap,“Shale and Stone”,Chardonnay, Napa Valley, Us 15cl 270 (the bottle)",
+      "name": "Frog´s Leap,“Shale and Stone”,Chardonnay, Napa Valley, Us",
       "producer": null,
       "vintage": 2022,
       "type": "vitt",
       "country": null,
       "region": "Us 15cl 270 (the bottle)",
       "grape": null,
-      "price_glass": null,
+      "price_glass": 270,
       "price_bottle": 1200,
       "currency": "SEK"
     },
     {
-      "name": "Kongsgaard, Chardonnay, Napa Valley, Us 15cl 800 ( last bottle)",
+      "name": "Kongsgaard, Chardonnay, Napa Valley, Us",
       "producer": null,
       "vintage": 2021,
       "type": "vitt",
       "country": null,
       "region": "Us 15cl 800 ( last bottle)",
       "grape": null,
-      "price_glass": null,
+      "price_glass": 800,
       "price_bottle": 4000,
       "currency": "SEK"
     },
@@ -279,8 +279,8 @@
       "country": "Frankrike",
       "region": "Côtes de Provence",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 180,
+      "price_glass": 180,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -291,8 +291,8 @@
       "country": "Frankrike",
       "region": "Vin de France",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 145,
+      "price_glass": 145,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -303,8 +303,8 @@
       "country": "Frankrike",
       "region": "Rhône",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 160,
+      "price_glass": 160,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -315,8 +315,8 @@
       "country": "Frankrike",
       "region": "Rhône",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 230,
+      "price_glass": 230,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -327,8 +327,8 @@
       "country": "Italien",
       "region": "Piemonte",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 220,
+      "price_glass": 220,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -339,8 +339,8 @@
       "country": "Italien",
       "region": "Piemonte",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 245,
+      "price_glass": 245,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -351,8 +351,8 @@
       "country": "Spanien",
       "region": "Ribera del Duero",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 195,
+      "price_glass": 195,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -363,8 +363,8 @@
       "country": "USA",
       "region": "Kalifornien",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 240,
+      "price_glass": 240,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -375,91 +375,91 @@
       "country": "USA",
       "region": "Kalifornien",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 180,
+      "price_glass": 180,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
-      "name": "Antoine Jobard, Pommard, Bourgogne, Fr 15cl 430 (the bottle)",
+      "name": "Antoine Jobard, Pommard, Bourgogne, Fr",
       "producer": null,
       "vintage": 2021,
       "type": "rött",
       "country": null,
       "region": "Fr 15cl 430 (the bottle)",
       "grape": null,
-      "price_glass": null,
+      "price_glass": 430,
       "price_bottle": 1920,
       "currency": "SEK"
     },
     {
-      "name": "Ch. Picque - Caillou, Pessac - Léognan, Bordeaux, Fr 15cl 490 (the bottle)",
+      "name": "Ch. Picque - Caillou, Pessac - Léognan, Bordeaux, Fr",
       "producer": null,
       "vintage": 2009,
       "type": "rött",
       "country": null,
       "region": "Fr 15cl 490 (the bottle)",
       "grape": null,
-      "price_glass": null,
+      "price_glass": 490,
       "price_bottle": 2200,
       "currency": "SEK"
     },
     {
-      "name": "Dom du Vieux Télégraphe, ”Piedlong”, Châteauneuf - du - Pape, Rhône, Fr 15cl 420 (the bottle)",
+      "name": "Dom du Vieux Télégraphe, ”Piedlong”, Châteauneuf - du - Pape, Rhône, Fr",
       "producer": null,
       "vintage": 2021,
       "type": "rött",
       "country": null,
       "region": "Fr 15cl 420 (the bottle)",
       "grape": null,
-      "price_glass": null,
+      "price_glass": 420,
       "price_bottle": 1850,
       "currency": "SEK"
     },
     {
-      "name": "Dom Durand, Cornas Empreintes, Rhône, Fr 15cl 310 (thebottle)",
+      "name": "Dom Durand, Cornas Empreintes, Rhône, Fr",
       "producer": null,
       "vintage": 2021,
       "type": "rött",
       "country": null,
       "region": "Fr 15cl 310 (thebottle)",
       "grape": null,
-      "price_glass": null,
+      "price_glass": 310,
       "price_bottle": 1380,
       "currency": "SEK"
     },
     {
-      "name": "Aalto, Ribera del Duero, Sp 15cl 330 (the bottle)",
+      "name": "Aalto, Ribera del Duero, Sp",
       "producer": null,
       "vintage": 2022,
       "type": "rött",
       "country": null,
       "region": "Sp 15cl 330 (the bottle)",
       "grape": null,
-      "price_glass": null,
+      "price_glass": 330,
       "price_bottle": 1500,
       "currency": "SEK"
     },
     {
-      "name": "Kistler, Russian River Pinot Noir, Russian River Valley, Us 15cl 660 (the bottle)",
+      "name": "Kistler, Russian River Pinot Noir, Russian River Valley, Us",
       "producer": null,
       "vintage": 2023,
       "type": "rött",
       "country": null,
       "region": "Us 15cl 660 (the bottle)",
       "grape": null,
-      "price_glass": null,
+      "price_glass": 660,
       "price_bottle": 3000,
       "currency": "SEK"
     },
     {
-      "name": "Occidental, Freestone - Occidental, Pinot Noir, Sonoma Coast, Us 15cl 550 (the bottle)",
+      "name": "Occidental, Freestone - Occidental, Pinot Noir, Sonoma Coast, Us",
       "producer": null,
       "vintage": 2022,
       "type": "rött",
       "country": null,
       "region": "Us 15cl 550 (the bottle)",
       "grape": null,
-      "price_glass": null,
+      "price_glass": 550,
       "price_bottle": 2500,
       "currency": "SEK"
     },
@@ -507,7 +507,7 @@
       "country": "Frankrike",
       "region": "Sauternes",
       "grape": null,
-      "price_glass": null,
+      "price_glass": 23,
       "price_bottle": 1690,
       "currency": "SEK"
     },
@@ -524,27 +524,27 @@
       "currency": "SEK"
     },
     {
-      "name": "Château d´Yquem, 1er Cru Supérieur, Sauternes 1cl",
+      "name": "Château d´Yquem, 1er Cru Supérieur, Sauternes",
       "producer": null,
       "vintage": 2010,
       "type": "dessert",
       "country": "Frankrike",
       "region": "Sauternes 1cl",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 160,
+      "price_glass": 160,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
-      "name": "Château d´Yquem, 1er Cru Supérieur, Sauternes 1cl",
+      "name": "Château d´Yquem, 1er Cru Supérieur, Sauternes",
       "producer": null,
       "vintage": 2005,
       "type": "dessert",
       "country": "Frankrike",
       "region": "Sauternes 1cl",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 170,
+      "price_glass": 170,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -663,7 +663,7 @@
       "country": "Tyskland",
       "region": "Mosel",
       "grape": null,
-      "price_glass": null,
+      "price_glass": 28,
       "price_bottle": 520,
       "currency": "SEK"
     },
@@ -675,7 +675,7 @@
       "country": "Ungern",
       "region": "Tokaji Cuvée Ilona",
       "grape": null,
-      "price_glass": null,
+      "price_glass": 33,
       "price_bottle": 1650,
       "currency": "SEK"
     },
@@ -687,7 +687,7 @@
       "country": "Österrike",
       "region": "Rohrendorf",
       "grape": null,
-      "price_glass": null,
+      "price_glass": 18,
       "price_bottle": 580,
       "currency": "SEK"
     },
@@ -699,7 +699,7 @@
       "country": "Sydafrika",
       "region": "Western Cape",
       "grape": null,
-      "price_glass": null,
+      "price_glass": 15,
       "price_bottle": 520,
       "currency": "SEK"
     },
@@ -10520,15 +10520,15 @@
       "currency": "SEK"
     },
     {
-      "name": "Dom Chavy - Chouet, Volnay 1er Cru Sous la Chapelle 2100 (Z6)",
+      "name": "Dom Chavy - Chouet, Volnay 1er Cru Sous la Chapelle",
       "producer": null,
       "vintage": 2020,
       "type": "rött",
       "country": null,
-      "region": "Volnay 1er Cru Sous la Chapelle 2100 (Z6)",
+      "region": "Volnay 1er Cru Sous la Chapelle",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 20,
+      "price_bottle": 2100,
       "currency": "SEK"
     },
     {

@@ -19,6 +19,8 @@ const COUNTRIES = {
   'ÖVRIGA': null, 'ÖVRIGA VÄRLDEN': null,
 }
 
+const SKIP_SECTIONS = /^(AVEC|SNAPS|SPRIT|AKVAVIT|ÖL|CIDER|ALKOHOLFRI|LÄSK|COCKTAIL|KAFFE)/i
+
 let type = null, country = null, glassMode = false
 const wines = []
 for (const raw of text.split('\n')) {
@@ -28,6 +30,10 @@ for (const raw of text.split('\n')) {
   // Bottle list starts at "Vinlista" (or "FLASKLISTA" if ever present)
   if (line === 'Vinlista' || line === 'VINLISTA' || line === 'FLASKLISTA' || /^Flasklista/.test(line)) { glassMode = false; continue }
   if (line === 'gl fl' || line === 'gl/fl') continue // column header artefact
+  // Everything from AVEC on is spirits and aquavit. Neither AVEC nor SNAPS was a known
+  // header, so `type` stayed on the last wine section and Fernet Branca, Jägermeister and
+  // Gammeldansk were stored as red wine at 38:- a bottle.
+  if (SKIP_SECTIONS.test(line)) { type = null; country = null; continue }
   if (TYPES[line] !== undefined) { if (TYPES[line]) type = TYPES[line]; country = null; continue }
   if (COUNTRIES[line] !== undefined) { country = COUNTRIES[line] || null; continue }
   if (!type) continue
