@@ -29,6 +29,9 @@ for (const raw of text.split('\n')) {
 if (buf.length) pages.push(buf)
 
 let type = null, country = 'Italien', region = null, producer = null
+// Page 3 is "VINI AL CALICE / BY THE GLASS". Its amounts are pours, but they were going into
+// price_bottle, so 18 wines looked like 130-210:- bottles.
+let glassMode = false
 const wines = []
 
 for (const pageLines of pages) {
@@ -36,12 +39,18 @@ for (const pageLines of pages) {
   if (!ls.length) continue
 
   const pendingForPrices = [] // FIFO of wines awaiting prices
+  glassMode = false // the by-the-glass list lives on one page
 
   for (const l of ls) {
+    if (/VINI AL CALICE|BY THE GLASS/i.test(l)) { glassMode = true; continue }
+    if (/^(VINI IN BOTTIGLIA|BOTTLE|IN BOTTIGLIA)/i.test(l)) { glassMode = false }
+
     // Price-only line: assign to next pending wine
     if (isPriceLine(l) && pendingForPrices.length) {
       const e = pendingForPrices.shift()
-      e.price_bottle = parseFloat(l.replace(/\s+/g, ''))
+      const amount = parseFloat(l.replace(/\s+/g, ''))
+      if (glassMode) e.price_glass = amount
+      else e.price_bottle = amount
       wines.push(e)
       continue
     }
@@ -74,7 +83,9 @@ for (const pageLines of pages) {
       wines.push({
         name, producer: prod, vintage: /^\d{4}$/.test(vintRaw) ? parseInt(vintRaw, 10) : null,
         type, country, region, grape,
-        price_glass: null, price_bottle: parseFloat(priceStr.replace(/\s+/g, '')), currency: 'SEK',
+        price_glass: glassMode ? parseFloat(priceStr.replace(/\s+/g, '')) : null,
+        price_bottle: glassMode ? null : parseFloat(priceStr.replace(/\s+/g, '')),
+        currency: 'SEK',
       })
       continue
     }

@@ -15,8 +15,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 130,
+      "price_glass": 130,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -27,8 +27,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 175,
+      "price_glass": 175,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -39,8 +39,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 210,
+      "price_glass": 210,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -51,8 +51,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 130,
+      "price_glass": 130,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -63,8 +63,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 165,
+      "price_glass": 165,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -75,8 +75,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 170,
+      "price_glass": 170,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -87,8 +87,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 180,
+      "price_glass": 180,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -99,8 +99,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 180,
+      "price_glass": 180,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -111,8 +111,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 180,
+      "price_glass": 180,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -123,8 +123,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 190,
+      "price_glass": 190,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -135,8 +135,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 235,
+      "price_glass": 235,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -147,8 +147,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 250,
+      "price_glass": 250,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -159,8 +159,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 135,
+      "price_glass": 135,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -171,8 +171,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 130,
+      "price_glass": 130,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -183,8 +183,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 160,
+      "price_glass": 160,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -195,8 +195,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 175,
+      "price_glass": 175,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -207,8 +207,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 170,
+      "price_glass": 170,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -219,8 +219,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 165,
+      "price_glass": 165,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -231,8 +231,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 180,
+      "price_glass": 180,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -243,8 +243,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 195,
+      "price_glass": 195,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -255,8 +255,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 235,
+      "price_glass": 235,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -267,8 +267,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 255,
+      "price_glass": 255,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -279,8 +279,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 285,
+      "price_glass": 285,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -291,8 +291,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 285,
+      "price_glass": 285,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -303,8 +303,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 170,
+      "price_glass": 170,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {

@@ -12,11 +12,11 @@
       "producer": null,
       "vintage": null,
       "type": "mousserande",
-      "country": "Frankrike",
-      "region": "Champagne",
+      "country": null,
+      "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 195,
+      "price_glass": 195,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -25,10 +25,10 @@
       "vintage": null,
       "type": "mousserande",
       "country": "Sverige",
-      "region": "Champagne",
+      "region": "Skåne",
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 145,
+      "price_glass": 145,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -36,11 +36,11 @@
       "producer": null,
       "vintage": null,
       "type": "mousserande",
-      "country": "Frankrike",
-      "region": "Champagne",
+      "country": null,
+      "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 130,
+      "price_glass": 130,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -48,8 +48,8 @@
       "producer": null,
       "vintage": null,
       "type": "mousserande",
-      "country": "Frankrike",
-      "region": "Champagne",
+      "country": null,
+      "region": null,
       "grape": null,
       "price_glass": null,
       "price_bottle": 725,
@@ -60,8 +60,8 @@
       "producer": null,
       "vintage": null,
       "type": "mousserande",
-      "country": "Frankrike",
-      "region": "Champagne",
+      "country": null,
+      "region": null,
       "grape": null,
       "price_glass": null,
       "price_bottle": 775,
@@ -75,8 +75,8 @@
       "country": "Tyskland",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 175,
+      "price_glass": 175,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -87,8 +87,8 @@
       "country": "Tyskland",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 180,
+      "price_glass": 180,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -99,8 +99,8 @@
       "country": "Tyskland",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 165,
+      "price_glass": 165,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -111,8 +111,8 @@
       "country": "Tyskland",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 160,
+      "price_glass": 160,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -183,8 +183,8 @@
       "country": "Frankrike",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 175,
+      "price_glass": 175,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -195,8 +195,8 @@
       "country": "Spanien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 160,
+      "price_glass": 160,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -207,8 +207,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 185,
+      "price_glass": 185,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -219,8 +219,8 @@
       "country": "Frankrike",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 170,
+      "price_glass": 170,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -231,8 +231,8 @@
       "country": "Frankrike",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 180,
+      "price_glass": 180,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -291,8 +291,8 @@
       "country": "Frankrike",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 195,
+      "price_glass": 195,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -303,8 +303,8 @@
       "country": "Sverige",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 185,
+      "price_glass": 185,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -315,8 +315,8 @@
       "country": "Ungern",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 115,
+      "price_glass": 115,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {
@@ -327,8 +327,8 @@
       "country": "Italien",
       "region": null,
       "grape": null,
-      "price_glass": null,
-      "price_bottle": 95,
+      "price_glass": 95,
+      "price_bottle": null,
       "currency": "SEK"
     },
     {

@@ -7,24 +7,31 @@ import { dirname } from 'node:path'
 const text = await readFile('data/raw/stadshusk-llaren.txt', 'utf8')
 
 // Top-level type sections — match the first word of bilingual headers.
+// First match wins, so the glass-page subsections have to come FIRST. They did not: the
+// generic /^CHAMPAGNE\b/ swallowed "CHAMPAGNE & MOUSSERANDE VINER GLAS 12 cl" and
+// /^VITA VINER\b/ swallowed "VITA VINER RIESLING WEEKS GLAS 15 cl", so the glass flag was
+// never set and 16 pours were stored as 130-195:- bottles. Only the two CORAVIN headers
+// escaped, because no generic pattern starts with that word.
 const TYPE_PATTERNS = [
-  { rx: /^CHAMPAGNE\b/,                     type: 'mousserande', country: 'Frankrike', region: 'Champagne' },
+  // Glass page subsections — set type and a flag we read later
+  { rx: /^CHAMPAGNE & MOUSSERANDE VINER GLAS\b/, type: 'mousserande', country: null, region: null, glass: true },
+  { rx: /^VITA VINER RIESLING WEEKS GLAS\b/,     type: 'vitt',         country: null, region: null, glass: true },
+  { rx: /^CORAVIN VITA VINER GLAS\b/,            type: 'vitt',         country: null, region: null, glass: true },
+  { rx: /^VITA VINER GLAS\b/,                    type: 'vitt',         country: null, region: null, glass: true },
+  { rx: /^ROSÉVINER GLAS\b/,                     type: 'rosé',         country: null, region: null, glass: true },
+  { rx: /^CORAVIN RÖDA VINER GLAS\b/,            type: 'rött',         country: null, region: null, glass: true },
+  { rx: /^RÖDA VINER GLAS\b/,                    type: 'rött',         country: null, region: null, glass: true },
+  { rx: /^SÖTA VINER GLAS\b/,                    type: 'dessert',      country: null, region: null, glass: true },
+  // Bottle-list sections
   { rx: /^ROSÉ CHAMPAGNE\b/,                type: 'mousserande', country: 'Frankrike', region: 'Champagne' },
   { rx: /^VINTAGE CHAMPAGNE\b/,             type: 'mousserande', country: 'Frankrike', region: 'Champagne' },
   { rx: /^MAGNUM CHAMPAGNE\b/,              type: 'mousserande', country: 'Frankrike', region: 'Champagne' },
+  { rx: /^CHAMPAGNE\b/,                     type: 'mousserande', country: 'Frankrike', region: 'Champagne' },
   { rx: /^MOUSSERANDE VINER\b/,             type: 'mousserande', country: null,        region: null },
   { rx: /^VITA VINER\b/,                    type: 'vitt',         country: null,        region: null },
   { rx: /^RÖDA VINER\b/,                    type: 'rött',         country: null,        region: null },
   { rx: /^ROSÉVINER\b/,                     type: 'rosé',         country: null,        region: null },
   { rx: /^SÖTA VINER\b/,                    type: 'dessert',      country: null,        region: null },
-  // Glass page subsections — set type and a flag we read later
-  { rx: /^CHAMPAGNE & MOUSSERANDE VINER GLAS\b/, type: 'mousserande', country: null, region: null, glass: true },
-  { rx: /^VITA VINER RIESLING WEEKS GLAS\b/,     type: 'vitt',         country: null, region: null, glass: true },
-  { rx: /^CORAVIN VITA VINER GLAS\b/,            type: 'vitt',         country: null, region: null, glass: true },
-  { rx: /^ROSÉVINER GLAS\b/,                     type: 'rosé',         country: null, region: null, glass: true },
-  { rx: /^RÖDA VINER GLAS\b/,                    type: 'rött',         country: null, region: null, glass: true },
-  { rx: /^CORAVIN RÖDA VINER GLAS\b/,            type: 'rött',         country: null, region: null, glass: true },
-  { rx: /^SÖTA VINER GLAS\b/,                    type: 'dessert',      country: null, region: null, glass: true },
 ]
 
 // Bilingual country headers like "FRANKRIKE / FRANCE"
