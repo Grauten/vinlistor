@@ -2420,6 +2420,18 @@
       "currency": "SEK"
     },
     {
+      "name": "Domaine de la Romanée-Conti Corton-Charlemagne",
+      "producer": null,
+      "vintage": 2022,
+      "type": "vitt",
+      "country": "Frankrike",
+      "region": "Bourgogne",
+      "grape": null,
+      "price_glass": null,
+      "price_bottle": 22000,
+      "currency": "SEK"
+    },
+    {
       "name": "Simon Bize Bourgogne Blanc Les Perrières",
       "producer": null,
       "vintage": 2022,
@@ -4972,7 +4984,7 @@
       "region": "Bourgogne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 1100,
+      "price_bottle": 22000,
       "currency": "SEK"
     },
     {
@@ -4984,7 +4996,7 @@
       "region": "Bourgogne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 1800,
+      "price_bottle": 18000,
       "currency": "SEK"
     },
     {
@@ -4996,7 +5008,7 @@
       "region": "Bourgogne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 2000,
+      "price_bottle": 1100,
       "currency": "SEK"
     },
     {
@@ -5008,11 +5020,35 @@
       "region": "Bourgogne",
       "grape": null,
       "price_glass": null,
-      "price_bottle": 2300,
+      "price_bottle": 1800,
       "currency": "SEK"
     },
     {
       "name": "Domaine Jacques Prieur Beaune Champs Pimont 1:er Cru Rouge",
+      "producer": null,
+      "vintage": 2022,
+      "type": "rött",
+      "country": "Italien",
+      "region": "Bourgogne",
+      "grape": null,
+      "price_glass": null,
+      "price_bottle": 2000,
+      "currency": "SEK"
+    },
+    {
+      "name": "Domaine Jacques Prieur Beaune Greves 1:er Cru Rouge",
+      "producer": null,
+      "vintage": 2020,
+      "type": "rött",
+      "country": "Italien",
+      "region": "Bourgogne",
+      "grape": null,
+      "price_glass": null,
+      "price_bottle": 2300,
+      "currency": "SEK"
+    },
+    {
+      "name": "Domaine Jacques Prieur Beaune Greves 1:er Cru Rouge",
       "producer": null,
       "vintage": 2022,
       "type": "rött",

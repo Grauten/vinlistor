@@ -10,7 +10,13 @@ const raw = await readFile('data/raw/edsbacka-krog.txt', 'utf8')
 const TYPE_HEADERS = { 'Mousserande': 'mousserande', 'Champagne': 'mousserande', 'Vita viner': 'vitt', 'Röda viner': 'rött', 'Vita Viner': 'vitt', 'Röda Viner': 'rött', 'Roséviner': 'rosé', 'Rosé viner': 'rosé', 'Dessertviner': 'dessert', 'Magnum': null }
 const COUNTRY_HEADERS = { 'Frankrike': 'Frankrike', 'Italien': 'Italien', 'Spanien': 'Spanien', 'Tyskland': 'Tyskland', 'Österrike': 'Österrike', 'Portugal': 'Portugal', 'USA': 'USA', 'Sverige': 'Sverige', 'Sydafrika': 'Sydafrika', 'Australien': 'Australien', 'Argentina': 'Argentina', 'Chile': 'Chile' }
 const VINTAGE_START = /^(S\.A\.?|M\.V\.?|NV|N\.V\.|MV|\d{4})\s+/
-const isPriceLine = (l) => /^\d{2,5}(?:\s*\/\s*\d{2,5})?\s*$/.test(l)
+// Amounts sometimes use a space as the thousands separator ("22 000"). Those lines were not
+// recognised as prices, so they fell through to the name block and shifted every price after
+// them on that page onto the wrong wine.
+const AMOUNT = String.raw`\d{1,3}(?:[  ]\d{3})+|\d{2,5}`
+const PRICE_LINE = new RegExp(String.raw`^(${AMOUNT})(?:\s*\/\s*(${AMOUNT}))?\s*$`)
+const amount = (s) => (s == null ? null : parseFloat(s.replace(/[  ]/g, '')))
+const isPriceLine = (l) => PRICE_LINE.test(l)
 const isPageMarker = (l) => /^-- \d+ of \d+ --$/.test(l)
 
 // Split into pages
@@ -45,9 +51,9 @@ if (pages.length > 0) {
       // Take next-in-queue wine entry and assign price
       const w = entries.shift()
       if (!w) continue
-      const dual = l.match(/^(\d{2,5})\s*\/\s*(\d{2,5})$/)
-      const glass = dual ? parseFloat(dual[1]) : null
-      const bottle = dual ? parseFloat(dual[2]) : parseFloat(l)
+      const m = l.match(PRICE_LINE)
+      const glass = m && m[2] ? amount(m[1]) : null
+      const bottle = m && m[2] ? amount(m[2]) : amount(m[1])
       wines.push({ ...w, price_glass: glass, price_bottle: bottle, type: w.type ?? glassType })
       continue
     }
@@ -104,9 +110,9 @@ for (let pi = 1; pi < pages.length; pi++) {
   for (let i = 0; i < entries.length; i++) {
     const p = priceLines[i]
     if (!p) break
-    const dual = p.match(/^(\d{2,5})\s*\/\s*(\d{2,5})$/)
-    if (dual) { entries[i].price_glass = parseFloat(dual[1]); entries[i].price_bottle = parseFloat(dual[2]) }
-    else entries[i].price_bottle = parseFloat(p)
+    const m = p.match(PRICE_LINE)
+    if (m && m[2]) { entries[i].price_glass = amount(m[1]); entries[i].price_bottle = amount(m[2]) }
+    else entries[i].price_bottle = amount(m[1])
     wines.push(entries[i])
   }
 }
