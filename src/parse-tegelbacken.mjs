@@ -38,6 +38,24 @@ const TYPE_HEADERS = {
   'VINTAGE':       null,
   'VINTAGE ROSÉ':  null,
   'MAGNUM':        null,
+  // The back half of the menu is spirits and beer. Without these the sticky `type` carried
+  // the last wine section forward and 76 pours of gin, cognac and bottled beer were stored
+  // as wines priced 37-198:- a bottle.
+  'SNAPS':         'SKIP',
+  'VODKA':         'SKIP',
+  'GIN':           'SKIP',
+  'COGNAC':        'SKIP',
+  'CALVADOS':      'SKIP',
+  'ARMAGNAC':      'SKIP',
+  'GRAPPA':        'SKIP',
+  'LIKÖR':         'SKIP',
+  'ROM':           'SKIP',
+  'BOURBON/RYE':   'SKIP',
+  'WHISKY/-EY':    'SKIP',
+  'FLASKÖL':       'SKIP',
+  // …but dessert wines resume after the beer. denospace() glues "8 CL" into "8CL".
+  // These are 8cl pours, so the amount is a glass price, not a bottle price.
+  'SÖTT/FORTIFIERAT - 8CL': { type: 'dessert', country: null, region: null, byGlass: true },
 }
 
 const CODE_TO_COUNTRY = {
@@ -53,6 +71,14 @@ const NAMED = {
 
 let type = null, country = null, region = null
 let skip = false
+let byGlass = false
+// Page 1 (everything before DRYCKESLISTA) is the by-the-glass menu, and most of those wines
+// appear again further down with a real bottle price. Its amounts are glass prices; storing
+// them as bottle prices is what made five wines look like 165-195:- bottles.
+let glassPage = true
+// In the dessert section a long name wraps: "1998 SAUTERNES," / "Château de Fargues,
+// Frankrike . 395:-". Without stitching, the wine is named after its producer alone.
+let pending = null
 const wines = []
 
 for (const raw of text.split('\n')) {
@@ -62,10 +88,13 @@ for (const raw of text.split('\n')) {
   if (!line || line.startsWith('--')) continue
 
   // Type / section headers
+  if (line === 'DRYCKESLISTA') { glassPage = false; skip = false; pending = null; continue }
+
   if (TYPE_HEADERS[line] !== undefined) {
     const h = TYPE_HEADERS[line]
+    pending = null
     if (h === 'SKIP') { skip = true; continue }
-    if (h) { type = h.type; country = h.country; region = h.region; skip = false }
+    if (h) { type = h.type; country = h.country; region = h.region; skip = false; byGlass = !!h.byGlass }
     // null = ignored marker (NON VINTAGE etc.), keep current state
     continue
   }
@@ -75,11 +104,27 @@ for (const raw of text.split('\n')) {
   if (skip) continue
 
   // Wine row: optional vintage, body, then our normalised dotted-leader placeholder " . "
-  const rowM = line.match(/^(?:(\d{4})\s+)?(.+?)\s+\.\s+(\d{2,5}):-\s*(?:P\/P\.?)?$/)
-  if (!rowM) continue
-  const [, vintageStr, bodyRaw, priceStr] = rowM
+  // \s* not \s+ after the vintage: denospace glues a letter-spaced year to a following
+  // short uppercase word, so "2 0 1 5 POL ROGER" arrives as "2015POL ROGER".
+  const rowM = line.match(/^(?:(\d{4})\s*)?(.+?)\s+\.\s+(\d{2,5}):-\s*(?:P\/P\.?)?$/)
+  if (!rowM) {
+    // The first half of a wrapped wine name: a priceless line that either ends in a comma
+    // ("1998 SAUTERNES,") or opens with a vintage ("2017 GRÜNER VELTLINER, Auslese").
+    // \s* after the vintage because denospace glues a letter-spaced year to a short word
+    // that follows it: "2 0 0 3 DON PX" collapses to "2003DON PX".
+    const head = line.match(/^(?:(\d{4}|NV)\s*)?(.+?),?\s*$/)
+    const hasVintage = head && head[1]
+    pending = head && (hasVintage || /,\s*$/.test(line)) ? { vintage: head[1], name: head[2].trim() } : null
+    continue
+  }
+  let [, vintageStr, bodyRaw, priceStr] = rowM
 
   let body = bodyRaw.replace(/\s+/g, ' ').trim()
+  if (pending) {
+    body = `${pending.name}, ${body}`
+    vintageStr = vintageStr || (pending.vintage !== 'NV' ? pending.vintage : null)
+    pending = null
+  }
 
   // Try to extract a country tag at end of body.
   let rowCountry = country, rowRegion = region
@@ -120,11 +165,30 @@ for (const raw of text.split('\n')) {
     country: rowCountry,
     region: rowRegion,
     grape: null,
-    price_glass: null,
-    price_bottle: parseFloat(priceStr),
+    price_glass: byGlass || glassPage ? parseFloat(priceStr) : null,
+    price_bottle: byGlass || glassPage ? null : parseFloat(priceStr),
     currency: 'SEK',
   })
 }
+
+// Fold each by-the-glass wine into its bottle-list twin so one wine is one row with both
+// prices. The two listings word the name differently ("…, Penedès, S PA" vs "…, Penedes"),
+// so match on the leading segment plus vintage, and only when exactly one bottle row fits —
+// otherwise keep the glass row on its own rather than guess.
+const keyOf = (w) => `${w.name.split(',')[0].toLocaleLowerCase('sv').normalize('NFKD')
+  .replace(/\p{Diacritic}/gu, '').replace(/[^a-z0-9]/g, '')}|${w.vintage ?? ''}`
+const glassRows = wines.filter((w) => w.price_glass != null && w.price_bottle == null)
+const bottleRows = wines.filter((w) => w.price_bottle != null)
+const merged = new Set()
+for (const g of glassRows) {
+  const hits = bottleRows.filter((b) => keyOf(b) === keyOf(g))
+  if (hits.length === 1 && hits[0].price_glass == null) {
+    hits[0].price_glass = g.price_glass
+    merged.add(g)
+  }
+}
+const finalWines = wines.filter((w) => !merged.has(w))
+console.log(`Merged ${merged.size} by-the-glass rows into their bottle listing`)
 
 const output = {
   restaurant: {
@@ -132,14 +196,14 @@ const output = {
     address: 'Tegelbacken 2, Stockholm', website: 'https://tegelbacken.com/',
     wine_list_url: 'https://tegelbacken.com/wp-content/uploads/2026/05/Vinlista-260522.pdf',
   },
-  wines,
+  wines: finalWines,
 }
 const out = 'data/extracted/tegelbacken.json'
 await mkdir(dirname(out), { recursive: true })
 await writeFile(out, JSON.stringify(output, null, 2))
 console.log(`Parsed ${wines.length} wines → ${out}`)
 const byType = {}, byCountry = {}
-for (const w of wines) {
+for (const w of finalWines) {
   byType[w.type ?? 'null'] = (byType[w.type ?? 'null'] || 0) + 1
   byCountry[w.country ?? 'null'] = (byCountry[w.country ?? 'null'] || 0) + 1
 }

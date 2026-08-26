@@ -35,6 +35,13 @@ for (const raw of text.split('\n')) {
     }
     continue
   }
+
+  // `type` is sticky, so a section this map doesn't know leaves it pointing at the previous
+  // one. The whole SPIRITS half of the menu (its sub-headers read "COGNAC cl", "GIN cl", …)
+  // was inheriting 'rött' and landing in the wine table — 78 bottles of gin and bourbon
+  // priced per 4cl pour. Unknown non-wine sections must clear the type instead.
+  if (/^SPIRITS$/i.test(line) || /\bcl$/i.test(line)) { type = null; continue }
+
   if (!type) continue
 
   // Row: "<optional vintage|country> Name \t price"
